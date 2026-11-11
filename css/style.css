@@ -118,7 +118,9 @@ h2 {
   aspect-ratio: 4 / 3;
   margin: 8px 0 12px;
   border: var(--pixel) solid var(--ink);
-  background: var(--panel-deep);
+  background: var(--ink);
+  /* Shows the whole photo, letterboxed on the dark background, whatever its shape. */
+  object-fit: contain;
   image-rendering: pixelated;
 }
 
@@ -243,6 +245,12 @@ input[type="range"] {
   padding-top: 12px;
   border-top: 2px dashed var(--panel-edge);
 }
+
+.credit {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+.credit a { color: inherit; }
 
 .mini-track {
   position: relative;

@@ -61,14 +61,27 @@ function photoHtml(specimen) {
   return `<canvas class="photo" data-src="${esc(specimen.image)}" role="img" aria-label="${esc(specimen.clue)}"></canvas>`;
 }
 
+// Credit line for the reveal screen. It is only shown after answering,
+// because the photo's page name would give the answer away.
+function creditHtml(specimen) {
+  const photo = specimen.photo;
+  if (!photo) return "";
+  return `<p class="credit">Photo: <a href="${esc(photo.page)}" target="_blank" rel="noopener">${esc(photo.author)}</a>,
+    <a href="${esc(photo.licenceUrl)}" target="_blank" rel="noopener">${esc(photo.licence)}</a>, edited</p>`;
+}
+
+// How many pixels across the photo is drawn at. Fewer = chunkier pixel art.
+const PIXEL_WIDTH = 128;
+
 // Draws the photo small, then CSS scales it up with hard edges: instant pixel art.
 function pixelatePhotos() {
   for (const canvas of game.querySelectorAll("canvas[data-src]")) {
     const img = new Image();
     img.onload = () => {
-      const width = 96;
-      canvas.width = width;
-      canvas.height = Math.round((img.height / img.width) * width);
+      // Tall photos are limited by height instead, so they don't get too detailed.
+      const scale = Math.min(PIXEL_WIDTH / img.width, (PIXEL_WIDTH * 0.75) / img.height);
+      canvas.width = Math.round(img.width * scale);
+      canvas.height = Math.round(img.height * scale);
       canvas.getContext("2d").drawImage(img, 0, 0, canvas.width, canvas.height);
     };
     img.src = canvas.dataset.src;
@@ -188,6 +201,7 @@ function showReveal(index, result, call, guessMya) {
       <h2>${esc(specimen.name)}</h2>
       ${details}
       <p class="fact">${esc(specimen.fact)}</p>
+      ${creditHtml(specimen)}
       <button class="btn" type="button" id="next">${isLast ? "See results" : "Next specimen"}</button>
     </section>`;
   pixelatePhotos();

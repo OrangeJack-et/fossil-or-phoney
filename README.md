@@ -9,7 +9,7 @@ Fossil or Phoney is the first game of **Interdimensional Games Cafe**, a planned
 hub of daily mini-games where each door leads to a different game. For now it
 is a standalone website.
 
-> Status: playable with 11 example specimens and placeholder photos. Not deployed yet.
+> Status: playable with 11 example specimens and real photos. Not deployed yet.
 
 ## How it plays
 
@@ -104,9 +104,16 @@ Things to watch for when picking photos:
 ## Adding a specimen
 
 Add an entry to the end of `data/specimens.json` (the `_readme` at the top of
-that file explains every field). Put the photo in `assets/`, set `image` to its
-path (e.g. `"assets/ammonite-dactylioceras.jpg"`), and fill in `imageCredit` and
-`source`. The game pixelates photos automatically.
+that file explains every field). Then:
+
+1. Crop out any labels or captions, resize the photo to 800 px wide, and save it
+   in `assets/` as `<id>.jpg`.
+2. Set `image` to its path, e.g. `"assets/ammonite-dactylioceras.jpg"`.
+3. Fill in `photo` with the author, licence, licence link and source page.
+   The reveal screen shows this as the credit, which the licences require.
+
+The game pixelates photos automatically. Only use photos licensed CC0, public
+domain, CC BY or CC BY-SA.
 
 The 11 entries marked `"example": true` are starter content. Check each fact
 against a source before launch.
@@ -156,4 +163,23 @@ free on GitHub Pages or Cloudflare Pages, for example at
 
 - Fonts: [Jersey 10](https://fonts.google.com/specimen/Jersey+10) and
   [Pixelify Sans](https://fonts.google.com/specimen/Pixelify+Sans) (SIL Open Font License).
-- Specimen photos and facts will be credited here as they are added.
+- Specimen photos are from [Wikimedia Commons](https://commons.wikimedia.org/).
+  They have been resized and pixelated, and some have been cropped to remove
+  labels. Each photo is credited on its reveal screen, with a link to its page.
+
+| Photo | Author | Licence |
+|---|---|---|
+| [Trilobite](https://commons.wikimedia.org/wiki/File:Elrathia_kingii.JPG) | Tortie tude | CC0 |
+| [Ammonite](https://commons.wikimedia.org/wiki/File:Dactylioceras_commune.jpg) | Fred Cherrygarden | CC BY-SA 4.0 |
+| [T. rex tooth](https://commons.wikimedia.org/wiki/File:T_rex_tooth_-_Garfield_County_Montana_-_Museum_of_the_Rockies_-_2013-07-08.jpg) (cropped) | Tim Evanson | CC BY-SA 2.0 |
+| [Megalodon tooth](https://commons.wikimedia.org/wiki/File:Megalodon_shark_tooth_fossil.jpg) | WorldwrestlingfederationVKM | CC BY-SA 3.0 |
+| [Fly in amber](https://commons.wikimedia.org/wiki/File:Fossil_insect_Diptera,_Brachycera_in_Baltic_amber._Age_50_Mill._years_(the_Lower_Eocene).jpg) | Manukyan Andranik | CC BY-SA 4.0 |
+| [Seed fern](https://commons.wikimedia.org/wiki/File:Neuropteris_flexuosa_kz01.jpg) | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 |
+| [Mammoth tooth](https://commons.wikimedia.org/wiki/File:Woolly_mammoth_molar_-_Cleveland_Museum_of_Natural_History_-_2014-12-26_(20859260938).jpg) | Tim Evanson | CC BY-SA 2.0 |
+| [Manganese dendrites](https://commons.wikimedia.org/wiki/File:Manganese_dendrites.jpg) | Géry Parent | CC BY-SA 3.0 |
+| [Nautilus shell](https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_(YPM_IZ_047418).jpeg) (cropped) | Eric A. Lazo-Wasem, Yale Peabody Museum | CC0 |
+| [Fake trilobite](https://commons.wikimedia.org/wiki/File:Fake_trilobite-bearing_concretion.jpg) (cropped) | James St. John | CC BY 2.0 |
+| [Beringer's lying stones](https://commons.wikimedia.org/wiki/File:Luegensteine_Senckenberg.jpg) | MBq | CC BY-SA 4.0 |
+
+The CC BY-SA ("share-alike") licences mean the edited photos in `assets/` are
+shared under the same licence as their originals.
