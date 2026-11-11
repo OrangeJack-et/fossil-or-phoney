@@ -1813,6 +1813,660 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "page": "https://commons.wikimedia.org/wiki/File:Uintatherium_anceps_skull.JPG"
       }
+    },
+    {
+      "id": "triceratops-horn",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Triceratops brow horn",
+      "clue": "A long, rough, tapering horn core, as long as an arm.",
+      "foundIn": "Wyoming, USA",
+      "ageMya": 67,
+      "ageRangeMya": [66, 68],
+      "period": "Late Cretaceous",
+      "fact": "Triceratops was one of the very last dinosaurs, living right up to the mass extinction 66 million years ago.",
+      "source": "https://en.wikipedia.org/wiki/Triceratops",
+      "image": "assets/triceratops-horn.jpg",
+      "photo": {
+        "author": "Eric Polk",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Triceratops_horn_NHMLAC.jpg"
+      }
+    },
+    {
+      "id": "oviraptor-eggs",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Oviraptor eggs",
+      "clue": "A ring of long, dark grey eggs laid in a circle in reddish rock.",
+      "foundIn": "Mongolia or China",
+      "ageMya": 75,
+      "ageRangeMya": [70, 84],
+      "period": "Late Cretaceous",
+      "fact": "Oviraptor means 'egg thief': the first one was found on a nest and thought to be stealing eggs. Embryos found in eggs like these show they were its own.",
+      "source": "https://en.wikipedia.org/wiki/Oviraptoridae",
+      "image": "assets/oviraptor-eggs.jpg",
+      "photo": {
+        "author": "Gerbil",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Eggs_of_Oviraptor_(Senckenberg).jpg"
+      }
+    },
+    {
+      "id": "edmontosaurus-skin",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Duck-billed dinosaur skin impression",
+      "clue": "A row of tail bones with a bumpy, pebbly texture pressed into the rock around them.",
+      "foundIn": "North America",
+      "ageMya": 68,
+      "ageRangeMya": [66, 73],
+      "period": "Late Cretaceous",
+      "fact": "Part of the tail of Edmontosaurus, a duck-billed dinosaur. The pattern around the bones is an impression of its scaly skin.",
+      "source": "https://en.wikipedia.org/wiki/Edmontosaurus",
+      "image": "assets/edmontosaurus-skin.jpg",
+      "photo": {
+        "author": "Tim Evanson",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Skin_impressions_-_Edmontosaurus_-_Museum_of_the_Rockies_-_2013-07-08.jpg"
+      }
+    },
+    {
+      "id": "mosasaurus-jaw",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Mosasaurus jaw",
+      "clue": "A long, heavy jaw with big cone-shaped teeth, lit up in a dark room.",
+      "foundIn": "Maastricht, Netherlands",
+      "ageMya": 68,
+      "ageRangeMya": [66, 70],
+      "period": "Late Cretaceous",
+      "fact": "Not a dinosaur but a giant sea lizard. The first Mosasaurus skulls were found in chalk quarries near the Dutch city of Maastricht.",
+      "source": "https://en.wikipedia.org/wiki/Mosasaurus",
+      "image": "assets/mosasaurus-jaw.jpg",
+      "photo": {
+        "author": "Vassil",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Maastricht_Mosasaurus_26092015_05.jpg"
+      }
+    },
+    {
+      "id": "pteranodon-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Pteranodon skull",
+      "clue": "A very long, toothless, pointed beak with a backward-pointing crest.",
+      "foundIn": "Central USA",
+      "ageMya": 85,
+      "ageRangeMya": [80, 88],
+      "period": "Late Cretaceous",
+      "fact": "A flying reptile with a wingspan of over 6 metres. More Pteranodon fossils have been found than of any other pterosaur.",
+      "source": "https://en.wikipedia.org/wiki/Pteranodon",
+      "image": "assets/pteranodon-skull.jpg",
+      "photo": {
+        "author": "Jonathan Chen",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pteranodon_AMNH.jpg"
+      }
+    },
+    {
+      "id": "confuciusornis",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Confuciusornis (early bird)",
+      "clue": "A crow-sized bird skeleton with long tail feathers, on a pale slab.",
+      "foundIn": "Liaoning, China",
+      "ageMya": 122,
+      "ageRangeMya": [120, 125],
+      "period": "Early Cretaceous",
+      "fact": "One of the earliest birds with a toothless beak, like modern birds.",
+      "source": "https://en.wikipedia.org/wiki/Confuciusornis",
+      "image": "assets/confuciusornis.jpg",
+      "photo": {
+        "author": "JensKunstfreund",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Confuciusornis_sanctus_(Vogel_des_heiligen_Konfuzius)_im_Senckenberg-Naturmuseum_02.jpg"
+      }
+    },
+    {
+      "id": "sinosauropteryx",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Sinosauropteryx",
+      "clue": "A small two-legged skeleton with a long tail fringed by a dark, fluffy outline.",
+      "foundIn": "Liaoning, China",
+      "ageMya": 124,
+      "ageRangeMya": [122, 125],
+      "period": "Early Cretaceous",
+      "fact": "Found in 1996, it was the first dinosaur outside the bird family found with feathers. Its fuzz even preserves a striped tail pattern.",
+      "source": "https://en.wikipedia.org/wiki/Sinosauropteryx",
+      "image": "assets/sinosauropteryx.jpg",
+      "photo": {
+        "author": "Laikayiu",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Sinosauropteryx_prima.JPG"
+      }
+    },
+    {
+      "id": "psittacosaurus-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Psittacosaurus skull",
+      "clue": "A short, deep skull with a hooked, parrot-like beak.",
+      "foundIn": "Liaoning, China",
+      "ageMya": 124,
+      "ageRangeMya": [123, 125],
+      "period": "Early Cretaceous",
+      "fact": "The 'parrot lizard'. With up to 13 species, it's the dinosaur genus with the most known species.",
+      "source": "https://en.wikipedia.org/wiki/Psittacosaurus",
+      "image": "assets/psittacosaurus-skull.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Psittacosaurus_lujiatunensis_skull.JPG"
+      }
+    },
+    {
+      "id": "borealopelta",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Borealopelta (armoured dinosaur)",
+      "clue": "A dark, flattened body covered in armour plates and spikes, like a statue.",
+      "foundIn": "Fort McMurray, Alberta, Canada",
+      "ageMya": 111,
+      "ageRangeMya": [110, 112],
+      "period": "Early Cretaceous",
+      "fact": "Found by a miner in an oil-sands mine, this armoured dinosaur is so well preserved that its skin and armour are still in place.",
+      "source": "https://en.wikipedia.org/wiki/Borealopelta",
+      "image": "assets/borealopelta.jpg",
+      "photo": {
+        "author": "Chris Woodrich",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Borealopelta_markmitchelli_(TMP_2011.033.0001),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13.jpg"
+      }
+    },
+    {
+      "id": "archaefructus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Archaefructus (early flowering plant)",
+      "clue": "Thin branching stems with small leaves, printed dark on grey rock.",
+      "foundIn": "Liaoning, China",
+      "ageMya": 125,
+      "ageRangeMya": [124, 126],
+      "period": "Early Cretaceous",
+      "fact": "One of the earliest known flowering plants. It probably grew in water, a bit like a pond weed.",
+      "source": "https://en.wikipedia.org/wiki/Archaefructus",
+      "image": "assets/archaefructus.jpg",
+      "photo": {
+        "author": "Jonathan Chen",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Archaefructus_liaoningensis_BMNHC.jpg"
+      }
+    },
+    {
+      "id": "baculites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Baculites (straight ammonite)",
+      "clue": "A shiny dark rod, like a piece of pipe, with a wavy pattern on its surface.",
+      "foundIn": "South Dakota, USA",
+      "ageMya": 75,
+      "ageRangeMya": [66, 100],
+      "period": "Late Cretaceous",
+      "fact": "An ammonite with an almost straight shell instead of a coil. It lived worldwide and briefly survived the extinction that ended the dinosaurs.",
+      "source": "https://en.wikipedia.org/wiki/Baculites",
+      "image": "assets/baculites.jpg",
+      "photo": {
+        "author": "porshunta",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Baculites_sp.3_-_Cretacico_superior.JPG"
+      }
+    },
+    {
+      "id": "belemnitella",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Belemnite (Belemnitella americana)",
+      "clue": "Two dark, bullet-shaped stones, each about finger-length.",
+      "foundIn": "Eastern USA",
+      "ageMya": 72,
+      "ageRangeMya": [66, 80],
+      "period": "Late Cretaceous",
+      "fact": "The bullet-shaped 'guard' from inside a squid-like animal. Belemnitella americana is the state fossil of Delaware.",
+      "source": "https://en.wikipedia.org/wiki/Belemnitella",
+      "image": "assets/belemnitella.jpg",
+      "photo": {
+        "author": "Skye McDavid",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Belemnitella_americana.jpg"
+      }
+    },
+    {
+      "id": "inoceramus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Inoceramus clam",
+      "clue": "A pale, broad shell covered in deep concentric ridges.",
+      "foundIn": "Rheine, Germany",
+      "ageMya": 97,
+      "ageRangeMya": [94, 100],
+      "period": "Late Cretaceous",
+      "fact": "A relative of today's pearl oysters. Inoceramus lived from the Early Jurassic until the end of the Cretaceous.",
+      "source": "https://en.wikipedia.org/wiki/Inoceramus",
+      "image": "assets/inoceramus.jpg",
+      "photo": {
+        "author": "H. Zell",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Inoceramus_crippsi_01.jpg"
+      }
+    },
+    {
+      "id": "spinosaurus-tooth",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Spinosaurus tooth",
+      "clue": "A long, straight, cone-shaped tooth, brown and glossy at the tip.",
+      "foundIn": "North Africa",
+      "ageMya": 97,
+      "ageRangeMya": [94, 100],
+      "period": "Late Cretaceous",
+      "fact": "Spinosaurus had straight teeth for gripping fish. Its first fossils, found in Egypt, were destroyed in World War II.",
+      "source": "https://en.wikipedia.org/wiki/Spinosaurus",
+      "image": "assets/spinosaurus-tooth.jpg",
+      "photo": {
+        "author": "Jiří X. Doležal (about me)",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Spinosaurus-aegypticus-02.jpg"
+      }
+    },
+    {
+      "id": "carcharodontosaurus-tooth",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Carcharodontosaurus tooth",
+      "clue": "A large, curved, blade-like tooth with fine serrations, sitting in rock.",
+      "foundIn": "North Africa",
+      "ageMya": 97,
+      "ageRangeMya": [94, 100],
+      "period": "Late Cretaceous",
+      "fact": "Its name means 'shark-toothed lizard' after its blade-like teeth. It was first named from two teeth found in Algeria.",
+      "source": "https://en.wikipedia.org/wiki/Carcharodontosaurus",
+      "image": "assets/carcharodontosaurus-tooth.jpg",
+      "photo": {
+        "author": "Gyik Toma (Tommy) from Arad, Romania",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Carcharodontosaurus_tooth_in_Vienna.jpg"
+      }
+    },
+    {
+      "id": "lebanon-fossil-fish",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Fish and lobster from Lebanon",
+      "clue": "A pale slab with a small fish and a long lobster-like creature side by side.",
+      "foundIn": "Hakel, Lebanon",
+      "ageMya": 95,
+      "ageRangeMya": [94, 97],
+      "period": "Late Cretaceous",
+      "fact": "Limestone quarries in Lebanon are famous for beautifully preserved fish, shrimp and lobsters from an ancient sea.",
+      "source": "https://en.wikipedia.org/wiki/Hakel",
+      "image": "assets/lebanon-fossil-fish.jpg",
+      "photo": {
+        "author": "Brocken Inaglory",
+        "licence": "CC BY-SA 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Pseudastacus_Sp_from_Lebanon.jpg"
+      }
+    },
+    {
+      "id": "pterodactylus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Pterodactylus",
+      "clue": "A delicate skeleton with long wing fingers and a narrow beak, on smooth pale stone.",
+      "foundIn": "Bavaria, Germany",
+      "ageMya": 150,
+      "ageRangeMya": [148, 151],
+      "period": "Late Jurassic",
+      "fact": "The first pterosaur ever named and recognised as a flying reptile.",
+      "source": "https://en.wikipedia.org/wiki/Pterodactylus",
+      "image": "assets/pterodactylus.jpg",
+      "photo": {
+        "author": "Dean Falk Schnabel",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fossil_of_Pterodactylus_antiquus.jpg"
+      }
+    },
+    {
+      "id": "mesolimulus-trackway",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Horseshoe crab with its trackway",
+      "clue": "A horseshoe crab at the end of a long trail of tiny footprints.",
+      "foundIn": "Eichstätt, Bavaria, Germany",
+      "ageMya": 150,
+      "ageRangeMya": [148, 151],
+      "period": "Late Jurassic",
+      "fact": "This horseshoe crab left a trail of footprints before it died. It looks almost identical to horseshoe crabs alive today.",
+      "source": "https://en.wikipedia.org/wiki/Mesolimulus",
+      "image": "assets/mesolimulus-trackway.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mesolimulus_with_trackways_457565.jpg"
+      }
+    },
+    {
+      "id": "aspidorhynchus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Aspidorhynchus fish",
+      "clue": "A slender fish with a long, pointed snout, on pale limestone.",
+      "foundIn": "Germany",
+      "ageMya": 150,
+      "ageRangeMya": [148, 151],
+      "period": "Late Jurassic",
+      "fact": "A fast, long-snouted predatory fish, a bit like a modern garfish.",
+      "source": "https://en.wikipedia.org/wiki/Aspidorhynchus",
+      "image": "assets/aspidorhynchus.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Aspidorhynchus_acutirostris,_view_2_-_Museum_fur_Naturkunde,_Berlin_-_DSC00005.JPG"
+      }
+    },
+    {
+      "id": "seirocrinus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Sea lily (Seirocrinus)",
+      "clue": "A huge feathery fan on a long stalk, spread out on dark stone.",
+      "foundIn": "Holzmaden, Germany",
+      "ageMya": 182,
+      "ageRangeMya": [180, 184],
+      "period": "Early Jurassic",
+      "fact": "This sea lily hung upside down from floating driftwood. With stalks close to 30 metres long, it's the largest crinoid known.",
+      "source": "https://en.wikipedia.org/wiki/Seirocrinus",
+      "image": "assets/seirocrinus.jpg",
+      "photo": {
+        "author": "RomanDeckert",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:SeirocrinusFossil-Holzmaden_PaleontologyMuseumOfZurich_RomanDeckert17042021.jpg"
+      }
+    },
+    {
+      "id": "ichthyosaurus-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Ichthyosaurus skull",
+      "clue": "A long, narrow, toothy snout with a huge eye socket, set in dark rock.",
+      "foundIn": "Lyme Regis, Dorset, England",
+      "ageMya": 195,
+      "ageRangeMya": [190, 200],
+      "period": "Early Jurassic",
+      "fact": "Ichthyosaurus was one of the first ichthyosaurs known to science, from the fossil-rich cliffs of the Dorset coast.",
+      "source": "https://en.wikipedia.org/wiki/Ichthyosaurus",
+      "image": "assets/ichthyosaurus-skull.jpg",
+      "photo": {
+        "author": "Gary Todd",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Ichthyosaurus_sp._skull.jpg"
+      }
+    },
+    {
+      "id": "pentacrinites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Sea lily (Pentacrinites)",
+      "clue": "A dense, feathery fan of fine branches pressed flat in pale rock.",
+      "foundIn": "Location not recorded",
+      "ageMya": 190,
+      "ageRangeMya": [166, 201],
+      "period": "Early to Middle Jurassic",
+      "fact": "A sea lily with star-shaped stem pieces. One rock layer at Lyme Regis is so full of them that it's called the Pentacrinites Bed.",
+      "source": "https://en.wikipedia.org/wiki/Pentacrinites",
+      "image": "assets/pentacrinites.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pentacrinites_dichotomus.JPG"
+      }
+    },
+    {
+      "id": "asteroceras",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Asteroceras ammonite",
+      "clue": "A creamy, strongly ribbed coiled shell sitting on a dark rock base.",
+      "foundIn": "Scunthorpe, England",
+      "ageMya": 195,
+      "ageRangeMya": [192, 199],
+      "period": "Early Jurassic",
+      "fact": "A fast-swimming ammonite from the Frodingham Ironstone, rock that was mined for iron ore.",
+      "source": "https://en.wikipedia.org/wiki/Asteroceras",
+      "image": "assets/asteroceras.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Asteroceras_sp.,_Early_Early_Jurassic,_Frodingham_Ironstone_Formation,_Scunthorpe,_England_-_Houston_Museum_of_Natural_Science_-_DSC01894.JPG"
+      }
+    },
+    {
+      "id": "passaloteuthis",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Complete belemnite (Passaloteuthis)",
+      "clue": "A dark bullet-shaped point with a faint body and arms of tiny hooks fanning behind it.",
+      "foundIn": "Holzmaden, Germany",
+      "ageMya": 182,
+      "ageRangeMya": [180, 184],
+      "period": "Early Jurassic",
+      "fact": "Usually only the bullet-shaped guard of a belemnite survives. This rare one keeps its soft body and its arms, lined with tiny hooks.",
+      "source": "https://en.wikipedia.org/wiki/Passaloteuthis",
+      "image": "assets/passaloteuthis.jpg",
+      "photo": {
+        "author": "Dominique Jenny, Dirk Fuchs, Alexander I. Arkhipkin, Rolf B. Hauff, Barbara Fritschi, Christian Klug",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Passaloteuthis_bisulcata_complete_specimen.png"
+      }
+    },
+    {
+      "id": "megalosaurus-jaw",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Megalosaurus jaws",
+      "clue": "Pieces of an upper and lower jaw with big, curved, blade-like teeth.",
+      "foundIn": "Southern England",
+      "ageMya": 167,
+      "ageRangeMya": [166, 168],
+      "period": "Middle Jurassic",
+      "fact": "The only certain Megalosaurus fossils come from Oxfordshire. In 1824 it became the first dinosaur ever to be scientifically named.",
+      "source": "https://en.wikipedia.org/wiki/Megalosaurus",
+      "image": "assets/megalosaurus-jaw.jpg",
+      "photo": {
+        "author": "the paleobear from Lontananza, Loreto, Peru",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Megalosaurus_(35220123211).jpg"
+      }
+    },
+    {
+      "id": "stegosaurus-plate",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Stegosaurus back plate",
+      "clue": "A large, thin, flat plate of bone with a ridged surface, mounted on a wall.",
+      "foundIn": "Dinosaur National Monument, USA",
+      "ageMya": 152,
+      "ageRangeMya": [149, 155],
+      "period": "Late Jurassic",
+      "fact": "One of the kite-shaped plates that ran in two rows along a Stegosaurus's back.",
+      "source": "https://en.wikipedia.org/wiki/Stegosaurus",
+      "image": "assets/stegosaurus-plate.jpg",
+      "photo": {
+        "author": "Jens Lallensack",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Stegosaurus_plate_dinosaur_national_monument.jpg"
+      }
+    },
+    {
+      "id": "diplodocus-vertebra",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Diplodocus tail bone",
+      "clue": "A big, chunky backbone with a tall spine, longer than a forearm.",
+      "foundIn": "Montana, USA",
+      "ageMya": 152,
+      "ageRangeMya": [150, 155],
+      "period": "Late Jurassic",
+      "fact": "From the tail of Diplodocus, a long-necked sauropod. Sauropods were the largest animals ever to walk on land.",
+      "source": "https://en.wikipedia.org/wiki/Diplodocus",
+      "image": "assets/diplodocus-vertebra.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Diplodocus_sp._vertebra_(Morrison_Formation,_Upper_Jurassic;_Mother%27s_Day_site,_Carbon_County,_Montana,_USA)_(41561225920).jpg"
+      }
+    },
+    {
+      "id": "coelophysis-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Coelophysis skull",
+      "clue": "A long, narrow skull with many small, sharp teeth, set in rock.",
+      "foundIn": "New Mexico, USA",
+      "ageMya": 210,
+      "ageRangeMya": [201, 215],
+      "period": "Late Triassic",
+      "fact": "One of the earliest dinosaurs, a slim, fast hunter. Hundreds were found buried together at Ghost Ranch in New Mexico.",
+      "source": "https://en.wikipedia.org/wiki/Coelophysis",
+      "image": "assets/coelophysis-skull.jpg",
+      "photo": {
+        "author": "A Cynical Idealist",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Coelophysis_sp_skull_Harvard.jpg"
+      }
+    },
+    {
+      "id": "plateosaurus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Plateosaurus skeleton",
+      "clue": "A pale skeleton with a long neck, a small head and strong hind legs.",
+      "foundIn": "Central Europe",
+      "ageMya": 210,
+      "ageRangeMya": [204, 214],
+      "period": "Late Triassic",
+      "fact": "An early long-necked plant-eater, an early relative of later giants like Diplodocus.",
+      "source": "https://en.wikipedia.org/wiki/Plateosaurus",
+      "image": "assets/plateosaurus.jpg",
+      "photo": {
+        "author": "Olof Moleman",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Plateosaurus_Monica_closeup01.jpg"
+      }
+    },
+    {
+      "id": "ceratites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Ceratites ammonoid",
+      "clue": "A thick brown coiled shell with a wavy, zigzag pattern across it.",
+      "foundIn": "Europe",
+      "ageMya": 240,
+      "ageRangeMya": [237, 243],
+      "period": "Middle Triassic",
+      "fact": "A Triassic ammonoid. The zigzag lines show where its inner walls met the outer shell.",
+      "source": "https://en.wikipedia.org/wiki/Ceratites",
+      "image": "assets/ceratites.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ceratites_nodosus_2.jpg"
+      }
+    },
+    {
+      "id": "iguanodon-tooth-replica",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Replica of an Iguanodon tooth",
+      "clue": "A large, worn, ridged tooth embedded in a slab of grey rock.",
+      "foundIn": "On display in a museum",
+      "fact": "A copy of one of the teeth that led Gideon Mantell to name Iguanodon in 1825, one of the first dinosaurs ever named.",
+      "source": "https://en.wikipedia.org/wiki/Iguanodon",
+      "image": "assets/iguanodon-tooth-replica.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Iguanodon_tooth.JPG"
+      }
+    },
+    {
+      "id": "compsognathus-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of Compsognathus",
+      "clue": "A small, curled-up dinosaur skeleton on smooth yellowish stone.",
+      "foundIn": "On display in Karlsruhe, Germany",
+      "fact": "A replica of the first Compsognathus skeleton, found in Germany in the 1850s. The real dinosaur was about the size of a chicken.",
+      "source": "https://en.wikipedia.org/wiki/Compsognathus",
+      "image": "assets/compsognathus-cast.jpg",
+      "photo": {
+        "author": "H. Zell",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Compsognathus_longipes_01.JPG"
+      }
+    },
+    {
+      "id": "dimorphodon-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of Dimorphodon",
+      "clue": "A large skeleton with long wing bones and a big head, sprawled across a slab.",
+      "foundIn": "On display in Cleveland, USA",
+      "fact": "A cast of Dimorphodon, a flying reptile from the Early Jurassic of England, named by Richard Owen in 1859.",
+      "source": "https://en.wikipedia.org/wiki/Dimorphodon",
+      "image": "assets/dimorphodon-cast.jpg",
+      "photo": {
+        "author": "Tim Evanson",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dimorphodon_macronyx_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg"
+      }
     }
   ]
 }
