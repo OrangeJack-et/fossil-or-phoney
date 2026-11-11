@@ -819,6 +819,546 @@
         "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Skull_of_the_%22Eoanthropus_Dawsoni%22_(Piltdown_Man)_Wellcome_M0013579.jpg"
       }
+    },
+    {
+      "id": "fairy-stone",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Fairy stone (clay concretion)",
+      "clue": "A flat, rounded grey stone with curving ridges, like a fossil shell.",
+      "foundIn": "Stensö, near Norrköping, Sweden",
+      "fact": "Not a shell: it's a concretion, a lump where minerals cemented clay together. In Sweden these odd shapes are called 'marlekor' and were once thought to be made by fairies.",
+      "source": "https://en.wikipedia.org/wiki/Concretion",
+      "image": "assets/fairy-stone.jpg",
+      "photo": {
+        "author": "Mrund",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Marleka_fairy_stone_from_Stens%C3%B6_in_Sweden.JPG"
+      }
+    },
+    {
+      "id": "desert-rose",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Desert rose",
+      "clue": "A pale ball of thin, curved blades, like a stone flower.",
+      "foundIn": "Location not recorded",
+      "fact": "Not a petrified flower: it's a cluster of flat gypsum crystals that grew in sand, trapping sand grains as they formed.",
+      "source": "https://en.wikipedia.org/wiki/Desert_rose_(crystal)",
+      "image": "assets/desert-rose.jpg",
+      "photo": {
+        "author": "Stephanie Clifford from Arlington, VA, USA",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gypsum_Desert_Rose_(2932214167).jpg"
+      }
+    },
+    {
+      "id": "pyrite-sun",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Pyrite sun",
+      "clue": "A flat, golden metallic disc with lines radiating from its centre.",
+      "foundIn": "Sparta, Illinois, USA",
+      "fact": "It looks like a fossil sand dollar turned to gold, but it's a disc of pyrite crystals that grew outwards in a thin gap between layers of shale.",
+      "source": "https://en.wikipedia.org/wiki/Pyrite",
+      "image": "assets/pyrite-sun.jpg",
+      "photo": {
+        "author": "Robert M. Lavinsky",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pyrite-40635.jpg"
+      }
+    },
+    {
+      "id": "liesegang-rings",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Liesegang rings in sandstone",
+      "clue": "A sandstone boulder with wavy bands of colour, like the rings of a tree.",
+      "foundIn": "Location not recorded",
+      "fact": "Not petrified wood: these bands formed when mineral-rich water seeped through the rock and left colour behind in a repeating pattern.",
+      "source": "https://en.wikipedia.org/wiki/Liesegang_rings",
+      "image": "assets/liesegang-rings.jpg",
+      "photo": {
+        "author": "Rygel, M.C.",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Liesegang_rings_-_boulder.jpg"
+      }
+    },
+    {
+      "id": "moss-agate",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Moss agate",
+      "clue": "A polished white pebble with green, moss-like threads inside.",
+      "foundIn": "Location not recorded",
+      "fact": "The 'moss' isn't a plant: it's green minerals, mostly iron or manganese oxides, that grew in thread-like patterns inside the stone.",
+      "source": "https://en.wikipedia.org/wiki/Moss_agate",
+      "image": "assets/moss-agate.jpg",
+      "photo": {
+        "author": "Unknown (public domain)",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Mossagate.pebble.750pix.jpg"
+      }
+    },
+    {
+      "id": "ripple-marks",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Ripple marks in sandstone",
+      "clue": "A slab of red rock with neat, evenly spaced ridges.",
+      "foundIn": "Great Slave Lake, Canada",
+      "fact": "Ripples left by water nearly 2 billion years ago, long before animals existed. They're a record of moving water, not of life.",
+      "source": "https://en.wikipedia.org/wiki/Ripple_marks",
+      "image": "assets/ripple-marks.jpg",
+      "photo": {
+        "author": "Mike Beauregard on Flickr",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ripple_marks_in_Paleoproterozoic_sandstone.jpg"
+      }
+    },
+    {
+      "id": "tafoni",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Tafoni (honeycomb weathering)",
+      "clue": "A rock riddled with rounded holes, like a sponge or a coral.",
+      "foundIn": "Bean Hollow State Beach, California, USA",
+      "fact": "Not a fossil sponge or coral: these holes were hollowed out of the rock by weathering.",
+      "source": "https://en.wikipedia.org/wiki/Tafoni",
+      "image": "assets/tafoni.jpg",
+      "photo": {
+        "author": "Inklein",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tafoni_at_Bean_Hollow_State_Beach.jpg"
+      }
+    },
+    {
+      "id": "thunder-egg",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Thunder egg",
+      "clue": "A rock cut in half to show a starburst of blue and white crystal inside.",
+      "foundIn": "Harney County, Oregon, USA",
+      "fact": "Thunder eggs form inside layers of volcanic ash. They look like ordinary rocks outside, but are filled with agate or quartz, not with anything that was once alive.",
+      "source": "https://en.wikipedia.org/wiki/Thunderegg",
+      "image": "assets/thunder-egg.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Thunder_egg_quartz_(Laton_Point,_south_of_Buchanan,_Oregon,_USA)_(32785493225).jpg"
+      }
+    },
+    {
+      "id": "chiastolite",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Chiastolite",
+      "clue": "A slice of brownish stone with a dark cross through its centre.",
+      "foundIn": "Location not recorded",
+      "fact": "The cross is a natural pattern inside crystals of andalusite, a mineral. It was never alive.",
+      "source": "https://en.wikipedia.org/wiki/Andalusite",
+      "image": "assets/chiastolite.jpg",
+      "photo": {
+        "author": "Vassil",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Chiastolite_2581.jpg"
+      }
+    },
+    {
+      "id": "marcasite-nodule",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Marcasite nodule",
+      "clue": "A dark, knobbly lump, like a fossil sponge or a brain coral.",
+      "foundIn": "Portugal",
+      "fact": "Pure mineral: marcasite is a form of iron sulfide, like pyrite. It often crumbles over time because of its unstable crystal structure.",
+      "source": "https://en.wikipedia.org/wiki/Marcasite",
+      "image": "assets/marcasite-nodule.jpg",
+      "photo": {
+        "author": "Géry PARENT",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Marcassite_3.jpg"
+      }
+    },
+    {
+      "id": "sand-dollar",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Modern sand dollar",
+      "clue": "A flat, round disc covered in fine bristles, with a faint five-petal pattern.",
+      "foundIn": "Massachusetts, USA",
+      "fact": "A modern sand dollar, a flat, burrowing kind of sea urchin. Its fossil relatives look very similar, but this one is from a museum collection of living species.",
+      "source": "https://en.wikipedia.org/wiki/Sand_dollar",
+      "image": "assets/sand-dollar.jpg",
+      "photo": {
+        "author": "Eric A. Lazo-Wasem, Yale Peabody Museum",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Echinarachnius_parma%27_(YPM_IZ_069833).jpg"
+      }
+    },
+    {
+      "id": "sea-urchin-shell",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Edible sea urchin shell",
+      "clue": "A round, reddish shell covered in neat rows of tiny bumps.",
+      "foundIn": "Location not recorded",
+      "fact": "The empty shell of a modern edible sea urchin, with its spines gone. Fossil urchins, like the heart urchin Micraster, look much the same.",
+      "source": "https://en.wikipedia.org/wiki/Echinus_esculentus",
+      "image": "assets/sea-urchin-shell.jpg",
+      "photo": {
+        "author": "Esko Jäntti",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Sea_Urchin_test_5629_03_22.jpg"
+      }
+    },
+    {
+      "id": "moa-bone",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Moa leg bone",
+      "clue": "A huge, dark brown leg bone from a bird, longer than a forearm.",
+      "foundIn": "New Zealand",
+      "fact": "Moa were giant flightless birds, the largest about 3.6 m tall. They were hunted to extinction after people reached New Zealand around 1300, so their bones are only centuries old.",
+      "source": "https://en.wikipedia.org/wiki/Moa",
+      "image": "assets/moa-bone.jpg",
+      "photo": {
+        "author": "Lukas Large from Stourbridge, United Kingdom",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Moa_Bone_(7895478924).jpg"
+      }
+    },
+    {
+      "id": "dodo-skeleton",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Dodo skeleton",
+      "clue": "The skeleton of a plump, flightless bird with a big hooked beak.",
+      "foundIn": "Mauritius",
+      "fact": "Dodos lived only on the island of Mauritius and died out in the late 1600s. Their bones are far too young to be fossils.",
+      "source": "https://en.wikipedia.org/wiki/Dodo",
+      "image": "assets/dodo-skeleton.jpg",
+      "photo": {
+        "author": "Heinz-Josef Lücking",
+        "licence": "CC BY-SA 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Dodo-Skeleton_Natural_History_Museum_London_England.jpg"
+      }
+    },
+    {
+      "id": "coelacanth",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Coelacanth",
+      "clue": "A large, chunky fish with fleshy, limb-like fins.",
+      "foundIn": "Grande Comore, Comoros",
+      "fact": "Coelacanths were thought to have died out with the dinosaurs until a living one was caught in 1938. This one was caught in 1974.",
+      "source": "https://en.wikipedia.org/wiki/Coelacanth",
+      "image": "assets/coelacanth.jpg",
+      "photo": {
+        "author": "Alberto Fernandez Fernandez",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Latimeria_Chalumnae_-_Coelacanth_-_NHMW.jpg"
+      }
+    },
+    {
+      "id": "shark-bay-stromatolites",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Living stromatolites",
+      "clue": "Dark, rounded rock-like mounds in shallow water along a beach.",
+      "foundIn": "Hamelin Pool, Shark Bay, Western Australia",
+      "fact": "These look like ancient rocks, and fossil stromatolites are some of the oldest signs of life. But these are alive, built layer by layer by microbes today.",
+      "source": "https://en.wikipedia.org/wiki/Stromatolite",
+      "image": "assets/shark-bay-stromatolites.jpg",
+      "photo": {
+        "author": "Paul Harrison",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Stromatolites_in_Sharkbay.jpg"
+      }
+    },
+    {
+      "id": "spirula-shell",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Ram's horn squid shell",
+      "clue": "A small, white, tightly coiled shell, about the size of a fingertip.",
+      "foundIn": "Location not recorded",
+      "fact": "The internal shell of Spirula, a deep-sea squid alive today. It looks like a tiny ammonite and often washes up on beaches.",
+      "source": "https://en.wikipedia.org/wiki/Spirula",
+      "image": "assets/spirula-shell.jpg",
+      "photo": {
+        "author": "Francierlem28",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Spirula_spirula,_2026.jpg"
+      }
+    },
+    {
+      "id": "argonaut-shell",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Paper nautilus (argonaut) shell",
+      "clue": "A delicate, cream-coloured coiled shell with fine ribs and a wavy edge.",
+      "foundIn": "Location not recorded",
+      "fact": "Made by a female argonaut, a kind of octopus, as a paper-thin case for her eggs. It looks like an ammonite, but it's modern and isn't even a true shell.",
+      "source": "https://en.wikipedia.org/wiki/Argonaut_(animal)",
+      "image": "assets/argonaut-shell.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Argonauta_argo_-_Fernbank_Museum_of_Natural_History_-_DSC00280.JPG"
+      }
+    },
+    {
+      "id": "cuttlebone",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Cuttlebone",
+      "clue": "A smooth, white, oval object lying on wet sand.",
+      "foundIn": "Hayling Island, Hampshire, England",
+      "fact": "The internal 'bone' of a modern cuttlefish. It washes up on beaches all the time and can look like a fossil, but the animal is alive today.",
+      "source": "https://en.wikipedia.org/wiki/Cuttlebone",
+      "image": "assets/cuttlebone.jpg",
+      "photo": {
+        "author": "Simon Burchell",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hayling_Island_02.jpg"
+      }
+    },
+    {
+      "id": "lingula-shell",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Lingula shell",
+      "clue": "A long, shiny, greenish shell shaped like a tongue.",
+      "foundIn": "Mediterranean Sea",
+      "fact": "Lingula is alive today, burrowing in sandy sea floors. It was long called a 'living fossil' because ancient shells of its relatives look so similar.",
+      "source": "https://en.wikipedia.org/wiki/Lingula_(brachiopod)",
+      "image": "assets/lingula-shell.jpg",
+      "photo": {
+        "author": "Drow_male",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lingula_anatina_7.JPG"
+      }
+    },
+    {
+      "id": "crab-moult",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Crab moult",
+      "clue": "An empty crab shell with a spiky front edge and a leopard-like pattern.",
+      "foundIn": "Long Beach, New York, USA",
+      "fact": "The shell a lady crab shed as it grew. Crabs moult their whole outer skeleton, so beaches are full of empty shells like this one.",
+      "source": "https://en.wikipedia.org/wiki/Moulting",
+      "image": "assets/crab-moult.jpg",
+      "photo": {
+        "author": "Invertzoo",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Crab_from_Long_Island.jpg"
+      }
+    },
+    {
+      "id": "lucy-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of 'Lucy'",
+      "clue": "A small, partial human-like skeleton held up on a metal stand.",
+      "foundIn": "On display in Geneva, Switzerland",
+      "fact": "A copy of Lucy, a human relative who lived about 3.2 million years ago, found in Ethiopia in 1974. Casts like this let museums around the world show her.",
+      "source": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
+      "image": "assets/lucy-cast.jpg",
+      "photo": {
+        "author": "Rama",
+        "licence": "CC BY-SA 3.0 fr",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Cast_of_the_skeleton_of_Lucy_at_MHNG-IMG_1481-white.jpg"
+      }
+    },
+    {
+      "id": "trex-skull-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of a T. rex skull",
+      "clue": "A huge reptile skull with a mouth full of long, curved teeth.",
+      "foundIn": "On display in Pittsburgh, USA",
+      "fact": "A cast of a real T. rex skull. Real skulls are heavy and fragile, so museums often mount casts on their skeletons and keep the originals somewhere safer.",
+      "source": "https://en.wikipedia.org/wiki/Tyrannosaurus",
+      "image": "assets/trex-skull-cast.jpg",
+      "photo": {
+        "author": "WehaveaTrex",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_skull_cast_(MOR980).jpg"
+      }
+    },
+    {
+      "id": "carved-fake-trilobites",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "fake",
+      "name": "Carved fake trilobites",
+      "clue": "A slab of pale rock with several neat trilobites on its surface.",
+      "foundIn": "China",
+      "fact": "These 'trilobites' were carved into the rock and sold as fossils. Look-alike sets of identical, shallow trilobites are a warning sign.",
+      "source": "https://en.wikipedia.org/wiki/Trilobite",
+      "image": "assets/carved-fake-trilobites.jpg",
+      "photo": {
+        "author": "geofossiles.com",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Faux_trilobites_grav%C3%A9s_dans_la_roche_et_en_provenance_de_Chine.jpeg"
+      }
+    },
+    {
+      "id": "concrete-dinosaur",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "fake",
+      "name": "Concrete 'dinosaur fossil'",
+      "clue": "A reddish rock surface with a trilobite-like creature and three large round eggs.",
+      "foundIn": "A public park in Dalian, China",
+      "fact": "A 'fossil' made of concrete and glass fibre for a park display. Nothing here was ever alive.",
+      "source": "https://commons.wikimedia.org/wiki/File:Fake_dinosaur_fossil_in_Dalian_China_2.jpeg",
+      "image": "assets/concrete-dinosaur.jpg",
+      "photo": {
+        "author": "Guy Courtois",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fake_dinosaur_fossil_in_Dalian_China_2.jpeg"
+      }
+    },
+    {
+      "id": "archaeoraptor",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "hoax",
+      "name": "'Archaeoraptor'",
+      "clue": "A cracked slab with a bird-like skeleton spread across several pieces.",
+      "foundIn": "Liaoning, China (shown in 1999)",
+      "fact": "Announced in 1999 as a missing link between dinosaurs and birds. It was really pieces of different real fossils glued together; part of the tail came from a Microraptor.",
+      "source": "https://en.wikipedia.org/wiki/Archaeoraptor",
+      "image": "assets/archaeoraptor.jpg",
+      "photo": {
+        "author": "Jonathan Chen",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Archaeoraptor_IVPP.jpg"
+      }
+    },
+    {
+      "id": "cardiff-giant",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "hoax",
+      "name": "The Cardiff Giant",
+      "clue": "A huge stone figure of a man, lying on its back.",
+      "foundIn": "Cardiff, New York, USA, in 1869",
+      "fact": "Dug up in 1869 and shown as a 'petrified man', 3 metres tall. It was really a carved stone statue, and crowds paid to see it anyway.",
+      "source": "https://en.wikipedia.org/wiki/Cardiff_Giant",
+      "image": "assets/cardiff-giant.jpg",
+      "photo": {
+        "author": "Martin Lewison from Forest Hills, NY, U.S.A.",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_Cardiff_Giant_(8923364469).jpg"
+      }
+    },
+    {
+      "id": "feejee-mermaid",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "hoax",
+      "name": "Sideshow 'mermaid'",
+      "clue": "A shrivelled creature with a monkey-like head and a scaly fish's tail.",
+      "foundIn": "From a 19th-century museum collection, USA",
+      "fact": "Fake mermaids drew paying crowds. The famous 'Fiji mermaid' shown by P. T. Barnum was a monkey sewn to a fish; this papier-mâché one is from the same collection.",
+      "source": "https://en.wikipedia.org/wiki/Fiji_mermaid",
+      "image": "assets/feejee-mermaid.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Feejee_Mermaid,_shown_in_P.T._Barnum%27s_American_Museum,_1842,_as_leased_from_Moses_Kimball_of_the_Boston_Museum,_papier-mache_-_Peabody_Museum,_Harvard_University_-_DSC06154.jpg"
+      }
+    },
+    {
+      "id": "eozoon",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Eozoön canadense",
+      "clue": "A slab of rock with fine green and pale bands running through it.",
+      "foundIn": "Canada",
+      "fact": "Once hailed as the oldest fossil animal ever found. It turned out to be layers of minerals, with no life involved at all.",
+      "source": "https://en.wikipedia.org/wiki/Eozoön_canadense",
+      "image": "assets/eozoon.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Eozoon_canadense.JPG"
+      }
+    },
+    {
+      "id": "jenny-haniver",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "hoax",
+      "name": "Jenny Haniver",
+      "clue": "A small, dried, winged creature with a face like a little demon.",
+      "foundIn": "On display in Geneva, Switzerland",
+      "fact": "A dried skate or ray, cut and shaped to look like a demon or dragon. Sailors have made and sold these since the 1500s.",
+      "source": "https://en.wikipedia.org/wiki/Jenny_Haniver",
+      "image": "assets/jenny-haniver.jpg",
+      "photo": {
+        "author": "Vassil",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Jenny_Haniver_Museum_Histoire_Naturelle_Gen%C3%A8ve_22102014.jpg"
+      }
     }
   ]
 }
