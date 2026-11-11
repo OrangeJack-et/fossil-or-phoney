@@ -66,8 +66,12 @@ function photoHtml(specimen) {
 function creditHtml(specimen) {
   const photo = specimen.photo;
   if (!photo) return "";
+  // Public-domain photos have no licence page to link to.
+  const licence = photo.licenceUrl
+    ? `<a href="${esc(photo.licenceUrl)}" target="_blank" rel="noopener">${esc(photo.licence)}</a>`
+    : esc(photo.licence);
   return `<p class="credit">Photo: <a href="${esc(photo.page)}" target="_blank" rel="noopener">${esc(photo.author)}</a>,
-    <a href="${esc(photo.licenceUrl)}" target="_blank" rel="noopener">${esc(photo.licence)}</a>, edited</p>`;
+    ${licence}, edited</p>`;
 }
 
 // How many pixels across the photo is drawn at. Fewer = chunkier pixel art.

@@ -16,6 +16,10 @@ Desktop.ini
 node_modules/
 dist/
 
+# Photo tool working files (search results, contact sheets)
+tools/_work/
+__pycache__/
+
 # Logs and temporary files
 *.log
 *.tmp

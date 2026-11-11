@@ -106,11 +106,15 @@ Things to watch for when picking photos:
 Add an entry to the end of `data/specimens.json` (the `_readme` at the top of
 that file explains every field). Then:
 
-1. Crop out any labels or captions, resize the photo to 800 px wide, and save it
-   in `assets/` as `<id>.jpg`.
-2. Set `image` to its path, e.g. `"assets/ammonite-dactylioceras.jpg"`.
-3. Fill in `photo` with the author, licence, licence link and source page.
-   The reveal screen shows this as the credit, which the licences require.
+1. Find a photo with the tool in `tools/commons.py`. It searches Wikimedia
+   Commons, keeps only openly licensed photos, and builds a contact sheet to
+   compare them. Run `python tools/commons.py --help` for the steps.
+2. `python tools/commons.py add <id> <number> --crop ...` crops out labels,
+   resizes the photo to 480 px wide, saves it as `assets/<id>.jpg`, and prints
+   the `image` and `photo` lines to paste into the entry.
+3. The reveal screen shows `photo` as the credit, which the licences require.
+
+`docs/specimen-wishlist.md` lists the specimens planned for the pool.
 
 The game pixelates photos automatically. Only use photos licensed CC0, public
 domain, CC BY or CC BY-SA.
