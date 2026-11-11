@@ -5,14 +5,16 @@ Candidates for the specimen pool, before any photo hunting. The aim is about
 won't have a usable open-licence photo and will be dropped.
 
 - ✅ = already in the game (the ticks below are from before batch 1)
-- **Progress:** 41 in the game after batch 1 (30 fossils, 11 phoneys). Batch 1 added
-  Archaeopteryx, Smilodon, giant deer, Glyptodon, Knightia, Messel bat,
-  Nummulites, Microraptor, Micraster, ammolite, Stenopterygius, Gryphaea,
-  Arizona petrified wood, Mesosaurus, Lepidodendron, Tully monster, Phacops,
-  Petoskey stone, Eurypterus, Dudley bug, Isotelus, Marrella, Dickinsonia,
-  septarian nodule, Moqui marbles, fulgurite, horseshoe crab shell, copal,
-  an Archaeopteryx cast and Piltdown Man. Orthoceras and a modern great white
-  tooth are still to do (no clean photo yet).
+- **Progress:** 182 in the game after five batches (132 fossils, 50 phoneys).
+  The ticks below only mark the first 11. Wishlist items still missing, mostly
+  because no openly licensed photo was clean enough (or the only photos were of
+  casts): Orthoceras, Megatherium, dire wolf, cave bear, Basilosaurus,
+  Pakicetus, Gastornis, Velociraptor, Protoceratops, Baryonyx, Elasmosaurus,
+  Allosaurus, Plesiosaurus, Tanystropheus, Eoraptor, Dimetrodon, Edaphosaurus,
+  Diplocaulus, Scutosaurus, Inostrancevia, Meganeura, Arthropleura, Hylonomus,
+  Tiktaalik, Dunkleosteus, Cephalaspis, Ichthyostega, Crotalocrinites,
+  Astraspis, Fractofusus, a modern great white tooth, brain coral, ginkgo,
+  cone-in-cone, loess dolls, oolite, Hydrarchos and the Calaveras Skull.
 - Ages are rough (millions of years ago, Mya). Each one gets checked against a
   source when it's added, and the specimen's exact find site decides its final range.
 - Cut, add or swap anything. Lines marked ❓ are ones I'm least sure are worth including.

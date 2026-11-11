@@ -9,8 +9,8 @@ Fossil or Phoney is the first game of **Interdimensional Games Cafe**, a planned
 hub of daily mini-games where each door leads to a different game. For now it
 is a standalone website.
 
-> Status: playable with 127 specimens (80 fossils, 47 phoneys), each with a real
-> photo and a source link. Growing towards about 220. Not deployed yet.
+> Status: playable with 182 specimens (132 fossils, 50 phoneys), each with a real
+> photo and a source link. Not deployed yet.
 
 ## How it plays
 
@@ -80,9 +80,9 @@ There is no server and no database. Everything happens in the browser
   **adding new specimens never changes past days**. Don't delete specimens,
   change their `id` or change their `added` date, because that would.
 
-Scale: 3 a day with a 60-day gap needs at least 180 specimens to avoid
-repeats. Around 200 to 250 is a comfortable launch pool, and it can keep
-growing after launch.
+Scale: with 132 fossils, no fossil repeats within 60 days. With 50 phoneys,
+a phoney can come back after about six weeks, so adding phoneys is the best
+way to improve variety.
 
 ## Where specimens will come from
 

@@ -2467,6 +2467,1100 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
         "page": "https://commons.wikimedia.org/wiki/File:Dimorphodon_macronyx_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg"
       }
+    },
+    {
+      "id": "lystrosaurus-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Lystrosaurus skull",
+      "clue": "A rounded skull with a short snout and two small tusks, half buried in grey rock.",
+      "foundIn": "Karoo, South Africa",
+      "ageMya": 251,
+      "ageRangeMya": [247, 254],
+      "period": "Late Permian to Early Triassic",
+      "fact": "A pig-sized plant-eater that survived the biggest mass extinction ever and then spread across the supercontinent Pangaea.",
+      "source": "https://en.wikipedia.org/wiki/Lystrosaurus",
+      "image": "assets/lystrosaurus-skull.jpg",
+      "photo": {
+        "author": "Bernard DUPONT from FRANCE",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lystrosaurus_Skull_(31940258744).jpg"
+      }
+    },
+    {
+      "id": "mixosaurus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Mixosaurus (early ichthyosaur)",
+      "clue": "A slim, dolphin-shaped reptile skeleton curled across a dark slab.",
+      "foundIn": "Monte San Giorgio, Italy–Switzerland",
+      "ageMya": 242,
+      "ageRangeMya": [240, 244],
+      "period": "Middle Triassic",
+      "fact": "One of the earlier ichthyosaurs, from a famous fossil site on the border of Italy and Switzerland.",
+      "source": "https://en.wikipedia.org/wiki/Mixosaurus",
+      "image": "assets/mixosaurus.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mixosaurus_cornalianus_34434.JPG"
+      }
+    },
+    {
+      "id": "cynognathus-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Cynognathus skull",
+      "clue": "A long, dog-like skull with big canine teeth.",
+      "foundIn": "Southern Africa or South America",
+      "ageMya": 245,
+      "ageRangeMya": [240, 247],
+      "period": "Middle Triassic",
+      "fact": "A predator closely related to mammals. Its fossils are found in Africa, South America and Antarctica, which were joined together at the time.",
+      "source": "https://en.wikipedia.org/wiki/Cynognathus",
+      "image": "assets/cynognathus-skull.jpg",
+      "photo": {
+        "author": "the paleobear",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cynognathus_skull_NHM.jpg"
+      }
+    },
+    {
+      "id": "chirotherium-trackway",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Chirotherium footprints",
+      "clue": "A slab of sandstone with a line of hand-shaped footprints.",
+      "foundIn": "Storeton, Wirral, England",
+      "ageMya": 245,
+      "ageRangeMya": [240, 250],
+      "period": "Triassic",
+      "fact": "These prints look like human hands, which puzzled early scientists. They were made by a relative of crocodiles walking across mud.",
+      "source": "https://en.wikipedia.org/wiki/Chirotherium",
+      "image": "assets/chirotherium-trackway.jpg",
+      "photo": {
+        "author": "Ballista at English Wikipedia",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Cheirotherium_prints_possibly_Ticinosuchus.JPG"
+      }
+    },
+    {
+      "id": "glossopteris",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Glossopteris leaves",
+      "clue": "A slab scattered with tongue-shaped leaves in shades of orange and brown.",
+      "foundIn": "Location not recorded",
+      "ageMya": 265,
+      "ageRangeMya": [252, 299],
+      "period": "Permian",
+      "fact": "A seed plant whose leaves are found in South America, Africa, India, Australia and Antarctica: evidence those continents were once joined.",
+      "source": "https://en.wikipedia.org/wiki/Glossopteris",
+      "image": "assets/glossopteris.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Glossopteris_sp.,_seed_ferns,_Permian_-_Triassic_-_Houston_Museum_of_Natural_Science_-_DSC01765.JPG"
+      }
+    },
+    {
+      "id": "helicoprion-whorl",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Helicoprion tooth whorl",
+      "clue": "A spiral of pointed teeth, coiled like a circular saw blade, in orange rock.",
+      "foundIn": "Idaho, USA",
+      "ageMya": 280,
+      "ageRangeMya": [270, 290],
+      "period": "Permian",
+      "fact": "These spiral tooth whorls puzzled scientists for a century. They sat in the lower jaw of a shark-like fish.",
+      "source": "https://en.wikipedia.org/wiki/Helicoprion",
+      "image": "assets/helicoprion-whorl.jpg",
+      "photo": {
+        "author": "Skye McDavid",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:AMNH_8250_Helicoprion_sp_whorl.jpg"
+      }
+    },
+    {
+      "id": "fusulinid-limestone",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Fusulinid limestone",
+      "clue": "A rock surface packed with hundreds of tiny, rice-shaped grains.",
+      "foundIn": "Kansas, USA",
+      "ageMya": 300,
+      "ageRangeMya": [298, 304],
+      "period": "Late Carboniferous",
+      "fact": "Each 'grain of rice' is the shell of a single-celled sea creature called a fusulinid.",
+      "source": "https://en.wikipedia.org/wiki/Fusulinida",
+      "image": "assets/fusulinid-limestone.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fusulinid_limestone,_Upper_Pennsylvanian;_Elk_County_KS.jpg"
+      }
+    },
+    {
+      "id": "palaeoniscum",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Palaeoniscum fish",
+      "clue": "A dark, scaly fish pressed flat in grey shale.",
+      "foundIn": "Sangerhausen, Germany",
+      "ageMya": 257,
+      "ageRangeMya": [254, 260],
+      "period": "Late Permian",
+      "fact": "An early ray-finned fish. Many are found in the copper-rich shale of central Germany.",
+      "source": "https://en.wikipedia.org/wiki/Palaeoniscum",
+      "image": "assets/palaeoniscum.jpg",
+      "photo": {
+        "author": "H. Zell",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Palaeoniscum_freieslebeni_-_Zoo_am_Meer_-_Bremerhaven_01.jpg"
+      }
+    },
+    {
+      "id": "seymouria",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Seymouria",
+      "clue": "A sprawling four-legged skeleton with a broad head, on a pale slab.",
+      "foundIn": "Texas, USA",
+      "ageMya": 285,
+      "ageRangeMya": [280, 290],
+      "period": "Early Permian",
+      "fact": "An amphibian so well suited to life on land that it was first thought to be an early reptile.",
+      "source": "https://en.wikipedia.org/wiki/Seymouria",
+      "image": "assets/seymouria.jpg",
+      "photo": {
+        "author": "Sanjay Acharya",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Seymouria_Fossil.jpg"
+      }
+    },
+    {
+      "id": "calamites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Calamites stem",
+      "clue": "A stone cylinder with neat, straight ridges running along it, next to a coin.",
+      "foundIn": "Location not recorded",
+      "ageMya": 310,
+      "ageRangeMya": [299, 323],
+      "period": "Carboniferous",
+      "fact": "A piece of a giant horsetail that grew into trees 30 metres tall in coal swamps. Its small relatives still grow today.",
+      "source": "https://en.wikipedia.org/wiki/Calamites",
+      "image": "assets/calamites.jpg",
+      "photo": {
+        "author": "Fernando Losada Rodríguez",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Calamites_sp.1_-_Carbonifero.JPG"
+      }
+    },
+    {
+      "id": "sigillaria",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Sigillaria bark",
+      "clue": "Dark rock covered in neat vertical rows of rounded scars.",
+      "foundIn": "Location not recorded",
+      "ageMya": 310,
+      "ageRangeMya": [299, 323],
+      "period": "Carboniferous",
+      "fact": "Bark from a tree-like relative of quillworts, a cousin of the scale tree Lepidodendron.",
+      "source": "https://en.wikipedia.org/wiki/Sigillaria",
+      "image": "assets/sigillaria.jpg",
+      "photo": {
+        "author": "Korinna",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sigillaria_fossil.jpg"
+      }
+    },
+    {
+      "id": "stigmaria",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Stigmaria (fossil tree root)",
+      "clue": "A long, grey rock branch dotted with small round scars.",
+      "foundIn": "Donbas, Ukraine",
+      "ageMya": 310,
+      "ageRangeMya": [299, 323],
+      "period": "Carboniferous",
+      "fact": "Part of the root system of a giant coal-swamp tree like Sigillaria or Lepidodendron.",
+      "source": "https://en.wikipedia.org/wiki/Stigmaria",
+      "image": "assets/stigmaria.jpg",
+      "photo": {
+        "author": "IvanSakhno",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Stigmaria_ficoides_04.jpg"
+      }
+    },
+    {
+      "id": "annularia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Annularia leaves",
+      "clue": "Black star-shaped whorls of thin leaves on grey rock.",
+      "foundIn": "Location not recorded",
+      "ageMya": 305,
+      "ageRangeMya": [299, 315],
+      "period": "Carboniferous",
+      "fact": "These leaf whorls grew on Calamites, the giant tree-sized horsetails of the coal swamps.",
+      "source": "https://en.wikipedia.org/wiki/Annularia",
+      "image": "assets/annularia.jpg",
+      "photo": {
+        "author": "See original uncropped file",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Annularia_stellata_fossil_cropped.png"
+      }
+    },
+    {
+      "id": "pecopteris",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Pecopteris fern",
+      "clue": "A grey slab printed with fern fronds and their neat rows of leaflets.",
+      "foundIn": "Location not recorded",
+      "ageMya": 305,
+      "ageRangeMya": [299, 315],
+      "period": "Carboniferous",
+      "fact": "Leaves mostly from Psaronius, a tree fern of the coal swamps.",
+      "source": "https://en.wikipedia.org/wiki/Pecopteris",
+      "image": "assets/pecopteris.jpg",
+      "photo": {
+        "author": "Natural History Museum of Gagliole",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Museo_storia_naturale_Gagliole_-_Felci_fossili_Pecopteris_palacea.jpg"
+      }
+    },
+    {
+      "id": "essexella",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Essexella (fossil jellyfish)",
+      "clue": "A brown oval stone nodule with a faint bell-shaped outline inside.",
+      "foundIn": "Mazon Creek, Illinois, USA",
+      "ageMya": 309,
+      "ageRangeMya": [305, 311],
+      "period": "Carboniferous",
+      "fact": "A fossil jellyfish. It makes up 42% of all finds in part of the Mazon Creek fossil beds.",
+      "source": "https://en.wikipedia.org/wiki/Essexella",
+      "image": "assets/essexella.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Essexella_asherae_fossil_jellyfish_(Mazon_Creek_Lagerstatte,_Francis_Creek_Shale,_Middle_Pennsylvanian;_coal_mine_dump_pile_near_Essex,_northern_Illinois,_USA)_2.jpg"
+      }
+    },
+    {
+      "id": "productid-brachiopod",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Productid brachiopod",
+      "clue": "A pale, ribbed shell set in black flint and brown limestone.",
+      "foundIn": "Ohio, USA",
+      "ageMya": 310,
+      "ageRangeMya": [307, 315],
+      "period": "Carboniferous",
+      "fact": "Productids were the most common brachiopods of the Permian, then almost all died out in the great extinction.",
+      "source": "https://en.wikipedia.org/wiki/Productida",
+      "image": "assets/productid-brachiopod.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Productid_brachiopod_in_flint-bearing_fossiliferous_limestone_(Upper_Mercer_Limestone,_Middle_Pennsylvanian;_Nellie,_Ohio,_USA)_7_(40095150652).jpg"
+      }
+    },
+    {
+      "id": "crinoid-limestone",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Crinoid stems in limestone",
+      "clue": "A lump of grey limestone with pale, segmented stems running through it.",
+      "foundIn": "Ohio, USA",
+      "ageMya": 310,
+      "ageRangeMya": [307, 315],
+      "period": "Carboniferous",
+      "fact": "Bits of sea lily stems. Some limestones are made almost entirely of crinoid pieces.",
+      "source": "https://en.wikipedia.org/wiki/Crinoid",
+      "image": "assets/crinoid-limestone.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Crinoid_stems_in_fossiliferous_limestone_(Lower_Mercer_Limestone,_Middle_Pennsylvanian;_Rt._16_roadcut_near_Trinway,_Ohio,_USA)_9_(32874120400).jpg"
+      }
+    },
+    {
+      "id": "lithostrotion",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Lithostrotion coral",
+      "clue": "A lumpy rock packed with small round tubes, like a bundle of straws.",
+      "foundIn": "Location not recorded",
+      "ageMya": 335,
+      "ageRangeMya": [323, 359],
+      "period": "Early Carboniferous",
+      "fact": "A colonial coral that is common in Carboniferous Limestone.",
+      "source": "https://en.wikipedia.org/wiki/Lithostrotion",
+      "image": "assets/lithostrotion.jpg",
+      "photo": {
+        "author": "Jonathan Chen",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lithostrotion_UMMNH.jpg"
+      }
+    },
+    {
+      "id": "goniatites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Goniatites",
+      "clue": "Two small, dark, rounded coiled shells beside a pale stone ring.",
+      "foundIn": "Lough Allen, Ireland",
+      "ageMya": 330,
+      "ageRangeMya": [320, 340],
+      "period": "Carboniferous",
+      "fact": "Early ammonoids with zigzag lines on their shells.",
+      "source": "https://en.wikipedia.org/wiki/Goniatites",
+      "image": "assets/goniatites.jpg",
+      "photo": {
+        "author": "Jesse Burgle Johnson",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Goniatite_Fossils_found_on_the_shores_of_Lough_Allen_(Slieve_Anierin).jpg"
+      }
+    },
+    {
+      "id": "archimedes-bryozoan",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Archimedes bryozoan",
+      "clue": "A corkscrew-shaped twist running through a rock covered in fine lacy mesh.",
+      "foundIn": "Location not recorded",
+      "ageMya": 335,
+      "ageRangeMya": [323, 359],
+      "period": "Mississippian (Early Carboniferous)",
+      "fact": "The 'screw' was the central support of a colony of tiny animals that built a lacy spiral net around it.",
+      "source": "https://en.wikipedia.org/wiki/Archimedes_(bryozoan)",
+      "image": "assets/archimedes-bryozoan.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Archimedes_sp._(fenestate_bryozoan)_in_limestone_2.jpg"
+      }
+    },
+    {
+      "id": "bothriolepis",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Bothriolepis (armoured fish)",
+      "clue": "A small boxy fish with armour plates and jointed, arm-like fins.",
+      "foundIn": "Miguasha, Quebec, Canada",
+      "ageMya": 378,
+      "ageRangeMya": [372, 385],
+      "period": "Late Devonian",
+      "fact": "One of the most common armoured fish of its time. Its fins were encased in bony tubes, like arms in armour.",
+      "source": "https://en.wikipedia.org/wiki/Bothriolepis",
+      "image": "assets/bothriolepis.jpg",
+      "photo": {
+        "author": "JensKunstfreund",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bothriolepis_canadensis,_Kanada.jpg"
+      }
+    },
+    {
+      "id": "eusthenopteron",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Eusthenopteron",
+      "clue": "A dark fish shape with fleshy fins, pressed into an oval stone.",
+      "foundIn": "Gaspé Peninsula, Quebec, Canada",
+      "ageMya": 380,
+      "ageRangeMya": [372, 385],
+      "period": "Late Devonian",
+      "fact": "A lobe-finned fish whose fin bones match the arm bones of land animals, which made it famous in the story of how fish moved onto land.",
+      "source": "https://en.wikipedia.org/wiki/Eusthenopteron",
+      "image": "assets/eusthenopteron.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Eusthenopteron_foordi_(fossil_fish)_(Upper_Devonian;_Gaspe_Peninsula,_Quebec,_Canada)_2_(34593980342).jpg"
+      }
+    },
+    {
+      "id": "pterichthyodes",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Pterichthyodes ('winged fish')",
+      "clue": "A flat, armoured fish with two stiff, wing-like fins.",
+      "foundIn": "Scotland",
+      "ageMya": 385,
+      "ageRangeMya": [380, 390],
+      "period": "Middle Devonian",
+      "fact": "Its fossils are common in Scotland's Old Red Sandstone, and were among the first recognised for what they were.",
+      "source": "https://en.wikipedia.org/wiki/Pterichthyodes",
+      "image": "assets/pterichthyodes.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Pterichthyodes_milleri_Exhibit_Museum_of_Natural_History.JPG"
+      }
+    },
+    {
+      "id": "archaeopteris",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Archaeopteris (early tree)",
+      "clue": "A grey slab with faint, fern-like branches running across it.",
+      "foundIn": "Location not recorded",
+      "ageMya": 365,
+      "ageRangeMya": [359, 372],
+      "period": "Late Devonian",
+      "fact": "One of the first trees with woody trunks like modern trees, though it reproduced with spores.",
+      "source": "https://en.wikipedia.org/wiki/Archaeopteris",
+      "image": "assets/archaeopteris.jpg",
+      "photo": {
+        "author": "User:Daderot (modified by User:Kontos)",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Archaeopteris_hibernica_2.JPG"
+      }
+    },
+    {
+      "id": "rhynie-chert",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Rhynie chert",
+      "clue": "A hard, banded grey and yellow rock with tiny tube shapes inside.",
+      "foundIn": "Rhynie, Aberdeenshire, Scotland",
+      "ageMya": 407,
+      "ageRangeMya": [405, 410],
+      "period": "Early Devonian",
+      "fact": "This rock preserves some of the earliest land plants and animals in amazing detail, right down to their cells.",
+      "source": "https://en.wikipedia.org/wiki/Rhynie_chert",
+      "image": "assets/rhynie-chert.jpg",
+      "photo": {
+        "author": "James St. John (jsj1771) https://www.flickr.com/people/jsjgeology/",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Rhynie_Chert_from_Scotland_1409.jpg"
+      }
+    },
+    {
+      "id": "gilboa-stumps",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Gilboa fossil tree stumps",
+      "clue": "Grey stone tree stumps set out on a lawn beside a forest.",
+      "foundIn": "Gilboa, New York, USA",
+      "ageMya": 385,
+      "ageRangeMya": [383, 388],
+      "period": "Middle Devonian",
+      "fact": "Stumps from one of the world's oldest known forests. A 2005 find showed what the complete trees looked like.",
+      "source": "https://en.wikipedia.org/wiki/Wattieza",
+      "image": "assets/gilboa-stumps.jpg",
+      "photo": {
+        "author": "Unknown (public domain)",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:The_Gilboa_Fossils_from_the_Wattieza_tree_located_in_Gilboa,_New_York.jpg"
+      }
+    },
+    {
+      "id": "hunsruck-starfish",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Brittle star in slate",
+      "clue": "A star with five long, thin, wavy arms, glinting on dark grey slate.",
+      "foundIn": "Hunsrück, Germany",
+      "ageMya": 405,
+      "ageRangeMya": [400, 410],
+      "period": "Early Devonian",
+      "fact": "The Hunsrück Slate is famous for animals preserved in shiny pyrite, sometimes with fine soft parts.",
+      "source": "https://en.wikipedia.org/wiki/Hunsrück_Slate",
+      "image": "assets/hunsruck-starfish.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Urasterella_sp._(fossil_starfish)_(Kaub_Formation,_Hunsr%C3%BCck_Slate_Group,_Lower_Devonian;_Budenbach_area,_western_Germany)_(40663164563).jpg"
+      }
+    },
+    {
+      "id": "agoniatites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Agoniatites",
+      "clue": "A metallic, coiled shell set into a block of pale rock.",
+      "foundIn": "Srbsko, Czech Republic",
+      "ageMya": 390,
+      "ageRangeMya": [385, 395],
+      "period": "Middle Devonian",
+      "fact": "One of the earliest ammonoids, the group that later gave rise to ammonites.",
+      "source": "https://en.wikipedia.org/wiki/Agoniatites",
+      "image": "assets/agoniatites.jpg",
+      "photo": {
+        "author": "Hectonichus",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gasteropods_-_Ammonites_-_Agoniatites_nodiferus.JPG"
+      }
+    },
+    {
+      "id": "halysites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Chain coral (Halysites)",
+      "clue": "A dome of rock covered in a wiggly, chain-like mesh.",
+      "foundIn": "Location not recorded",
+      "ageMya": 430,
+      "ageRangeMya": [425, 440],
+      "period": "Silurian",
+      "fact": "A colonial coral whose tubes join up into chains when seen from above.",
+      "source": "https://en.wikipedia.org/wiki/Halysites",
+      "image": "assets/halysites.jpg",
+      "photo": {
+        "author": "Amgueddfa Cymru – Museum Wales",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amgueddfa_Cymru_-_Halysites_catenularia_-_214341.jpeg"
+      }
+    },
+    {
+      "id": "cooksonia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Cooksonia (early land plant)",
+      "clue": "A tiny Y-shaped plant stem with knobs at its tips, faint on grey rock.",
+      "foundIn": "Wales",
+      "ageMya": 425,
+      "ageRangeMya": [420, 430],
+      "period": "Silurian",
+      "fact": "One of the oldest known land plants: a few centimetres tall, with no leaves or roots.",
+      "source": "https://en.wikipedia.org/wiki/Cooksonia",
+      "image": "assets/cooksonia.jpg",
+      "photo": {
+        "author": "Amgueddfa Cymru – Museum Wales",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amgueddfa_Cymru_-_Cooksonia_pertoni_-_211800.jpeg"
+      }
+    },
+    {
+      "id": "pentamerus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Pentamerus brachiopod",
+      "clue": "A big, rounded pale lump with a single groove down the middle.",
+      "foundIn": "Ohio, USA",
+      "ageMya": 432,
+      "ageRangeMya": [428, 436],
+      "period": "Silurian",
+      "fact": "This is an internal mould: the shell dissolved away, leaving a cast of its inside.",
+      "source": "https://en.wikipedia.org/wiki/Pentamerus",
+      "image": "assets/pentamerus.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pentamerus_oblongus_(fossil_brachiopod)_(Cedarville_Dolomite,_Middle_Silurian;_Ludlow_Quarry,_Miami_County,_Ohio,_USA)_2_(49737755671).jpg"
+      }
+    },
+    {
+      "id": "monograptus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Monograptus graptolites",
+      "clue": "Dark rock covered in criss-crossing thin pale lines, like scratches.",
+      "foundIn": "Finistère, France",
+      "ageMya": 430,
+      "ageRangeMya": [420, 440],
+      "period": "Silurian",
+      "fact": "Each line was a colony of tiny animals that drifted in the ocean. Graptolites are used to date rocks.",
+      "source": "https://en.wikipedia.org/wiki/Monograptus",
+      "image": "assets/monograptus.jpg",
+      "photo": {
+        "author": "QPaulet (https://www.geodiversite.net/auteur405)",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Monograptus_-_Graptolite_Fossils_from_Pointe_de_la_Tavelle_in_Brittany_in_France.jpg"
+      }
+    },
+    {
+      "id": "dalmanites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Dalmanites trilobite",
+      "clue": "A neat trilobite with a long pointed tail spine, on grey rock.",
+      "foundIn": "New York State, USA",
+      "ageMya": 425,
+      "ageRangeMya": [420, 430],
+      "period": "Silurian",
+      "fact": "A trilobite named after the Swedish naturalist Johan Wilhelm Dalman.",
+      "source": "https://en.wikipedia.org/wiki/Dalmanites",
+      "image": "assets/dalmanites.jpg",
+      "photo": {
+        "author": "DanielCD",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Dalmanites_limulurus_trilobite_silurian.jpg"
+      }
+    },
+    {
+      "id": "favosites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Honeycomb coral (Favosites)",
+      "clue": "A pale rock made of tightly packed, many-sided cells, like a honeycomb.",
+      "foundIn": "Indiana, USA",
+      "ageMya": 450,
+      "ageRangeMya": [445, 455],
+      "period": "Late Ordovician",
+      "fact": "A colonial coral whose tube walls had tiny pores linking neighbouring animals.",
+      "source": "https://en.wikipedia.org/wiki/Favosites",
+      "image": "assets/favosites.jpg",
+      "photo": {
+        "author": "Wilson44691",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:FavositesOrdovicianIndiana.jpg"
+      }
+    },
+    {
+      "id": "asaphus-kowalewskii",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Stalk-eyed trilobite (Asaphus kowalewskii)",
+      "clue": "A trilobite with two long eye stalks sticking up like a snail's.",
+      "foundIn": "Near St Petersburg, Russia",
+      "ageMya": 465,
+      "ageRangeMya": [462, 468],
+      "period": "Middle Ordovician",
+      "fact": "Its eyes sat on long stalks, perhaps so it could peek out while buried in the sea floor.",
+      "source": "https://en.wikipedia.org/wiki/Asaphus_kowalewskii",
+      "image": "assets/asaphus-kowalewskii.jpg",
+      "photo": {
+        "author": "Dwergenpaartje",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Asaphus_kowalewskii_lateral.jpg"
+      }
+    },
+    {
+      "id": "didymograptus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "'Tuning fork' graptolite (Didymograptus)",
+      "clue": "Pale, saw-edged strips lying across dark slate.",
+      "foundIn": "Location not recorded",
+      "ageMya": 465,
+      "ageRangeMya": [460, 470],
+      "period": "Middle Ordovician",
+      "fact": "A floating colony of tiny animals. Graptolites changed so fast that geologists use them to date rocks.",
+      "source": "https://en.wikipedia.org/wiki/Didymograptus",
+      "image": "assets/didymograptus.jpg",
+      "photo": {
+        "author": "kevinzim / Kevin Walsh",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Didymograptus_murchisoni_lg.jpg"
+      }
+    },
+    {
+      "id": "flexicalymene",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Flexicalymene trilobite",
+      "clue": "A chunky, ridged trilobite, partly rolled up.",
+      "foundIn": "Morocco",
+      "ageMya": 455,
+      "ageRangeMya": [445, 465],
+      "period": "Ordovician",
+      "fact": "Like many trilobites, Flexicalymene could roll up for protection. It's often found curled up.",
+      "source": "https://en.wikipedia.org/wiki/Flexicalymene",
+      "image": "assets/flexicalymene.jpg",
+      "photo": {
+        "author": "porshunta",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Flexicalymene_tazarensis.2_-_Ordovicico.JPG"
+      }
+    },
+    {
+      "id": "echinosphaerites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Echinosphaerites (cystoid)",
+      "clue": "A handful of small, round, yellowish stone balls.",
+      "foundIn": "Location not recorded",
+      "ageMya": 465,
+      "ageRangeMya": [458, 475],
+      "period": "Ordovician",
+      "fact": "Not marbles: these are cystoids, round relatives of sea urchins that sat on the sea floor.",
+      "source": "https://en.wikipedia.org/wiki/Echinosphaerites",
+      "image": "assets/echinosphaerites.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Echinosphaerites_sp_45.jpg"
+      }
+    },
+    {
+      "id": "ogygiocarella",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Ogygiocarella trilobite",
+      "clue": "A large, flat, oval trilobite printed on grey slate.",
+      "foundIn": "Wales",
+      "ageMya": 463,
+      "ageRangeMya": [458, 467],
+      "period": "Middle Ordovician",
+      "fact": "A flat trilobite that was once common in the seas covering what is now Wales.",
+      "source": "https://en.wikipedia.org/wiki/Ogygiocarella",
+      "image": "assets/ogygiocarella.jpg",
+      "photo": {
+        "author": "Micktherocktapper",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ogygiocarella_debuchii.jpg"
+      }
+    },
+    {
+      "id": "receptaculites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Receptaculites",
+      "clue": "A rock surface with a spiral pattern of tiny cells, like a sunflower head, beside a coin.",
+      "foundIn": "Estonia",
+      "ageMya": 460,
+      "ageRangeMya": [445, 470],
+      "period": "Ordovician",
+      "fact": "Nicknamed the 'sunflower coral', though it wasn't a coral. What it really was is still debated.",
+      "source": "https://en.wikipedia.org/wiki/Receptaculites",
+      "image": "assets/receptaculites.jpg",
+      "photo": {
+        "author": "Mark A. Wilson (Department of Geology, The College of Wooster)",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Receptaculitid.JPG"
+      }
+    },
+    {
+      "id": "anomalocaris-arm",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Anomalocaris grasping arm",
+      "clue": "A curved, segmented limb with spikes along its underside, on brown shale.",
+      "foundIn": "Burgess Shale, British Columbia, Canada",
+      "ageMya": 507,
+      "ageRangeMya": [505, 510],
+      "period": "Middle Cambrian",
+      "fact": "One of the grasping arms of Anomalocaris, a large hunter of Cambrian seas. Arms like this were once mistaken for shrimp.",
+      "source": "https://en.wikipedia.org/wiki/Anomalocaris",
+      "image": "assets/anomalocaris-arm.jpg",
+      "photo": {
+        "author": "Chris Woodrich",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Anomalocaris_canadensis_frontal_appendage_(ROMIP62543),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13.jpg"
+      }
+    },
+    {
+      "id": "opabinia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Opabinia",
+      "clue": "A small segmented creature with flaps along its sides, on grey shale.",
+      "foundIn": "Burgess Shale, British Columbia, Canada",
+      "ageMya": 507,
+      "ageRangeMya": [505, 510],
+      "period": "Middle Cambrian",
+      "fact": "A strange animal with five eyes and a long nozzle ending in a claw. When first shown at a meeting, it made the audience laugh.",
+      "source": "https://en.wikipedia.org/wiki/Opabinia",
+      "image": "assets/opabinia.jpg",
+      "photo": {
+        "author": "Han Zeng",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:USNM_PAL_57683_Opabinia_regalis_Image_3.jpg"
+      }
+    },
+    {
+      "id": "hallucigenia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Hallucigenia",
+      "clue": "A tiny worm-like creature with a row of long spines along one side.",
+      "foundIn": "Burgess Shale, British Columbia, Canada",
+      "ageMya": 507,
+      "ageRangeMya": [505, 510],
+      "period": "Middle Cambrian",
+      "fact": "So odd that it was first reconstructed upside down, walking on its spines.",
+      "source": "https://en.wikipedia.org/wiki/Hallucigenia",
+      "image": "assets/hallucigenia.jpg",
+      "photo": {
+        "author": "Han Zeng",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:USNM_PAL_83935_Hallucigenia_sparsa_Image_1.jpg"
+      }
+    },
+    {
+      "id": "pikaia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Pikaia",
+      "clue": "A small, flat, curved ribbon of a creature on grey shale.",
+      "foundIn": "Burgess Shale, British Columbia, Canada",
+      "ageMya": 507,
+      "ageRangeMya": [505, 510],
+      "period": "Middle Cambrian",
+      "fact": "An early chordate, part of the wider group that includes all animals with backbones.",
+      "source": "https://en.wikipedia.org/wiki/Pikaia",
+      "image": "assets/pikaia.jpg",
+      "photo": {
+        "author": "Stefan Walkowski",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pikaia_-_fossil.jpg"
+      }
+    },
+    {
+      "id": "paradoxides",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Paradoxides trilobite",
+      "clue": "A large trilobite with long spines along its sides.",
+      "foundIn": "Location not recorded",
+      "ageMya": 502,
+      "ageRangeMya": [497, 506],
+      "period": "Middle Cambrian",
+      "fact": "A large trilobite found around the world. One record specimen is 37 cm long.",
+      "source": "https://en.wikipedia.org/wiki/Paradoxides",
+      "image": "assets/paradoxides.jpg",
+      "photo": {
+        "author": "Ryan Schwark",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Paradoxides_gracilis_fossil_at_AMNH.jpg"
+      }
+    },
+    {
+      "id": "olenellus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Olenellus trilobite",
+      "clue": "A trilobite with a big half-moon head and long curved spines.",
+      "foundIn": "North America",
+      "ageMya": 515,
+      "ageRangeMya": [510, 522],
+      "period": "Early Cambrian",
+      "fact": "One of the early trilobites, from the time when animals with hard shells first became common.",
+      "source": "https://en.wikipedia.org/wiki/Olenellus",
+      "image": "assets/olenellus.jpg",
+      "photo": {
+        "author": "TheoricienQuantique",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Olenellus_Gilberti.jpg"
+      }
+    },
+    {
+      "id": "redlichia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Redlichia trilobite",
+      "clue": "A flat trilobite with spiny cheeks, on a square block of dark rock.",
+      "foundIn": "China",
+      "ageMya": 513,
+      "ageRangeMya": [508, 518],
+      "period": "Early Cambrian",
+      "fact": "One of the early trilobites, known from China and Australia.",
+      "source": "https://en.wikipedia.org/wiki/Redlichia",
+      "image": "assets/redlichia.jpg",
+      "photo": {
+        "author": "Bjoertvedt",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:BMNH_IMG_5531_Redlichia_sp.jpg"
+      }
+    },
+    {
+      "id": "archaeocyath",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Archaeocyath",
+      "clue": "A pale, cup-shaped outline in black rock.",
+      "foundIn": "Catalonia, Spain",
+      "ageMya": 520,
+      "ageRangeMya": [515, 525],
+      "period": "Early Cambrian",
+      "fact": "A sponge that built some of the first reefs, then disappeared before the end of the Cambrian.",
+      "source": "https://en.wikipedia.org/wiki/Archaeocyatha",
+      "image": "assets/archaeocyath.jpg",
+      "photo": {
+        "author": "IvIzq",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:F%C3%B2ssil_d%27Arqueociat_(Salut_de_Terrades).jpg"
+      }
+    },
+    {
+      "id": "retifacies",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Retifacies (Chengjiang arthropod)",
+      "clue": "A creature with many segments and a broad rounded head, faint on yellow stone.",
+      "foundIn": "Chengjiang, Yunnan, China",
+      "ageMya": 518,
+      "ageRangeMya": [517, 520],
+      "period": "Early Cambrian",
+      "fact": "From the Chengjiang fossils of China, which preserve soft-bodied animals from the early Cambrian.",
+      "source": "https://en.wikipedia.org/wiki/Maotianshan_Shales",
+      "image": "assets/retifacies.jpg",
+      "photo": {
+        "author": "Woudloper",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Retifacies_abnormalis,_Chengjiang_biota.jpg"
+      }
+    },
+    {
+      "id": "spriggina",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Spriggina",
+      "clue": "A small segmented creature with a horseshoe-shaped head, printed on sandstone.",
+      "foundIn": "South Australia",
+      "ageMya": 555,
+      "ageRangeMya": [550, 560],
+      "period": "Ediacaran",
+      "fact": "One of the earliest animals, from before the Cambrian. It's the official fossil emblem of South Australia, and has been found nowhere else.",
+      "source": "https://en.wikipedia.org/wiki/Spriggina",
+      "image": "assets/spriggina.jpg",
+      "photo": {
+        "author": "Verisimilus at English Wikipedia",
+        "licence": "CC BY 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Spriggina_flounensi_C.jpg"
+      }
+    },
+    {
+      "id": "kimberella",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Kimberella",
+      "clue": "A small oval imprint with a frilly edge, on pale rock.",
+      "foundIn": "Russia or Australia",
+      "ageMya": 555,
+      "ageRangeMya": [550, 558],
+      "period": "Ediacaran",
+      "fact": "A slug-like animal that grazed on microbial mats, scraping them up with its mouth.",
+      "source": "https://en.wikipedia.org/wiki/Kimberella",
+      "image": "assets/kimberella.jpg",
+      "photo": {
+        "author": "Aleksey Nagovitsyn (User:Alnagov)",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kimberella_quadrata.jpg"
+      }
+    },
+    {
+      "id": "cloudina",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Cloudina",
+      "clue": "A pale rock speckled with tiny dark tubes, like grains of rice.",
+      "foundIn": "Corumbá, Brazil",
+      "ageMya": 545,
+      "ageRangeMya": [539, 550],
+      "period": "Ediacaran",
+      "fact": "One of the first animals to build a hard shell: tiny stacks of cones. It died out at the start of the Cambrian.",
+      "source": "https://en.wikipedia.org/wiki/Cloudinidae",
+      "image": "assets/cloudina.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cloudina_fossils_(Neoproterozoic;_Corumba,_Brazil)_(45453979394).jpg"
+      }
+    },
+    {
+      "id": "placodus-replica",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Replica of a Placodus skull",
+      "clue": "The underside of a skull with big, flat, rounded teeth like paving stones.",
+      "foundIn": "On display in a museum",
+      "fact": "A copy of the skull of Placodus, a Triassic sea reptile that crushed shellfish with its flat teeth.",
+      "source": "https://en.wikipedia.org/wiki/Placodus",
+      "image": "assets/placodus-replica.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Placodus_gigas_3.jpg"
+      }
+    },
+    {
+      "id": "anomalocaris-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of Anomalocaris",
+      "clue": "A large, flat, segmented creature with a fan-shaped tail, on a dark slab.",
+      "foundIn": "On display in Alberta, Canada",
+      "fact": "A cast of a whole Anomalocaris, a metre-long Cambrian hunter. The real fossil comes from the Burgess Shale.",
+      "source": "https://en.wikipedia.org/wiki/Anomalocaris",
+      "image": "assets/anomalocaris-cast.jpg",
+      "photo": {
+        "author": "Chris Woodrich",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Anomalocaris_canadensis_(TMP_2023.003.0003),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13.jpg"
+      }
+    },
+    {
+      "id": "charnia-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of Charnia",
+      "clue": "A long, leaf-shaped frond with zigzag ridges, on a dark block.",
+      "foundIn": "On display in Gwacheon, South Korea",
+      "fact": "A copy of Charnia, a frond-like Ediacaran life form first found in Charnwood Forest, England.",
+      "source": "https://en.wikipedia.org/wiki/Charnia",
+      "image": "assets/charnia-cast.jpg",
+      "photo": {
+        "author": "Kjoonlee",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Charnia_masoni.jpg"
+      }
     }
   ]
 }
