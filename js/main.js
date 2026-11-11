@@ -83,7 +83,7 @@ function pixelatePhotos() {
     const img = new Image();
     img.onload = () => {
       // Tall photos are limited by height instead, so they don't get too detailed.
-      const scale = Math.min(PIXEL_WIDTH / img.width, (PIXEL_WIDTH * 0.75) / img.height);
+      const scale = Math.min(PIXEL_WIDTH / img.width, (PIXEL_WIDTH * 0.875) / img.height);
       canvas.width = Math.round(img.width * scale);
       canvas.height = Math.round(img.height * scale);
       canvas.getContext("2d").drawImage(img, 0, 0, canvas.width, canvas.height);
@@ -205,6 +205,7 @@ function showReveal(index, result, call, guessMya) {
       <h2>${esc(specimen.name)}</h2>
       ${details}
       <p class="fact">${esc(specimen.fact)}</p>
+      ${specimen.source ? `<p class="read-more"><a href="${esc(specimen.source)}" target="_blank" rel="noopener">Read more about it</a></p>` : ""}
       ${creditHtml(specimen)}
       <button class="btn" type="button" id="next">${isLast ? "See results" : "Next specimen"}</button>
     </section>`;

@@ -4,7 +4,15 @@ Candidates for the specimen pool, before any photo hunting. The aim is about
 **150 fossils and 70 phoneys**. There are more than that here, because some
 won't have a usable open-licence photo and will be dropped.
 
-- ✅ = already in the game
+- ✅ = already in the game (the ticks below are from before batch 1)
+- **Progress:** 41 in the game after batch 1 (30 fossils, 11 phoneys). Batch 1 added
+  Archaeopteryx, Smilodon, giant deer, Glyptodon, Knightia, Messel bat,
+  Nummulites, Microraptor, Micraster, ammolite, Stenopterygius, Gryphaea,
+  Arizona petrified wood, Mesosaurus, Lepidodendron, Tully monster, Phacops,
+  Petoskey stone, Eurypterus, Dudley bug, Isotelus, Marrella, Dickinsonia,
+  septarian nodule, Moqui marbles, fulgurite, horseshoe crab shell, copal,
+  an Archaeopteryx cast and Piltdown Man. Orthoceras and a modern great white
+  tooth are still to do (no clean photo yet).
 - Ages are rough (millions of years ago, Mya). Each one gets checked against a
   source when it's added, and the specimen's exact find site decides its final range.
 - Cut, add or swap anything. Lines marked ❓ are ones I'm least sure are worth including.

@@ -8,7 +8,7 @@
     "image: path to the photo in assets/. photo: who took it, the licence, and the page it came from. Every photo must have one.",
     "Safe to do: add new specimens with today's date or later, and fix typos or facts.",
     "Never do (after launch): delete a specimen, change an id, or change an 'added' date. Past days would change.",
-    "The entries marked example: true are starter content. Check each fact against a source before launch."
+    "Entries marked example: true were the first starter content. Every entry has a source link for checking its facts."
   ],
   "specimens": [
     {
@@ -23,6 +23,7 @@
       "ageRangeMya": [504, 510],
       "period": "Cambrian",
       "fact": "One of the most common trilobite fossils in the world. Trilobites were sea animals related to insects and crabs, and they lasted for nearly 300 million years.",
+      "source": "https://en.wikipedia.org/wiki/Elrathia",
       "image": "assets/trilobite-elrathia.jpg",
       "photo": {
         "author": "Tortie tude",
@@ -43,6 +44,7 @@
       "ageRangeMya": [180, 184],
       "period": "Early Jurassic",
       "fact": "Local legend said Saint Hilda turned Whitby's snakes to stone. Victorian sellers carved snake heads onto ammonites like this one and sold them as 'snakestones'.",
+      "source": "https://en.wikipedia.org/wiki/Dactylioceras",
       "image": "assets/ammonite-dactylioceras.jpg",
       "photo": {
         "author": "Fred Cherrygarden",
@@ -63,6 +65,7 @@
       "ageRangeMya": [66, 68],
       "period": "Late Cretaceous",
       "fact": "T. rex replaced its teeth throughout its life, which is why shed teeth are among the more common T. rex finds. This one is at the Museum of the Rockies in Montana.",
+      "source": "https://en.wikipedia.org/wiki/Tyrannosaurus",
       "image": "assets/tyrannosaurus-tooth.jpg",
       "photo": {
         "author": "Tim Evanson",
@@ -83,6 +86,7 @@
       "ageRangeMya": [3.6, 23],
       "period": "Miocene to Pliocene",
       "fact": "Megalodon was a giant shark. Its teeth could grow up to about 18 cm long, and sharks shed thousands of teeth in a lifetime, so they turn up often.",
+      "source": "https://en.wikipedia.org/wiki/Megalodon",
       "image": "assets/megalodon-tooth.jpg",
       "photo": {
         "author": "WorldwrestlingfederationVKM",
@@ -103,6 +107,7 @@
       "ageRangeMya": [38, 50],
       "period": "Eocene",
       "fact": "Amber is fossilised tree resin. Sticky resin trapped insects so quickly that some still show tiny hairs and wing veins.",
+      "source": "https://en.wikipedia.org/wiki/Baltic_amber",
       "image": "assets/amber-insect-baltic.jpg",
       "photo": {
         "author": "Manukyan Andranik",
@@ -123,6 +128,7 @@
       "ageRangeMya": [305, 315],
       "period": "Carboniferous",
       "fact": "It looks like a fern, but Neuropteris was a seed fern: a plant that made seeds instead of spores. Forests of plants like this became today's coal.",
+      "source": "https://en.wikipedia.org/wiki/Neuropteris",
       "image": "assets/seed-fern-neuropteris.jpg",
       "photo": {
         "author": "Krzysztof Ziarnek, Kenraiz",
@@ -143,6 +149,7 @@
       "ageRangeMya": [0.005, 0.4],
       "period": "Pleistocene (Ice Age)",
       "fact": "Woolly mammoths ground up tough grass with teeth like this one, made of ridged plates of enamel. Like elephants, they went through six sets of molars in a lifetime.",
+      "source": "https://en.wikipedia.org/wiki/Woolly_mammoth",
       "image": "assets/mammoth-tooth.jpg",
       "photo": {
         "author": "Tim Evanson",
@@ -161,6 +168,7 @@
       "clue": "Delicate black branching fronds spread across pale limestone.",
       "foundIn": "Solnhofen, Bavaria, Germany",
       "fact": "Not a plant at all. Mineral-rich water seeped into cracks in the rock and left manganese oxide crystals that grew in branching, fern-like patterns.",
+      "source": "https://en.wikipedia.org/wiki/Dendrite_(crystal)",
       "image": "assets/manganese-dendrites.jpg",
       "photo": {
         "author": "Géry Parent",
@@ -179,6 +187,7 @@
       "clue": "A coiled shell cut in half, showing a spiral of chambers inside.",
       "foundIn": "Indo-Pacific Ocean",
       "fact": "Nautiluses are still alive today. Their shells look a lot like ammonites, which died out with the dinosaurs 66 million years ago.",
+      "source": "https://en.wikipedia.org/wiki/Chambered_nautilus",
       "image": "assets/nautilus-shell.jpg",
       "photo": {
         "author": "Eric A. Lazo-Wasem, Yale Peabody Museum",
@@ -197,6 +206,7 @@
       "clue": "A stone nodule split open, with a trilobite on each half.",
       "foundIn": "Bought from a rock and fossil seller",
       "fact": "Everything about this is fake: it isn't rock and it isn't a fossil. The whole thing was moulded to look like a natural nodule split open. Fakes like this, and much more convincing ones, are sold to collectors and tourists.",
+      "source": "https://commons.wikimedia.org/wiki/File:Fake_trilobite-bearing_concretion.jpg",
       "image": "assets/fake-trilobite-concretion.jpg",
       "photo": {
         "author": "James St. John",
@@ -215,12 +225,599 @@
       "clue": "Three flat stones, each with a creature standing out on its surface.",
       "foundIn": "A hillside near Würzburg, Germany, in 1725",
       "fact": "Professor Johann Beringer published a book about these 'fossils'. They had been carved and planted by colleagues who wanted to embarrass him.",
+      "source": "https://en.wikipedia.org/wiki/Johann_Bartholomeus_Adam_Beringer",
       "image": "assets/beringer-lying-stones.jpg",
       "photo": {
         "author": "MBq",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Luegensteine_Senckenberg.jpg"
+      }
+    },
+    {
+      "id": "archaeopteryx",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Archaeopteryx (Berlin specimen)",
+      "clue": "A small skeleton with feathered wings and a long bony tail, spread across pale limestone.",
+      "foundIn": "Solnhofen limestone, Bavaria, Germany",
+      "ageMya": 150,
+      "ageRangeMya": [148, 151],
+      "period": "Late Jurassic",
+      "fact": "Half bird, half dinosaur: it had feathers and wings, but also teeth, clawed fingers and a long bony tail. For over a century it was thought to be the oldest known bird.",
+      "source": "https://en.wikipedia.org/wiki/Archaeopteryx",
+      "image": "assets/archaeopteryx.jpg",
+      "photo": {
+        "author": "H. Raab (User: Vesta)",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_(Berlin_specimen).jpg"
+      }
+    },
+    {
+      "id": "smilodon-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Sabre-toothed cat skull (Smilodon populator)",
+      "clue": "A big cat's skull with two enormous, blade-like upper fangs.",
+      "foundIn": "South America",
+      "ageMya": 0.1,
+      "ageRangeMya": [0.01, 1],
+      "period": "Pleistocene (Ice Age)",
+      "fact": "Not a tiger: Smilodon belonged to a separate, extinct branch of cats. Its name means 'scalpel tooth', and it was first named in 1842 from fossils found in Brazil.",
+      "source": "https://en.wikipedia.org/wiki/Smilodon",
+      "image": "assets/smilodon-skull.jpg",
+      "photo": {
+        "author": "Wilfredor",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cr%C3%A2ne_de_smilodon_expos%C3%A9_au_Museu_de_Zoologia_da_Universidade_de_S%C3%A3o_Paulo,_Brazil.jpg"
+      }
+    },
+    {
+      "id": "giant-deer",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Giant deer skeleton (Megaloceros giganteus)",
+      "clue": "A deer skeleton taller than a person, with huge, flat, spreading antlers.",
+      "foundIn": "Northern Europe or Asia",
+      "ageMya": 0.02,
+      "ageRangeMya": [0.008, 0.4],
+      "period": "Pleistocene (Ice Age)",
+      "fact": "Also called the Irish elk, though it wasn't an elk. Its antlers could span over 4 metres, the biggest of any known deer, and some survived until about 7,700 years ago.",
+      "source": "https://en.wikipedia.org/wiki/Irish_elk",
+      "image": "assets/giant-deer.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Megaloceros_giganteus_Irish_elk_skeleton_(Pleistocene)_(15443938885).jpg"
+      }
+    },
+    {
+      "id": "glyptodon",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Glyptodon (giant armadillo relative)",
+      "clue": "A huge dome-shaped shell made of bony plates, as big as a small car.",
+      "foundIn": "Río Luján, Argentina",
+      "ageMya": 0.05,
+      "ageRangeMya": [0.011, 0.13],
+      "period": "Late Pleistocene (Ice Age)",
+      "fact": "A giant relative of armadillos. Its fossils were first found in Uruguay in 1814, but early scientists mistook them for a giant ground sloth.",
+      "source": "https://en.wikipedia.org/wiki/Glyptodon",
+      "image": "assets/glyptodon.jpg",
+      "photo": {
+        "author": "Arent",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Glyptodon-1.jpg"
+      }
+    },
+    {
+      "id": "knightia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Fossil herring (Knightia)",
+      "clue": "A small fish skeleton, every bone visible, on smooth pale stone.",
+      "foundIn": "Green River Formation, Wyoming, USA",
+      "ageMya": 50,
+      "ageRangeMya": [48, 53],
+      "period": "Eocene",
+      "fact": "The most commonly dug-up fossil fish in the world, and the state fossil of Wyoming. It was related to modern herrings.",
+      "source": "https://en.wikipedia.org/wiki/Knightia",
+      "image": "assets/knightia.jpg",
+      "photo": {
+        "author": "Joe deSousa",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Knightia_Fossil_Fish_(20255016550).jpg"
+      }
+    },
+    {
+      "id": "messel-bat",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Bat (Palaeochiropteryx tupaiodon)",
+      "clue": "A tiny skeleton with long finger bones folded at its sides, on orange-brown shale.",
+      "foundIn": "Messel Pit, Germany",
+      "ageMya": 47,
+      "ageRangeMya": [46, 48],
+      "period": "Eocene",
+      "fact": "Fossils from the Messel Pit are so well preserved that some of these early bats still show the outlines of their fur, ears and wing skin.",
+      "source": "https://en.wikipedia.org/wiki/Palaeochiropteryx",
+      "image": "assets/messel-bat.jpg",
+      "photo": {
+        "author": "JensKunstfreund",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Altfledermaus_(Palaeochiropteryx_tupaiodon)_04.jpg"
+      }
+    },
+    {
+      "id": "nummulites",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Nummulites (giant single-celled shells)",
+      "clue": "A handful of flat, coin-shaped stone discs, from pea-sized to larger than a coin.",
+      "foundIn": "Near Al Ain, United Arab Emirates",
+      "ageMya": 45,
+      "ageRangeMya": [34, 56],
+      "period": "Eocene",
+      "fact": "Each 'coin' was the shell of a single-celled sea creature. Limestones packed with them are common around the Mediterranean, including in Egypt.",
+      "source": "https://en.wikipedia.org/wiki/Nummulite",
+      "image": "assets/nummulites.jpg",
+      "photo": {
+        "author": "Wilson44691",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Nummulitids.jpg"
+      }
+    },
+    {
+      "id": "microraptor",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Microraptor (four-winged dinosaur)",
+      "clue": "A crow-sized skeleton with a long tail and a faint halo of feathers around it.",
+      "foundIn": "Chaoyang, Liaoning, China",
+      "ageMya": 122,
+      "ageRangeMya": [120, 125],
+      "period": "Early Cretaceous",
+      "fact": "Microraptor had feathered wings on its arms and its legs, giving it four wings. It was a small relative of Velociraptor.",
+      "source": "https://en.wikipedia.org/wiki/Microraptor",
+      "image": "assets/microraptor.jpg",
+      "photo": {
+        "author": "Tiouraren (Y.-C. Tsai)",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Microraptor_gui_(BMNHC_Ph763)_NMNS.jpg"
+      }
+    },
+    {
+      "id": "micraster",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Heart urchin (Micraster decipiens)",
+      "clue": "A heart-shaped stone with a five-pointed star pattern on top.",
+      "foundIn": "Normandy, France",
+      "ageMya": 87,
+      "ageRangeMya": [85.8, 89.3],
+      "period": "Late Cretaceous",
+      "fact": "A sea urchin that lived buried in the sea floor, drawing in water through the groove at the front of its shell.",
+      "source": "https://en.wikipedia.org/wiki/Micraster",
+      "image": "assets/micraster.jpg",
+      "photo": {
+        "author": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Micraster_decipiens_MHNT_Coniacien_Puys_(76)_Dos.jpg"
+      }
+    },
+    {
+      "id": "ammolite",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Ammolite (Placenticeras ammonite shell)",
+      "clue": "A polished oval of rainbow colours, set like a gemstone.",
+      "foundIn": "Bearpaw Formation, Alberta, Canada",
+      "ageMya": 73,
+      "ageRangeMya": [70, 76],
+      "period": "Late Cretaceous",
+      "fact": "This gemstone is a fossil: the rainbow layer is ammonite shell. It's one of the few gems made by living things, along with amber and pearl.",
+      "source": "https://en.wikipedia.org/wiki/Ammolite",
+      "image": "assets/ammolite.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ammolite_from_Placenticeras_fossil_ammonite_(Bearpaw_Formation,_Upper_Cretaceous,_70-75_Ma;_mine_in_St._Mary_River_Valley,_Alberta,_Canada)_23.jpg"
+      }
+    },
+    {
+      "id": "stenopterygius",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Ichthyosaurs (Stenopterygius)",
+      "clue": "A dolphin-shaped skeleton outlined in dark rock, with a smaller one swimming below it.",
+      "foundIn": "Europe",
+      "ageMya": 182,
+      "ageRangeMya": [178, 184],
+      "period": "Early Jurassic",
+      "fact": "Ichthyosaurs were sea reptiles shaped like dolphins. One Stenopterygius fossil shows a mother that died giving birth, with her baby coming out tail-first, like a whale's.",
+      "source": "https://en.wikipedia.org/wiki/Stenopterygius",
+      "image": "assets/stenopterygius.jpg",
+      "photo": {
+        "author": "Haplochromis",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Stenopterygius_quadriscissus.jpg"
+      }
+    },
+    {
+      "id": "gryphaea",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "'Devil's toenail' oyster (Gryphaea arcuata)",
+      "clue": "A thick, grey, curled-over shell about the size of a golf ball.",
+      "foundIn": "Blue Lias cliffs, England",
+      "ageMya": 198,
+      "ageRangeMya": [195, 201],
+      "period": "Early Jurassic",
+      "fact": "People once carried these fossil oysters to ward off rheumatism. Their curled shape earned them the name 'devil's toenails'.",
+      "source": "https://en.wikipedia.org/wiki/Gryphaea",
+      "image": "assets/gryphaea.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gryphaea_arcuata_fossil_oyster_(Blue_Lias,_Lower_Jurassic;_coastal_cliffs_near_Lyme_Regis,_far-western_Dorset_County,_southwestern_England)_1_(15206675956).jpg"
+      }
+    },
+    {
+      "id": "petrified-wood-arizona",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Petrified log",
+      "clue": "A cross-section of a tree trunk that has turned into colourful stone.",
+      "foundIn": "Petrified Forest National Park, Arizona, USA",
+      "ageMya": 218,
+      "ageRangeMya": [207, 227],
+      "period": "Late Triassic",
+      "fact": "Minerals slowly replaced the wood, keeping the shape of the trunk and even its rings. The park in Arizona is named after its huge numbers of these logs.",
+      "source": "https://en.wikipedia.org/wiki/Petrified_Forest_National_Park",
+      "image": "assets/petrified-wood-arizona.jpg",
+      "photo": {
+        "author": "Daniel Schwen",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Petrified_wood_closeup_2.jpg"
+      }
+    },
+    {
+      "id": "mesosaurus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Mesosaurus",
+      "clue": "A slender reptile skeleton with a long tail and a narrow snout, on pale grey rock.",
+      "foundIn": "Southern Africa or South America",
+      "ageMya": 279,
+      "ageRangeMya": [272, 285],
+      "period": "Early Permian",
+      "fact": "A small reptile that lived in water, yet its fossils turn up in both southern Africa and South America. That was early evidence that the two continents were once joined.",
+      "source": "https://en.wikipedia.org/wiki/Mesosaurus",
+      "image": "assets/mesosaurus.jpg",
+      "photo": {
+        "author": "Kevmin",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mesosaurus_fossil_(Cropped).jpg"
+      }
+    },
+    {
+      "id": "lepidodendron",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Scale tree bark (Lepidodendron)",
+      "clue": "Dark rock covered in neat, diamond-shaped scales, like snakeskin.",
+      "foundIn": "Coal-bearing rocks (exact site not recorded)",
+      "ageMya": 310,
+      "ageRangeMya": [299, 323],
+      "period": "Carboniferous",
+      "fact": "Not snakeskin: it's bark from a scale tree, which could grow 50 metres tall. Swampy forests of them helped form much of the world's coal.",
+      "source": "https://en.wikipedia.org/wiki/Lepidodendron",
+      "image": "assets/lepidodendron.jpg",
+      "photo": {
+        "author": "Korinna",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lepidodendron_fossil.jpg"
+      }
+    },
+    {
+      "id": "tully-monster",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Tully monster (Tullimonstrum)",
+      "clue": "A stone nodule split in two, with a strange cigar-shaped creature printed inside.",
+      "foundIn": "Mazon Creek, Illinois, USA",
+      "ageMya": 309,
+      "ageRangeMya": [305, 311],
+      "period": "Carboniferous",
+      "fact": "Scientists still argue about what it was. It has been compared to molluscs, worms, arthropods and fish. It has only ever been found at Mazon Creek in Illinois.",
+      "source": "https://en.wikipedia.org/wiki/Tullimonstrum",
+      "image": "assets/tully-monster.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tullimonstrum_gregarium1.JPG"
+      }
+    },
+    {
+      "id": "phacops",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Trilobite (Phacops)",
+      "clue": "A rounded, bumpy, bug-like creature with big eyes made of many tiny lenses.",
+      "foundIn": "Morocco",
+      "ageMya": 388,
+      "ageRangeMya": [383, 393],
+      "period": "Middle Devonian",
+      "fact": "Phacops often rolled up into a ball for protection, like a woodlouse, and many are found curled up that way.",
+      "source": "https://en.wikipedia.org/wiki/Phacops",
+      "image": "assets/phacops.jpg",
+      "photo": {
+        "author": "Daderot",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Phacops_sp.,_Middle_Devonian,_Morocco_-_Houston_Museum_of_Natural_Science_-_DSC01515.JPG"
+      }
+    },
+    {
+      "id": "petoskey-stone",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Petoskey stone (fossil coral)",
+      "clue": "A smooth, polished pebble covered in a pattern of six-sided cells.",
+      "foundIn": "Northern Michigan, USA",
+      "ageMya": 385,
+      "ageRangeMya": [382, 388],
+      "period": "Middle Devonian",
+      "fact": "It's a fossil coral colony. Ice-age glaciers plucked pieces from the bedrock and ground them into pebbles, which collectors now hunt for in Michigan.",
+      "source": "https://en.wikipedia.org/wiki/Petoskey_stone",
+      "image": "assets/petoskey-stone.jpg",
+      "photo": {
+        "author": "Jtmichcock (English Wikipedia)",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Petoskey_stone_Hexagonaria_percarinata_2.jpg"
+      }
+    },
+    {
+      "id": "eurypterus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Sea scorpion (Eurypterus remipes)",
+      "clue": "A scorpion-like creature with paddle-shaped legs and a long spiky tail.",
+      "foundIn": "New York State, USA",
+      "ageMya": 422,
+      "ageRangeMya": [418, 432],
+      "period": "Silurian",
+      "fact": "Eurypterus makes up more than 95% of all sea scorpion fossils ever found, and it is the state fossil of New York.",
+      "source": "https://en.wikipedia.org/wiki/Eurypterus",
+      "image": "assets/eurypterus.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Eurypterus_remipes_(fossil_sea_scorption)_Silurian;_New_York_State.jpg"
+      }
+    },
+    {
+      "id": "calymene-dudley-bug",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "'Dudley bug' trilobite (Calymene blumenbachii)",
+      "clue": "A small trilobite with a big rounded head, lying on grey limestone.",
+      "foundIn": "Wenlock Limestone, Britain",
+      "ageMya": 430,
+      "ageRangeMya": [427, 433],
+      "period": "Silurian",
+      "fact": "So many were found in the limestone quarries of Dudley that it appeared on the town's coat of arms, earning the nickname the 'Dudley bug'.",
+      "source": "https://en.wikipedia.org/wiki/Calymene",
+      "image": "assets/calymene-dudley-bug.jpg",
+      "photo": {
+        "author": "Amgueddfa Cymru – Museum Wales",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amgueddfa_Cymru_-_Calymene_blumenbachii_-_214359.jpeg"
+      }
+    },
+    {
+      "id": "isotelus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Isotelus (giant trilobite)",
+      "clue": "A big, smooth, oval trilobite with faint segments, on pale stone.",
+      "foundIn": "North America",
+      "ageMya": 455,
+      "ageRangeMya": [445, 470],
+      "period": "Ordovician",
+      "fact": "The state fossil of Ohio. Isotelus holds the record for the largest trilobite fossil ever found, at over 70 cm long.",
+      "source": "https://en.wikipedia.org/wiki/Isotelus",
+      "image": "assets/isotelus.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Isotelus_brachycephalus.JPG"
+      }
+    },
+    {
+      "id": "marrella",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Marrella splendens",
+      "clue": "A tiny feathery creature with long sweeping spines, like a shadow on dark shale.",
+      "foundIn": "Burgess Shale, British Columbia, Canada",
+      "ageMya": 508,
+      "ageRangeMya": [505, 510],
+      "period": "Middle Cambrian",
+      "fact": "The most common animal in the Burgess Shale: tens of thousands have been collected. A dark stain is often preserved around it.",
+      "source": "https://en.wikipedia.org/wiki/Marrella",
+      "image": "assets/marrella.jpg",
+      "photo": {
+        "author": "Smith609 at English Wikipedia",
+        "licence": "CC BY 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Marella.png"
+      }
+    },
+    {
+      "id": "dickinsonia",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Dickinsonia",
+      "clue": "An oval imprint with fine ribs running out from a line down its middle.",
+      "foundIn": "Australia or Russia",
+      "ageMya": 555,
+      "ageRangeMya": [550, 558],
+      "period": "Ediacaran",
+      "fact": "One of the oldest known animals, from before the Cambrian. It lived on shallow sea floors, feeding on mats of microbes.",
+      "source": "https://en.wikipedia.org/wiki/Dickinsonia",
+      "image": "assets/dickinsonia.jpg",
+      "photo": {
+        "author": "Ghedoghedo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dickinsonia_costata.jpg"
+      }
+    },
+    {
+      "id": "septarian-nodule",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Septarian nodule",
+      "clue": "A smooth dark stone crossed by cracks filled with pale crystal, like a tortoise shell.",
+      "foundIn": "Near Holland, Michigan, USA",
+      "fact": "Not a turtle or a dinosaur egg: it's a concretion, a lump of mineral that hardened inside mud. It cracked as it shrank, and the cracks later filled with crystal.",
+      "source": "https://en.wikipedia.org/wiki/Concretion",
+      "image": "assets/septarian-nodule.jpg",
+      "photo": {
+        "author": "LadyOfManyTalents",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Slabbed_Septarian_Nodule_Discovery_Near_Holland,_Michigan.jpg"
+      }
+    },
+    {
+      "id": "moqui-marbles",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Moqui marbles",
+      "clue": "Two dark, round balls, one cracked open to show sand inside.",
+      "foundIn": "Utah, USA",
+      "fact": "These iron-coated sandstone balls look like fossil eggs, but they formed when iron-rich groundwater flowed through the rock. They're named after a Hopi legend.",
+      "source": "https://en.wikipedia.org/wiki/Navajo_Sandstone",
+      "image": "assets/moqui-marbles.jpg",
+      "photo": {
+        "author": "Steve Jurvetson",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Inside_the_Moqui_Marbles_(53234624816).jpg"
+      }
+    },
+    {
+      "id": "fulgurite",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "pseudofossil",
+      "name": "Fulgurite ('fossilised lightning')",
+      "clue": "A rough, hollow tube of fused sand, like a stone branch or a fossil burrow.",
+      "foundIn": "Sahara dune field, Morocco",
+      "fact": "Made by lightning, not by life. When lightning strikes sand it can melt it into a glassy tube in a split second.",
+      "source": "https://en.wikipedia.org/wiki/Fulgurite",
+      "image": "assets/fulgurite.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fulgurite_(Sahara_Dune_Field,_Morocco)_8.jpg"
+      }
+    },
+    {
+      "id": "horseshoe-crab-shell",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Atlantic horseshoe crab shell",
+      "clue": "A helmet-shaped brown shell with a long spiked tail, lying on pebbles.",
+      "foundIn": "A beach in Rhode Island, USA",
+      "fact": "Horseshoe crabs are still alive today and look much like fossils of their ancient relatives. Despite the name, they're more closely related to spiders than to crabs.",
+      "source": "https://en.wikipedia.org/wiki/Atlantic_horseshoe_crab",
+      "image": "assets/horseshoe-crab-shell.jpg",
+      "photo": {
+        "author": "Rhododendrites",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Horseshoe_crab_shell_(52231).jpg"
+      }
+    },
+    {
+      "id": "copal-insects",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "lookalike",
+      "name": "Insects in copal",
+      "clue": "A glowing orange lump with tiny bugs and bubbles trapped inside.",
+      "foundIn": "Location not recorded",
+      "fact": "Copal is tree resin that has hardened but hasn't had time to become amber. It's often sold as amber, but the insects inside aren't ancient.",
+      "source": "https://en.wikipedia.org/wiki/Copal",
+      "image": "assets/copal-insects.jpg",
+      "photo": {
+        "author": "Brocken Inaglory",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Copal_with_insects_close-up.jpg"
+      }
+    },
+    {
+      "id": "archaeopteryx-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of the London Archaeopteryx",
+      "clue": "A feathered skeleton with spread wings, pressed into a flat grey slab.",
+      "foundIn": "On display in Paris, France",
+      "fact": "A copy of the famous Archaeopteryx in London's Natural History Museum. Museums share casts of rare fossils so more people can see them.",
+      "source": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_paris.JPG",
+      "image": "assets/archaeopteryx-cast.jpg",
+      "photo": {
+        "author": "LadyofHats",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_paris.JPG"
+      }
+    },
+    {
+      "id": "piltdown-man",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "hoax",
+      "name": "Piltdown Man",
+      "clue": "A human-like skull with a heavy, ape-like jaw.",
+      "foundIn": "Piltdown, Sussex, England, in 1912",
+      "fact": "Presented in 1912 as a missing link between apes and humans. It was really a human skull and an orangutan jaw, stained to look old. The hoax was exposed in 1953.",
+      "source": "https://en.wikipedia.org/wiki/Piltdown_Man",
+      "image": "assets/piltdown-man.jpg",
+      "photo": {
+        "author": "Wellcome Images",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Skull_of_the_%22Eoanthropus_Dawsoni%22_(Piltdown_Man)_Wellcome_M0013579.jpg"
       }
     }
   ]

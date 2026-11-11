@@ -9,7 +9,8 @@ Fossil or Phoney is the first game of **Interdimensional Games Cafe**, a planned
 hub of daily mini-games where each door leads to a different game. For now it
 is a standalone website.
 
-> Status: playable with 11 example specimens and real photos. Not deployed yet.
+> Status: playable with 41 specimens (30 fossils, 11 phoneys), each with a real
+> photo and a source link. Growing towards about 220. Not deployed yet.
 
 ## How it plays
 
@@ -170,6 +171,8 @@ free on GitHub Pages or Cloudflare Pages, for example at
 - Specimen photos are from [Wikimedia Commons](https://commons.wikimedia.org/).
   They have been resized and pixelated, and some have been cropped to remove
   labels. Each photo is credited on its reveal screen, with a link to its page.
+  The full list of authors and licences is in `data/specimens.json` (the
+  `photo` field of each entry). The first 11 are listed here:
 
 | Photo | Author | Licence |
 |---|---|---|

@@ -246,6 +246,11 @@ input[type="range"] {
   border-top: 2px dashed var(--panel-edge);
 }
 
+.read-more a {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
 .credit {
   font-size: 0.75rem;
   color: var(--ink-soft);
