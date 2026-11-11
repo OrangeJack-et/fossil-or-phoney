@@ -1,0 +1,38 @@
+{
+  "_readme": "The puzzle schedule: entry 1 is day 1, entry 2 is day 2, and so on. Only add new fossils to the END of the list; reordering or deleting entries changes past days. Ages are in millions of years ago (Mya). These three are examples showing the format; check the facts and add sources and images before launch.",
+  "fossils": [
+    {
+      "id": "trilobite-elrathia",
+      "name": "Trilobite (Elrathia kingii)",
+      "foundIn": "Wheeler Shale, Utah, USA",
+      "ageMya": 507,
+      "ageRangeMya": [500, 510],
+      "period": "Cambrian",
+      "image": null,
+      "imageCredit": null,
+      "source": null
+    },
+    {
+      "id": "ammonite-dactylioceras",
+      "name": "Ammonite (Dactylioceras)",
+      "foundIn": "Whitby, Yorkshire, England",
+      "ageMya": 180,
+      "ageRangeMya": [175, 185],
+      "period": "Early Jurassic",
+      "image": null,
+      "imageCredit": null,
+      "source": null
+    },
+    {
+      "id": "tyrannosaurus-rex-tooth",
+      "name": "Tyrannosaurus rex tooth",
+      "foundIn": "Hell Creek Formation, Montana, USA",
+      "ageMya": 67,
+      "ageRangeMya": [66, 68],
+      "period": "Late Cretaceous",
+      "image": null,
+      "imageCredit": null,
+      "source": null
+    }
+  ]
+}
