@@ -1,15 +1,19 @@
-/* Fossil or Phoney: shared styles.
+/* Fossil or Phoney: styles.
    All colours live here as variables, so the theme can be changed in one place. */
 
 :root {
-  --bg: #2b2118;          /* dark earth */
-  --panel: #f1e3c6;       /* sandstone */
-  --panel-edge: #c9a46b;  /* darker sandstone */
+  --bg: #2b2118;           /* dark earth */
+  --panel: #f1e3c6;        /* sandstone */
+  --panel-edge: #c9a46b;   /* darker sandstone */
+  --panel-deep: #e2cda3;   /* shaded sandstone */
   --ink: #2b2118;
   --ink-soft: #6b5640;
-  --accent: #e07a2e;      /* amber orange */
+  --accent: #e07a2e;       /* amber orange */
+  --accent-dark: #a9541a;
+  --alt: #5d7a4a;          /* moss green */
+  --alt-dark: #3e5531;
   --light: #f1e3c6;
-  --pixel: 4px;           /* thickness of pixel-style borders */
+  --pixel: 4px;            /* thickness of pixel-style borders */
 
   --font-display: "Jersey 10", system-ui, sans-serif;
   --font-body: "Pixelify Sans", system-ui, sans-serif;
@@ -21,8 +25,9 @@ body {
   margin: 0;
   min-height: 100vh;
   display: grid;
-  place-items: center;
-  padding: 16px;
+  justify-items: center;
+  align-content: start;
+  padding: 24px 16px;
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body);
@@ -60,7 +65,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 8px;
+  margin: 8px 0;
   font-family: var(--font-display);
   font-weight: 400;
   font-size: 2rem;
@@ -69,20 +74,238 @@ h2 {
 
 .puzzle-number { margin: 8px 0 0; }
 
+/* ---------- Panels ---------- */
+
 .panel {
   background: var(--panel);
   border: var(--pixel) solid var(--panel-edge);
   /* A hard drop shadow with no blur keeps the pixel-art look. */
-  box-shadow: var(--pixel) var(--pixel) 0 var(--ink);
+  box-shadow: var(--pixel) var(--pixel) 0 #000;
   padding: 16px 20px;
 }
 
-.panel p { margin: 0; }
+.panel p { margin: 0 0 8px; }
+.panel p:last-child { margin-bottom: 0; }
 
-.coming-soon {
+.how-to summary {
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.how-to[open] summary { margin-bottom: 8px; }
+
+.step {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.question {
+  display: block;
+  margin: 16px 0 8px;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+/* ---------- Photos ---------- */
+
+.photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin: 8px 0 12px;
+  border: var(--pixel) solid var(--ink);
+  background: var(--panel-deep);
+  image-rendering: pixelated;
+}
+
+.photo.placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--ink-soft);
+  /* A chunky checkerboard, like an empty specimen tray. */
+  background:
+    repeating-conic-gradient(var(--panel-deep) 0 25%, var(--panel) 0 50%) 0 0 / 32px 32px;
+}
+.photo.placeholder span {
+  background: var(--panel);
+  padding: 4px 10px;
+  border: 2px solid var(--panel-edge);
+}
+
+.clue { font-weight: 600; }
+.found span { color: var(--ink-soft); }
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 18px;
+  color: var(--light);
+  background: var(--accent);
+  border: var(--pixel) solid var(--accent-dark);
+  box-shadow: 0 var(--pixel) 0 var(--accent-dark);
+  transition: transform 60ms;
+}
+.btn:hover { filter: brightness(1.08); }
+.btn:active { transform: translateY(var(--pixel)); box-shadow: none; }
+.btn:focus-visible { outline: 3px dashed var(--ink); outline-offset: 3px; }
+
+.btn-alt {
+  background: var(--alt);
+  border-color: var(--alt-dark);
+  box-shadow: 0 var(--pixel) 0 var(--alt-dark);
+}
+
+.btn[aria-pressed="true"] {
+  transform: translateY(var(--pixel));
+  box-shadow: none;
+  outline: 3px solid var(--ink);
+}
+
+.choice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+#lock-in,
+#next,
+#share {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+}
+
+/* ---------- Age slider ---------- */
+
+.age-readout { min-height: 3em; }
+.age-readout strong { display: block; font-size: 1.2rem; }
+.age-readout span { color: var(--ink-soft); font-size: 0.9rem; }
+
+input[type="range"] {
+  width: 100%;
+  margin: 8px 0 4px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.periods {
+  display: flex;
+  height: 22px;
+  border: 2px solid var(--ink);
+  overflow: hidden;
+  font-size: 0.7rem;
+  line-height: 18px;
   text-align: center;
+}
+.period {
+  flex: none;
+  overflow: hidden;
+  white-space: nowrap;
   color: var(--ink-soft);
 }
+.period:nth-child(odd) { background: var(--panel-deep); }
+.period:nth-child(even) { background: var(--panel); }
+.period.active { background: var(--accent); color: var(--light); }
+
+.ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+/* ---------- Reveal ---------- */
+
+.verdict {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+.verdict-emoji { font-size: 1.6rem; }
+
+.tag {
+  display: inline-block;
+  background: var(--alt);
+  color: var(--light);
+  padding: 2px 10px;
+}
+
+.fact {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 2px dashed var(--panel-edge);
+}
+
+.mini-track {
+  position: relative;
+  height: 18px;
+  margin-top: 12px;
+  background: var(--panel-deep);
+  border: 2px solid var(--ink);
+}
+.mini-range {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: var(--alt);
+}
+.mini-guess {
+  position: absolute;
+  top: -6px;
+  bottom: -6px;
+  width: 6px;
+  margin-left: -3px;
+  background: var(--accent);
+  border: 1px solid var(--ink);
+}
+
+.legend { font-size: 0.8rem; color: var(--ink-soft); }
+.key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  vertical-align: -1px;
+  margin-left: 6px;
+  border: 1px solid var(--ink);
+}
+.key-range { background: var(--alt); }
+.key-guess { background: var(--accent); }
+
+/* ---------- Results ---------- */
+
+.results { text-align: center; }
+
+.emoji-row {
+  font-size: 2.4rem;
+  letter-spacing: 0.1em;
+}
+
+.summary {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  text-align: left;
+  display: grid;
+  gap: 8px;
+}
+.summary li { display: flex; gap: 10px; align-items: start; }
+.summary small { display: block; color: var(--ink-soft); }
+
+.share-status textarea {
+  width: 100%;
+  font: inherit;
+  margin-top: 8px;
+}
+
+.countdown { margin-top: 12px; color: var(--ink-soft); }
 
 footer p {
   margin: 0;

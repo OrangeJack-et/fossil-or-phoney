@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fossil or Phoney</title>
-  <meta name="description" content="A daily guessing game: how old is today's fossil?">
+  <meta name="description" content="A daily guessing game: real fossil or phoney? If it's real, how old is it?">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -18,17 +18,22 @@
       <p class="puzzle-number" id="puzzle-number">Loading today's puzzle…</p>
     </header>
 
-    <section class="panel">
-      <h2>How to play</h2>
-      <p>Everyone gets the same fossil each day. Guess how many million years old it is. The closer you get, the higher your score.</p>
-    </section>
+    <details class="panel how-to">
+      <summary>How to play</summary>
+      <p>There are 3 specimens a day, and everyone gets the same ones. For each one, decide whether it's a <strong>real fossil</strong> or a <strong>phoney</strong>. Phoneys include rocks that only look like fossils, modern lookalikes, fakes and hoaxes. If you think it's real, guess how long ago it lived.</p>
+      <p>🟩 spot on · 🟨 close · 🟧 ballpark · ⬛ way off · 🎭 phoney spotted · 💥 fooled</p>
+    </details>
 
-    <section class="panel coming-soon">
-      <p>The dig site is still being set up. Check back soon!</p>
-    </section>
+    <div id="game">
+      <section class="panel"><p>Digging up today's specimens…</p></section>
+    </div>
+
+    <noscript>
+      <section class="panel"><p>Fossil or Phoney needs JavaScript turned on.</p></section>
+    </noscript>
 
     <footer>
-      <p>A new fossil every day at midnight UTC.</p>
+      <p>New specimens every day at midnight UTC.</p>
     </footer>
   </main>
 
