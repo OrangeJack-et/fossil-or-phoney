@@ -9,7 +9,7 @@ Fossil or Phoney is the first game of **Interdimensional Games Cafe**, a planned
 hub of daily mini-games where each door leads to a different game. For now it
 is a standalone website.
 
-> Status: playable with 71 specimens (30 fossils, 41 phoneys), each with a real
+> Status: playable with 94 specimens (50 fossils, 44 phoneys), each with a real
 > photo and a source link. Growing towards about 220. Not deployed yet.
 
 ## How it plays

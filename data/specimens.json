@@ -1359,6 +1359,460 @@
         "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "page": "https://commons.wikimedia.org/wiki/File:Jenny_Haniver_Museum_Histoire_Naturelle_Gen%C3%A8ve_22102014.jpg"
       }
+    },
+    {
+      "id": "woolly-rhino-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Woolly rhinoceros skull",
+      "clue": "A long, heavy skull with a thick bony ridge along the top of the nose.",
+      "foundIn": "Silesia, Poland",
+      "ageMya": 0.05,
+      "ageRangeMya": [0.014, 0.5],
+      "period": "Pleistocene (Ice Age)",
+      "fact": "Woolly rhinos were as big as today's white rhino, covered in thick hair for the cold steppes. Some have been found mummified in Siberian permafrost.",
+      "source": "https://en.wikipedia.org/wiki/Woolly_rhinoceros",
+      "image": "assets/woolly-rhino-skull.jpg",
+      "photo": {
+        "author": "Silar",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:20210529_123636_Skull_of_a_woolly_rhinoceros,_Silesia.jpg"
+      }
+    },
+    {
+      "id": "mastodon-tooth",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Mastodon tooth",
+      "clue": "A chunky tooth with rows of rounded, cone-shaped bumps.",
+      "foundIn": "Location not recorded",
+      "ageMya": 1,
+      "ageRangeMya": [0.01, 10],
+      "period": "Miocene to Pleistocene",
+      "fact": "Mastodons were relatives of elephants. Their teeth had pointed cones for chewing leaves and twigs, unlike the flat, ridged teeth of mammoths.",
+      "source": "https://en.wikipedia.org/wiki/Mastodon",
+      "image": "assets/mastodon-tooth.jpg",
+      "photo": {
+        "author": "Rama",
+        "licence": "CC BY-SA 3.0 fr",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Urchins_and_mastodon_tooth-MGL_96796-P5030411-black.jpg"
+      }
+    },
+    {
+      "id": "diprotodon-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Diprotodon skull (giant wombat relative)",
+      "clue": "A huge skull with two big front teeth sticking forward, like a giant rodent's.",
+      "foundIn": "Australia",
+      "ageMya": 0.1,
+      "ageRangeMya": [0.04, 1.8],
+      "period": "Pleistocene (Ice Age)",
+      "fact": "The largest marsupial that ever lived, about the size of a hippo. When its bones were first found in 1830, scientists guessed they came from rhinos, elephants or hippos.",
+      "source": "https://en.wikipedia.org/wiki/Diprotodon",
+      "image": "assets/diprotodon-skull.jpg",
+      "photo": {
+        "author": "LadyofHats",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Diprotodon_australis_skull.JPG"
+      }
+    },
+    {
+      "id": "steppe-bison-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Steppe bison skull",
+      "clue": "A broad skull with two long, curving horns.",
+      "foundIn": "Egtved, Denmark",
+      "ageMya": 0.04,
+      "ageRangeMya": [0.035, 0.045],
+      "period": "Pleistocene (Ice Age)",
+      "fact": "Steppe bison roamed the cold grasslands from Western Europe to Alaska. This skull is about 40,000 years old.",
+      "source": "https://en.wikipedia.org/wiki/Steppe_bison",
+      "image": "assets/steppe-bison-skull.jpg",
+      "photo": {
+        "author": "FunkMonk",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Egtved_bison_skull.JPG"
+      }
+    },
+    {
+      "id": "cave-hyena-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Cave hyena skull",
+      "clue": "A strong, short-snouted skull with big crushing teeth.",
+      "foundIn": "Creswell Crags, England",
+      "ageMya": 0.03,
+      "ageRangeMya": [0.022, 0.04],
+      "period": "Pleistocene (Ice Age)",
+      "fact": "Cave hyenas lived in Britain during the Ice Age and dragged hundreds of bones into their caves. This one is 22,000 to 40,000 years old.",
+      "source": "https://en.wikipedia.org/wiki/Cave_hyena",
+      "image": "assets/cave-hyena-skull.jpg",
+      "photo": {
+        "author": "Dave from Nottingham, England",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hyena_Creswell_Crags.jpg"
+      }
+    },
+    {
+      "id": "laetoli-footprint",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Laetoli footprint",
+      "clue": "A human-like footprint pressed into grey, gritty rock.",
+      "foundIn": "Laetoli, Tanzania",
+      "ageMya": 3.66,
+      "ageRangeMya": [3.6, 3.7],
+      "period": "Pliocene",
+      "fact": "Left by Australopithecus afarensis, Lucy's species, walking upright through fresh volcanic ash. Mary Leakey's team found the trackway in 1976.",
+      "source": "https://en.wikipedia.org/wiki/Laetoli",
+      "image": "assets/laetoli-footprint.jpg",
+      "photo": {
+        "author": "Ellison J. McNutt, Kevin G. Hatala, Catherine Miller, James Adams, Jesse Casana, Andrew S. Deane, Nathaniel J. Dominy, Kallisti Fabian, Luke D. Fannin, Stephen Gaughan, Simone V. Gill, Josephat Gurtu, Ellie Gustafson, Austin C. Hill, Camille Johnson, Said Kallindo, Benjamin Kilham, Phoebe Kilham, Elizabeth Kim, Cynthia Liutkus-Pierce, Blaine Maley, Anjali Prabhat, John Reader, Shirley Rubin, Nathan E. Thompson, Rebeca Thornburg, Erin Marie Williams-Hatala, Brian Zimmer, Charles M. Musiba &amp; Jeremy M. DeSilva",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Laetoli_Footprints_Site_A_(2).jpg"
+      }
+    },
+    {
+      "id": "hipparion-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Three-toed horse skull (Hipparion)",
+      "clue": "A long, horse-like skull on a dark background.",
+      "foundIn": "Pikermi, Greece",
+      "ageMya": 8,
+      "ageRangeMya": [7, 9],
+      "period": "Late Miocene",
+      "fact": "Hipparion was a horse with three toes on each foot. It lived about 10 to 5 million years ago and ate mostly grass on open savannahs.",
+      "source": "https://en.wikipedia.org/wiki/Hipparion",
+      "image": "assets/hipparion-skull.jpg",
+      "photo": {
+        "author": "Jebulon",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Hipparion_gracile_MNHN1.jpg"
+      }
+    },
+    {
+      "id": "deinotherium-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Deinotherium skull",
+      "clue": "An elephant-like skull with tusks curving down and back from the lower jaw.",
+      "foundIn": "Europe",
+      "ageMya": 9,
+      "ageRangeMya": [5, 13],
+      "period": "Miocene",
+      "fact": "A giant relative of elephants, some bigger than any elephant alive. Its tusks grew down from its lower jaw instead of out from its upper jaw.",
+      "source": "https://en.wikipedia.org/wiki/Deinotherium",
+      "image": "assets/deinotherium-skull.jpg",
+      "photo": {
+        "author": "Ballista at English Wikipedia",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Deinotherium_giganteum_skull.JPG"
+      }
+    },
+    {
+      "id": "amebelodon-jaw",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Shovel-tusker jaw (Amebelodon)",
+      "clue": "A long lower jaw ending in two broad, flat tusks, like a shovel.",
+      "foundIn": "Florida, USA",
+      "ageMya": 8,
+      "ageRangeMya": [5.3, 11.6],
+      "period": "Late Miocene",
+      "fact": "Amebelodon was an elephant relative whose lower tusks were flattened into a shovel shape.",
+      "source": "https://en.wikipedia.org/wiki/Amebelodon",
+      "image": "assets/amebelodon-jaw.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amebelodon_fossil_elephant_(Upper_Miocene;_Florida,_USA)_(15459973391).jpg"
+      }
+    },
+    {
+      "id": "thylacosmilus-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Thylacosmilus skull",
+      "clue": "A skull with huge sabre fangs and a bony flange on the jaw to protect them.",
+      "foundIn": "South America",
+      "ageMya": 5,
+      "ageRangeMya": [3, 9],
+      "period": "Late Miocene to Pliocene",
+      "fact": "It looks like a sabre-toothed cat, but it wasn't a cat at all. It was closely related to marsupials and evolved the same sabre teeth separately.",
+      "source": "https://en.wikipedia.org/wiki/Thylacosmilus",
+      "image": "assets/thylacosmilus-skull.jpg",
+      "photo": {
+        "author": "Ryan Schwark",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Thylacosmilus_skull_at_AMNH.jpg"
+      }
+    },
+    {
+      "id": "ecphora",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Ecphora snail",
+      "clue": "A chunky spiral shell with broad, flared ribs, like a stack of plates.",
+      "foundIn": "Eastern USA",
+      "ageMya": 10,
+      "ageRangeMya": [5, 16],
+      "period": "Miocene",
+      "fact": "Ecphora was a predatory sea snail that lived along North America's east coast. It's the state fossil of Maryland.",
+      "source": "https://en.wikipedia.org/wiki/Ecphora",
+      "image": "assets/ecphora.jpg",
+      "photo": {
+        "author": "RealGatba",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Ecphoragardnerae.jpg"
+      }
+    },
+    {
+      "id": "dominican-amber-wasp",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Wasp in Dominican amber",
+      "clue": "A clear golden pebble with a tiny wasp and an air bubble trapped inside.",
+      "foundIn": "Dominican Republic",
+      "ageMya": 17,
+      "ageRangeMya": [15, 20],
+      "period": "Miocene",
+      "fact": "Dominican amber is the hardened resin of an extinct tree. It's almost always clear and holds more insects than Baltic amber.",
+      "source": "https://en.wikipedia.org/wiki/Dominican_amber",
+      "image": "assets/dominican-amber-wasp.jpg",
+      "photo": {
+        "author": "Amber Bugs",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dominican_Amber_Fossilized_Wasp_Enhydro_01.png"
+      }
+    },
+    {
+      "id": "darwinius",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "'Ida' (Darwinius masillae)",
+      "clue": "A small, complete skeleton of a long-tailed animal with grasping hands.",
+      "foundIn": "Messel Pit, Germany",
+      "ageMya": 47,
+      "ageRangeMya": [46, 48],
+      "period": "Eocene",
+      "fact": "An early primate, distantly related to lemurs. It's one of the most complete fossil primates ever found.",
+      "source": "https://en.wikipedia.org/wiki/Darwinius",
+      "image": "assets/darwinius.jpg",
+      "photo": {
+        "author": "Jens L. Franzen, Philip D. Gingerich, Jörg Habersetzer1, Jørn H. Hurum, Wighart von Koenigswald, B. Holly Smith",
+        "licence": "CC BY-SA 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Darwinius_masillae_PMO_214.214.jpg"
+      }
+    },
+    {
+      "id": "otodus-obliquus-tooth",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Shark tooth (Otodus obliquus)",
+      "clue": "A pale, pointed shark tooth with two small side points at its base.",
+      "foundIn": "Location not recorded",
+      "ageMya": 58,
+      "ageRangeMya": [54, 65],
+      "period": "Paleocene to Eocene",
+      "fact": "From a shark up to 9 metres long, thought to be an early ancestor of the famous megalodon.",
+      "source": "https://en.wikipedia.org/wiki/Otodus_obliquus",
+      "image": "assets/otodus-obliquus-tooth.jpg",
+      "photo": {
+        "author": "Marco Angelozzi",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Otodusobliquus.JPG"
+      }
+    },
+    {
+      "id": "titanoboa-vertebra",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Titanoboa vertebra",
+      "clue": "A single dark backbone, about the size of a fist, on a museum stand.",
+      "foundIn": "Cerrejón, Colombia",
+      "ageMya": 59,
+      "ageRangeMya": [58, 60],
+      "period": "Paleocene",
+      "fact": "From the largest snake ever found, discovered in a Colombian coal mine. It lived not long after the dinosaurs died out.",
+      "source": "https://en.wikipedia.org/wiki/Titanoboa",
+      "image": "assets/titanoboa-vertebra.jpg",
+      "photo": {
+        "author": "Anfecaro",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "page": "https://commons.wikimedia.org/wiki/File:Titanoboa_paratype_precloacal_vertebra_UF-IGM_2.jpg"
+      }
+    },
+    {
+      "id": "florissant-redwood-stump",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Petrified redwood stump",
+      "clue": "A giant tree stump turned to stone, standing in a forest clearing.",
+      "foundIn": "Florissant, Colorado, USA",
+      "ageMya": 34,
+      "ageRangeMya": [33.5, 35],
+      "period": "Eocene",
+      "fact": "A giant redwood buried by volcanic mudflows and turned to stone. The same lake beds hold beautifully preserved insects and leaves.",
+      "source": "https://en.wikipedia.org/wiki/Florissant_Formation",
+      "image": "assets/florissant-redwood-stump.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sequoia_affinis_(fossil_giant_redwood_tree_trunk)_(Florissant_Formation,_Upper_Eocene;_Florissant_Fossil_Beds_National_Monument,_Colorado,_USA)_4.jpg"
+      }
+    },
+    {
+      "id": "brontothere-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Brontothere skull",
+      "clue": "A massive skull with a pair of blunt, forked horns on its nose.",
+      "foundIn": "North America",
+      "ageMya": 36,
+      "ageRangeMya": [34, 38],
+      "period": "Late Eocene",
+      "fact": "Brontotheres were rhino-sized relatives of horses. Hundreds of complete skulls have been found, making them one of the best-known large fossil mammals.",
+      "source": "https://en.wikipedia.org/wiki/Megacerops",
+      "image": "assets/brontothere-skull.jpg",
+      "photo": {
+        "author": "paleobear",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Brontotherium_skull_NHM.jpg"
+      }
+    },
+    {
+      "id": "mesohippus",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Mesohippus (early horse)",
+      "clue": "A slender horse skeleton about the size of a greyhound, with three toes on each foot.",
+      "foundIn": "Nebraska, USA",
+      "ageMya": 33,
+      "ageRangeMya": [32, 37],
+      "period": "Oligocene",
+      "fact": "An early horse only about 60 cm tall at the shoulder. It walked on three toes rather than a single hoof.",
+      "source": "https://en.wikipedia.org/wiki/Mesohippus",
+      "image": "assets/mesohippus.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mesohippus_bairdi_(fossil_horse)_(Middle_Oligocene;_Badland_Creek,_Nebraska,_USA)_2_(32386468581).jpg"
+      }
+    },
+    {
+      "id": "oreodont-skull",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Oreodont skull (Merycoidodon)",
+      "clue": "A short, rounded skull of a sheep-sized grazing animal, set in rock.",
+      "foundIn": "North America",
+      "ageMya": 32,
+      "ageRangeMya": [30, 34],
+      "period": "Oligocene",
+      "fact": "Oreodonts were plant-eaters found only in North America. Their skulls are among the most common fossils in the Badlands.",
+      "source": "https://en.wikipedia.org/wiki/Merycoidodon",
+      "image": "assets/oreodont-skull.jpg",
+      "photo": {
+        "author": "Ghedo",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Merycoidodon_culbertsoni_skull_553.jpg"
+      }
+    },
+    {
+      "id": "green-river-palm",
+      "added": "2026-11-11",
+      "kind": "fossil",
+      "name": "Fossil palm frond",
+      "clue": "A fan-shaped leaf the size of an umbrella, with two small fish beside it.",
+      "foundIn": "Green River Formation, Wyoming, USA",
+      "ageMya": 50,
+      "ageRangeMya": [48, 53],
+      "period": "Eocene",
+      "fact": "Palms once grew in Wyoming, when its climate was much warmer. The lake mud that buried this leaf was laid down in yearly layers.",
+      "source": "https://en.wikipedia.org/wiki/Green_River_Formation",
+      "image": "assets/green-river-palm.jpg",
+      "photo": {
+        "author": "James St. John",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sabalites_powelli_fossil_palm_frond_%26_fossil_fish_(Green_River_Formation,_Lower_Eocene;_Fossil_Lake_Basin,_southwestern_Wyoming,_USA)_2_(15528731092).jpg"
+      }
+    },
+    {
+      "id": "laetoli-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of the Laetoli footprints",
+      "clue": "A trail of footprints pressed into a flat, sandy-coloured surface.",
+      "foundIn": "On display in Tokyo, Japan",
+      "fact": "A copy of the 3.66-million-year-old Laetoli trackway in Tanzania. The real prints were reburied to protect them.",
+      "source": "https://en.wikipedia.org/wiki/Laetoli",
+      "image": "assets/laetoli-cast.jpg",
+      "photo": {
+        "author": "Momotarou2012",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Laetoli_footprints_replica.jpg"
+      }
+    },
+    {
+      "id": "gomphotherium-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of a Gomphotherium skull",
+      "clue": "An elephant-like skull with four tusks: two on top and two on the lower jaw.",
+      "foundIn": "On display in Alberta, Canada",
+      "fact": "A cast of a gomphothere, an early four-tusked relative of elephants. Casts let museums show complete skulls without risking the fragile originals.",
+      "source": "https://en.wikipedia.org/wiki/Gomphotherium",
+      "image": "assets/gomphotherium-cast.jpg",
+      "photo": {
+        "author": "Chris Woodrich",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gomphotherium_sp._(TMP_1995.048.0001,_detail),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13_01.jpg"
+      }
+    },
+    {
+      "id": "uintatherium-cast",
+      "added": "2026-11-11",
+      "kind": "phoney",
+      "phoneyType": "replica",
+      "name": "Cast of a Uintatherium skull",
+      "clue": "A long, flat skull with three pairs of bony knobs and sabre-like fangs.",
+      "foundIn": "On display in Utah, USA",
+      "fact": "A copy of the skull of Uintatherium, a rhino-sized mammal with six knobby horns. The original is about 45 million years old.",
+      "source": "https://en.wikipedia.org/wiki/Uintatherium",
+      "image": "assets/uintatherium-cast.jpg",
+      "photo": {
+        "author": "Ninjatacoshell",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Uintatherium_anceps_skull.JPG"
+      }
     }
   ]
 }
