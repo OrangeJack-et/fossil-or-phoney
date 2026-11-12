@@ -110,6 +110,7 @@
       "fact": "Amber is fossilised tree resin. Sticky resin trapped insects so quickly that some still show tiny hairs and wing veins.",
       "source": "https://en.wikipedia.org/wiki/Baltic_amber",
       "image": "assets/amber-insect-baltic.jpg",
+      "sharp": true,
       "photo": {
         "author": "Manukyan Andranik",
         "licence": "CC BY-SA 4.0",
@@ -131,6 +132,7 @@
       "fact": "It looks like a fern, but Neuropteris was a seed fern: a plant that made seeds instead of spores. Forests of plants like this became today's coal.",
       "source": "https://en.wikipedia.org/wiki/Neuropteris",
       "image": "assets/seed-fern-neuropteris.jpg",
+      "sharp": true,
       "photo": {
         "author": "Krzysztof Ziarnek, Kenraiz",
         "licence": "CC BY-SA 4.0",
@@ -389,6 +391,7 @@
       "fact": "Microraptor had feathered wings on its arms and its legs, giving it four wings. It was a small relative of Velociraptor.",
       "source": "https://en.wikipedia.org/wiki/Microraptor",
       "image": "assets/microraptor.jpg",
+      "sharp": true,
       "photo": {
         "author": "Tiouraren (Y.-C. Tsai)",
         "licence": "CC BY-SA 4.0",
@@ -449,6 +452,7 @@
       "fact": "Ichthyosaurs were sea reptiles shaped like dolphins. One Stenopterygius fossil shows a mother that died giving birth, with her baby coming out tail-first, like a whale's.",
       "source": "https://en.wikipedia.org/wiki/Stenopterygius",
       "image": "assets/stenopterygius.jpg",
+      "sharp": true,
       "photo": {
         "author": "Haplochromis",
         "licence": "CC BY-SA 3.0",
@@ -549,6 +553,7 @@
       "fact": "Scientists still argue about what it was. It has been compared to molluscs, worms, arthropods and fish. It has only ever been found at Mazon Creek in Illinois.",
       "source": "https://en.wikipedia.org/wiki/Tullimonstrum",
       "image": "assets/tully-monster.jpg",
+      "sharp": true,
       "photo": {
         "author": "Ghedoghedo",
         "licence": "CC BY-SA 3.0",
@@ -669,6 +674,7 @@
       "fact": "The most common animal in the Burgess Shale: tens of thousands have been collected. A dark stain is often preserved around it.",
       "source": "https://en.wikipedia.org/wiki/Marrella",
       "image": "assets/marrella.jpg",
+      "sharp": true,
       "photo": {
         "author": "Smith609 at English Wikipedia",
         "licence": "CC BY 2.5",
@@ -689,6 +695,7 @@
       "fact": "One of the oldest known animals, from before the Cambrian. It lived on shallow sea floors, feeding on mats of microbes.",
       "source": "https://en.wikipedia.org/wiki/Dickinsonia",
       "image": "assets/dickinsonia.jpg",
+      "sharp": true,
       "photo": {
         "author": "Ghedoghedo",
         "licence": "CC BY-SA 3.0",
@@ -1232,6 +1239,7 @@
       "fact": "Announced in 1999 as a missing link between dinosaurs and birds. It was really pieces of different real fossils glued together; part of the tail came from a Microraptor.",
       "source": "https://en.wikipedia.org/wiki/Archaeoraptor",
       "image": "assets/archaeoraptor.jpg",
+      "sharp": true,
       "photo": {
         "author": "Jonathan Chen",
         "licence": "CC BY-SA 4.0",
@@ -1286,6 +1294,7 @@
       "fact": "Once hailed as the oldest fossil animal ever found. It turned out to be layers of minerals, with no life involved at all.",
       "source": "https://en.wikipedia.org/wiki/Eozoön_canadense",
       "image": "assets/eozoon.jpg",
+      "sharp": true,
       "photo": {
         "author": "Ghedoghedo",
         "licence": "CC BY-SA 3.0",
@@ -1544,6 +1553,7 @@
       "fact": "Dominican amber is the hardened resin of an extinct tree. It's almost always clear and holds more insects than Baltic amber.",
       "source": "https://en.wikipedia.org/wiki/Dominican_amber",
       "image": "assets/dominican-amber-wasp.jpg",
+      "sharp": true,
       "photo": {
         "author": "Amber Bugs",
         "licence": "CC BY-SA 4.0",
@@ -1764,6 +1774,7 @@
       "fact": "Part of the tail of Edmontosaurus, a duck-billed dinosaur. The pattern around the bones is an impression of its scaly skin.",
       "source": "https://en.wikipedia.org/wiki/Edmontosaurus",
       "image": "assets/edmontosaurus-skin.jpg",
+      "sharp": true,
       "photo": {
         "author": "Tim Evanson",
         "licence": "CC BY-SA 2.0",
@@ -1824,6 +1835,7 @@
       "fact": "One of the earliest birds with a toothless beak, like modern birds.",
       "source": "https://en.wikipedia.org/wiki/Confuciusornis",
       "image": "assets/confuciusornis.jpg",
+      "sharp": true,
       "photo": {
         "author": "JensKunstfreund",
         "licence": "CC BY-SA 4.0",
@@ -1844,6 +1856,7 @@
       "fact": "Found in 1996, it was the first dinosaur outside the bird family found with feathers. Its fuzz even preserves a striped tail pattern.",
       "source": "https://en.wikipedia.org/wiki/Sinosauropteryx",
       "image": "assets/sinosauropteryx.jpg",
+      "sharp": true,
       "photo": {
         "author": "Laikayiu",
         "licence": "CC BY-SA 3.0",
@@ -2024,6 +2037,7 @@
       "fact": "Limestone quarries in Lebanon are famous for beautifully preserved fish, shrimp and lobsters from an ancient sea.",
       "source": "https://en.wikipedia.org/wiki/Hakel",
       "image": "assets/lebanon-fossil-fish.jpg",
+      "sharp": true,
       "photo": {
         "author": "Brocken Inaglory",
         "licence": "CC BY-SA 2.5",
@@ -2064,6 +2078,7 @@
       "fact": "This horseshoe crab left a trail of footprints before it died. It looks almost identical to horseshoe crabs alive today.",
       "source": "https://en.wikipedia.org/wiki/Mesolimulus",
       "image": "assets/mesolimulus-trackway.jpg",
+      "sharp": true,
       "photo": {
         "author": "Ghedoghedo",
         "licence": "CC BY-SA 4.0",
@@ -2544,6 +2559,7 @@
       "fact": "Part of the root system of a giant coal-swamp tree like Sigillaria or Lepidodendron.",
       "source": "https://en.wikipedia.org/wiki/Stigmaria",
       "image": "assets/stigmaria.jpg",
+      "sharp": true,
       "photo": {
         "author": "IvanSakhno",
         "licence": "CC BY 4.0",
@@ -2604,6 +2620,7 @@
       "fact": "A fossil jellyfish. It makes up 42% of all finds in part of the Mazon Creek fossil beds.",
       "source": "https://en.wikipedia.org/wiki/Essexella",
       "image": "assets/essexella.jpg",
+      "sharp": true,
       "photo": {
         "author": "James St. John",
         "licence": "CC BY 2.0",
@@ -2704,6 +2721,7 @@
       "fact": "The 'screw' was the central support of a colony of tiny animals that built a lacy spiral net around it.",
       "source": "https://en.wikipedia.org/wiki/Archimedes_(bryozoan)",
       "image": "assets/archimedes-bryozoan.jpg",
+      "sharp": true,
       "photo": {
         "author": "James St. John",
         "licence": "CC BY 2.0",
@@ -2804,6 +2822,7 @@
       "fact": "This rock preserves some of the earliest land plants and animals in amazing detail, right down to their cells.",
       "source": "https://en.wikipedia.org/wiki/Rhynie_chert",
       "image": "assets/rhynie-chert.jpg",
+      "sharp": true,
       "photo": {
         "author": "James St. John (jsj1771) https://www.flickr.com/people/jsjgeology/",
         "licence": "CC BY 2.0",
@@ -2904,6 +2923,7 @@
       "fact": "One of the oldest known land plants: a few centimetres tall, with no leaves or roots.",
       "source": "https://en.wikipedia.org/wiki/Cooksonia",
       "image": "assets/cooksonia.jpg",
+      "sharp": true,
       "photo": {
         "author": "Amgueddfa Cymru – Museum Wales",
         "licence": "CC BY-SA 4.0",
@@ -3104,6 +3124,7 @@
       "fact": "Nicknamed the 'sunflower coral', though it wasn't a coral. What it really was is still debated.",
       "source": "https://en.wikipedia.org/wiki/Receptaculites",
       "image": "assets/receptaculites.jpg",
+      "sharp": true,
       "photo": {
         "author": "Mark A. Wilson (Department of Geology, The College of Wooster)",
         "licence": "Public domain",
@@ -3264,6 +3285,7 @@
       "fact": "A sponge that built some of the first reefs, then disappeared before the end of the Cambrian.",
       "source": "https://en.wikipedia.org/wiki/Archaeocyatha",
       "image": "assets/archaeocyath.jpg",
+      "sharp": true,
       "photo": {
         "author": "IvIzq",
         "licence": "CC BY-SA 4.0",
@@ -3284,6 +3306,7 @@
       "fact": "From the Chengjiang fossils of China, which preserve soft-bodied animals from the early Cambrian.",
       "source": "https://en.wikipedia.org/wiki/Maotianshan_Shales",
       "image": "assets/retifacies.jpg",
+      "sharp": true,
       "photo": {
         "author": "Woudloper",
         "licence": "CC BY-SA 4.0",
@@ -3304,6 +3327,7 @@
       "fact": "One of the earliest animals, from before the Cambrian. It's the official fossil emblem of South Australia, and has been found nowhere else.",
       "source": "https://en.wikipedia.org/wiki/Spriggina",
       "image": "assets/spriggina.jpg",
+      "sharp": true,
       "photo": {
         "author": "Verisimilus at English Wikipedia",
         "licence": "CC BY 2.5",
@@ -3324,6 +3348,7 @@
       "fact": "A slug-like animal that grazed on microbial mats, scraping them up with its mouth.",
       "source": "https://en.wikipedia.org/wiki/Kimberella",
       "image": "assets/kimberella.jpg",
+      "sharp": true,
       "photo": {
         "author": "Aleksey Nagovitsyn (User:Alnagov)",
         "licence": "CC BY-SA 4.0",
@@ -3344,6 +3369,7 @@
       "fact": "One of the first animals to build a hard shell: tiny stacks of cones. It died out at the start of the Cambrian.",
       "source": "https://en.wikipedia.org/wiki/Cloudinidae",
       "image": "assets/cloudina.jpg",
+      "sharp": true,
       "photo": {
         "author": "James St. John",
         "licence": "CC BY 2.0",
