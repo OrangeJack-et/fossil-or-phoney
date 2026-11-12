@@ -11,7 +11,7 @@ Fossil or Phoney is the first game of **Interdimensional Games Cafe**, a planned
 hub of daily mini-games where each door leads to a different game. For now it
 is a standalone website.
 
-> Status: 182 specimens (132 fossils, 50 phoneys), each with a real photo and a
+> Status: 170 specimens (132 fossils, 38 phoneys), each with a real photo and a
 > source link. Hosted on GitHub Pages. Day 1 was 11 November 2026 (pre-launch).
 
 ## How it plays
@@ -87,8 +87,13 @@ have no story.
 | Commercial fake | Moroccan resin-cast trilobites, composites | Some (photos often owned by dealers) |
 | Famous hoax | Beringer's lying stones, Piltdown Man, Archaeoraptor | A few dozen, used as treats |
 
-Each day has 0, 1 or 2 phoneys (chosen at random, the same for everyone), so you
-can't assume there's always exactly one.
+Each of the day's 3 specimens has a 1 in 5 chance of being a phoney (at most 2
+a day, the same for everyone). About half of days have no phoney at all, so you
+can never assume there is one.
+
+Museum casts and replicas aren't used: from a photo they look exactly like the
+real fossil, so they'd only be a coin toss. A few phoneys that need fine detail
+to be fair (`"sharp": true`) are shown unpixelated.
 
 ## How the daily pick works
 
@@ -105,9 +110,9 @@ There is no server and no database. Everything happens in the browser
   **adding new specimens never changes past days**. Don't delete specimens,
   change their `id` or change their `added` date, because that would.
 
-Scale: with 132 fossils, no fossil repeats within 60 days. With 50 phoneys,
-a phoney can come back after about six weeks, so adding phoneys is the best
-way to improve variety.
+Scale: about 2.4 fossils are used a day, so 132 fossils last about 55 days
+before one has to come back (slightly under the 60-day goal; about 15 more
+fossils would fix that). The 38 phoneys come back roughly every two months.
 
 ## Where specimens will come from
 
@@ -203,8 +208,11 @@ the domain registrar points `fossil` to `orangejack-et.github.io`). Every push
 to `main` updates the live site. The empty `.nojekyll` file tells GitHub Pages
 to serve the files as they are.
 
-The link-preview image (`assets/social-card.png`) is made by
-`python tools/make-social-card.py`.
+The link-preview image (`assets/social-card.png`) and the site icons
+(`assets/icons/`) show the logo over the desert background. They're made by
+`python tools/make-social-card.py` and `python tools/make-icons.py` (both need
+Pillow and numpy). After changing the preview image, bump the `?v=` number on
+`og:image` in `index.html` so WhatsApp and others fetch the new one.
 
 ## Ideas for later
 

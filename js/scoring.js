@@ -4,7 +4,6 @@ export const PHONEY_TYPES = {
   pseudofossil: "Pseudofossil: a rock that only looks like a fossil",
   lookalike: "Modern lookalike: real, but not old enough to be a fossil",
   fake: "Commercial fake: made to fool buyers",
-  replica: "Replica: a cast of a real fossil",
   hoax: "Famous hoax",
 };
 

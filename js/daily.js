@@ -71,12 +71,14 @@ function choose(candidates, count, day, lastUsed, random) {
   return [...fresh, ...stale].slice(0, count);
 }
 
-// How many phoneys today: 0, 1 or 2, so players can't assume there's always one.
+// Each specimen has this chance of being a phoney, so about half of days have none.
+const PHONEY_CHANCE = 1 / 5;
+
+// How many phoneys today: each of the day's slots rolls separately, capped at 2.
 function phoneyCount(random) {
-  const roll = random();
-  if (roll < 0.2) return 0;
-  if (roll < 0.75) return 1;
-  return 2;
+  let count = 0;
+  for (let i = 0; i < SPECIMENS_PER_DAY; i++) if (random() < PHONEY_CHANCE) count++;
+  return Math.min(count, 2);
 }
 
 // The specimens for one day, given what's been used recently.

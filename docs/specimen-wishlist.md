@@ -5,7 +5,7 @@ Candidates for the specimen pool, before any photo hunting. The aim is about
 won't have a usable open-licence photo and will be dropped.
 
 - ✅ = already in the game (the ticks below are from before batch 1)
-- **Progress:** 182 in the game after five batches (132 fossils, 50 phoneys).
+- **Progress:** 170 in the game (132 fossils, 38 phoneys). The 12 museum casts were removed in November 2026: from a photo they were a coin toss.
   The ticks below only mark the first 11. Wishlist items still missing, mostly
   because no openly licensed photo was clean enough (or the only photos were of
   casts): Orthoceras, Megatherium, dire wolf, cave bear, Basilosaurus,
@@ -315,8 +315,9 @@ won't have a usable open-licence photo and will be dropped.
 - Carved "dinosaur egg"
 - Composite fossil assembled from different animals ❓
 
-Replicas need a new phoney type, "Replica: a cast of a real fossil", because
-"commercial fake" isn't fair on museum casts.
+Museum casts and replicas are no longer used: from a photo they can't be told
+apart from the real fossil. Fakes only count when something visible gives them
+away.
 
 ### Hoaxes and famous mistakes (10)
 - ✅ Beringer's lying stones

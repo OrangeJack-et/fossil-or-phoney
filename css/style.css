@@ -173,6 +173,8 @@ h2 {
   image-rendering: pixelated;
 }
 
+.photo.unpixelated { image-rendering: auto; }
+
 .photo.placeholder {
   display: grid;
   place-items: center;

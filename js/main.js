@@ -82,6 +82,10 @@ function photoHtml(specimen, sharp = false) {
   if (!specimen.image) {
     return `<div class="photo placeholder" ${label}><span>Photo coming soon</span></div>`;
   }
+  // A few phoneys are only fair with the fine detail visible, so they're never pixelated.
+  if (specimen.sharp) {
+    return `<img class="photo unpixelated" src="${esc(specimen.image)}" alt="" ${label}>`;
+  }
   if (!sharp) {
     return `<canvas class="photo" data-src="${esc(specimen.image)}" ${label}></canvas>`;
   }

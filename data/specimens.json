@@ -8,7 +8,8 @@
     "image: path to the photo in assets/. photo: who took it, the licence, and the page it came from. Every photo must have one.",
     "Safe to do: add new specimens with today's date or later, and fix typos or facts.",
     "Never do (after launch): delete a specimen, change an id, or change an 'added' date. Past days would change.",
-    "Entries marked example: true were the first starter content. Every entry has a source link for checking its facts."
+    "Entries marked example: true were the first starter content. Every entry has a source link for checking its facts.",
+    "sharp: true shows the photo unpixelated while guessing (for phoneys that need detail to be fair)."
   ],
   "specimens": [
     {
@@ -170,6 +171,7 @@
       "fact": "Not a plant at all. Mineral-rich water seeped into cracks in the rock and left manganese oxide crystals that grew in branching, fern-like patterns.",
       "source": "https://en.wikipedia.org/wiki/Dendrite_(crystal)",
       "image": "assets/manganese-dendrites.jpg",
+      "sharp": true,
       "photo": {
         "author": "Géry Parent",
         "licence": "CC BY-SA 3.0",
@@ -777,29 +779,12 @@
       "fact": "Copal is tree resin that has hardened but hasn't had time to become amber. It's often sold as amber, but the insects inside aren't ancient.",
       "source": "https://en.wikipedia.org/wiki/Copal",
       "image": "assets/copal-insects.jpg",
+      "sharp": true,
       "photo": {
         "author": "Brocken Inaglory",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Copal_with_insects_close-up.jpg"
-      }
-    },
-    {
-      "id": "archaeopteryx-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of the London Archaeopteryx",
-      "clue": "A feathered skeleton with spread wings, pressed into a flat grey slab.",
-      "foundIn": "On display in Paris, France",
-      "fact": "A copy of the famous Archaeopteryx in London's Natural History Museum. Museums share casts of rare fossils so more people can see them.",
-      "source": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_paris.JPG",
-      "image": "assets/archaeopteryx-cast.jpg",
-      "photo": {
-        "author": "LadyofHats",
-        "licence": "Public domain",
-        "licenceUrl": null,
-        "page": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_paris.JPG"
       }
     },
     {
@@ -1199,42 +1184,6 @@
       }
     },
     {
-      "id": "lucy-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of 'Lucy'",
-      "clue": "A small, partial human-like skeleton held up on a metal stand.",
-      "foundIn": "On display in Geneva, Switzerland",
-      "fact": "A copy of Lucy, a human relative who lived about 3.2 million years ago, found in Ethiopia in 1974. Casts like this let museums around the world show her.",
-      "source": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
-      "image": "assets/lucy-cast.jpg",
-      "photo": {
-        "author": "Rama",
-        "licence": "CC BY-SA 3.0 fr",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
-        "page": "https://commons.wikimedia.org/wiki/File:Cast_of_the_skeleton_of_Lucy_at_MHNG-IMG_1481-white.jpg"
-      }
-    },
-    {
-      "id": "trex-skull-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of a T. rex skull",
-      "clue": "A huge reptile skull with a mouth full of long, curved teeth.",
-      "foundIn": "On display in Pittsburgh, USA",
-      "fact": "A cast of a real T. rex skull. Real skulls are heavy and fragile, so museums often mount casts on their skeletons and keep the originals somewhere safer.",
-      "source": "https://en.wikipedia.org/wiki/Tyrannosaurus",
-      "image": "assets/trex-skull-cast.jpg",
-      "photo": {
-        "author": "WehaveaTrex",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_skull_cast_(MOR980).jpg"
-      }
-    },
-    {
       "id": "carved-fake-trilobites",
       "added": "2026-11-11",
       "kind": "phoney",
@@ -1245,6 +1194,7 @@
       "fact": "These 'trilobites' were carved into the rock and sold as fossils. Look-alike sets of identical, shallow trilobites are a warning sign.",
       "source": "https://en.wikipedia.org/wiki/Trilobite",
       "image": "assets/carved-fake-trilobites.jpg",
+      "sharp": true,
       "photo": {
         "author": "geofossiles.com",
         "licence": "CC BY-SA 4.0",
@@ -1263,6 +1213,7 @@
       "fact": "A 'fossil' made of concrete and glass fibre for a park display. Nothing here was ever alive.",
       "source": "https://commons.wikimedia.org/wiki/File:Fake_dinosaur_fossil_in_Dalian_China_2.jpeg",
       "image": "assets/concrete-dinosaur.jpg",
+      "sharp": true,
       "photo": {
         "author": "Guy Courtois",
         "licence": "CC BY-SA 4.0",
@@ -1758,60 +1709,6 @@
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
         "page": "https://commons.wikimedia.org/wiki/File:Sabalites_powelli_fossil_palm_frond_%26_fossil_fish_(Green_River_Formation,_Lower_Eocene;_Fossil_Lake_Basin,_southwestern_Wyoming,_USA)_2_(15528731092).jpg"
-      }
-    },
-    {
-      "id": "laetoli-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of the Laetoli footprints",
-      "clue": "A trail of footprints pressed into a flat, sandy-coloured surface.",
-      "foundIn": "On display in Tokyo, Japan",
-      "fact": "A copy of the 3.66-million-year-old Laetoli trackway in Tanzania. The real prints were reburied to protect them.",
-      "source": "https://en.wikipedia.org/wiki/Laetoli",
-      "image": "assets/laetoli-cast.jpg",
-      "photo": {
-        "author": "Momotarou2012",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Laetoli_footprints_replica.jpg"
-      }
-    },
-    {
-      "id": "gomphotherium-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of a Gomphotherium skull",
-      "clue": "An elephant-like skull with four tusks: two on top and two on the lower jaw.",
-      "foundIn": "On display in Alberta, Canada",
-      "fact": "A cast of a gomphothere, an early four-tusked relative of elephants. Casts let museums show complete skulls without risking the fragile originals.",
-      "source": "https://en.wikipedia.org/wiki/Gomphotherium",
-      "image": "assets/gomphotherium-cast.jpg",
-      "photo": {
-        "author": "Chris Woodrich",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Gomphotherium_sp._(TMP_1995.048.0001,_detail),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13_01.jpg"
-      }
-    },
-    {
-      "id": "uintatherium-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of a Uintatherium skull",
-      "clue": "A long, flat skull with three pairs of bony knobs and sabre-like fangs.",
-      "foundIn": "On display in Utah, USA",
-      "fact": "A copy of the skull of Uintatherium, a rhino-sized mammal with six knobby horns. The original is about 45 million years old.",
-      "source": "https://en.wikipedia.org/wiki/Uintatherium",
-      "image": "assets/uintatherium-cast.jpg",
-      "photo": {
-        "author": "Ninjatacoshell",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Uintatherium_anceps_skull.JPG"
       }
     },
     {
@@ -2412,60 +2309,6 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Ceratites_nodosus_2.jpg"
-      }
-    },
-    {
-      "id": "iguanodon-tooth-replica",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Replica of an Iguanodon tooth",
-      "clue": "A large, worn, ridged tooth embedded in a slab of grey rock.",
-      "foundIn": "On display in a museum",
-      "fact": "A copy of one of the teeth that led Gideon Mantell to name Iguanodon in 1825, one of the first dinosaurs ever named.",
-      "source": "https://en.wikipedia.org/wiki/Iguanodon",
-      "image": "assets/iguanodon-tooth-replica.jpg",
-      "photo": {
-        "author": "Ghedoghedo",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Iguanodon_tooth.JPG"
-      }
-    },
-    {
-      "id": "compsognathus-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of Compsognathus",
-      "clue": "A small, curled-up dinosaur skeleton on smooth yellowish stone.",
-      "foundIn": "On display in Karlsruhe, Germany",
-      "fact": "A replica of the first Compsognathus skeleton, found in Germany in the 1850s. The real dinosaur was about the size of a chicken.",
-      "source": "https://en.wikipedia.org/wiki/Compsognathus",
-      "image": "assets/compsognathus-cast.jpg",
-      "photo": {
-        "author": "H. Zell",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Compsognathus_longipes_01.JPG"
-      }
-    },
-    {
-      "id": "dimorphodon-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of Dimorphodon",
-      "clue": "A large skeleton with long wing bones and a big head, sprawled across a slab.",
-      "foundIn": "On display in Cleveland, USA",
-      "fact": "A cast of Dimorphodon, a flying reptile from the Early Jurassic of England, named by Richard Owen in 1859.",
-      "source": "https://en.wikipedia.org/wiki/Dimorphodon",
-      "image": "assets/dimorphodon-cast.jpg",
-      "photo": {
-        "author": "Tim Evanson",
-        "licence": "CC BY-SA 2.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Dimorphodon_macronyx_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg"
       }
     },
     {
@@ -3506,60 +3349,6 @@
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
         "page": "https://commons.wikimedia.org/wiki/File:Cloudina_fossils_(Neoproterozoic;_Corumba,_Brazil)_(45453979394).jpg"
-      }
-    },
-    {
-      "id": "placodus-replica",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Replica of a Placodus skull",
-      "clue": "The underside of a skull with big, flat, rounded teeth like paving stones.",
-      "foundIn": "On display in a museum",
-      "fact": "A copy of the skull of Placodus, a Triassic sea reptile that crushed shellfish with its flat teeth.",
-      "source": "https://en.wikipedia.org/wiki/Placodus",
-      "image": "assets/placodus-replica.jpg",
-      "photo": {
-        "author": "Ghedoghedo",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Placodus_gigas_3.jpg"
-      }
-    },
-    {
-      "id": "anomalocaris-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of Anomalocaris",
-      "clue": "A large, flat, segmented creature with a fan-shaped tail, on a dark slab.",
-      "foundIn": "On display in Alberta, Canada",
-      "fact": "A cast of a whole Anomalocaris, a metre-long Cambrian hunter. The real fossil comes from the Burgess Shale.",
-      "source": "https://en.wikipedia.org/wiki/Anomalocaris",
-      "image": "assets/anomalocaris-cast.jpg",
-      "photo": {
-        "author": "Chris Woodrich",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Anomalocaris_canadensis_(TMP_2023.003.0003),_Royal_Tyrrell_Museum,_Drumheller,_Alberta,_2025-07-13.jpg"
-      }
-    },
-    {
-      "id": "charnia-cast",
-      "added": "2026-11-11",
-      "kind": "phoney",
-      "phoneyType": "replica",
-      "name": "Cast of Charnia",
-      "clue": "A long, leaf-shaped frond with zigzag ridges, on a dark block.",
-      "foundIn": "On display in Gwacheon, South Korea",
-      "fact": "A copy of Charnia, a frond-like Ediacaran life form first found in Charnwood Forest, England.",
-      "source": "https://en.wikipedia.org/wiki/Charnia",
-      "image": "assets/charnia-cast.jpg",
-      "photo": {
-        "author": "Kjoonlee",
-        "licence": "CC BY 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Charnia_masoni.jpg"
       }
     }
   ]
