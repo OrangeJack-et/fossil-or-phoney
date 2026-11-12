@@ -31,9 +31,10 @@ SHADOW = (196, 90, 16, 255)
 SILHOUETTE = (98, 52, 30, 255)  # a touch lighter than Riddle's, to show on the darker background
 BANNER_TEXT = (43, 22, 8, 255)
 
-W, H = 150, 100       # canvas at 1x
+W, H = 200, 160       # canvas at 1x (roomy, so the tilted trilobite never gets clipped; trimmed at the end)
+OVERLAP = 4           # how many pixels the "or" banner overlaps each word
 SCALE = 2             # final size is 2x
-TRILOBITE_HEIGHT = 98  # pixels tall at 1x, before tilting
+TRILOBITE_HEIGHT = 82  # pixels tall at 1x, before tilting
 TILT = -16             # degrees
 
 
@@ -189,16 +190,15 @@ def main():
     bug = trilobite_mask(TRILOBITE_HEIGHT).rotate(TILT, resample=Image.NEAREST, expand=True)
     stamp(canvas, bug, SILHOUETTE, ((W - bug.width) // 2, (H - bug.height) // 2))
 
-    # FOSSIL on top, PHONEY underneath.
-    top, bottom = text_mask("FOSSIL", big_font), text_mask("PHONEY", big_font)
-    draw_word(canvas, top, ((W - top.width) // 2 - 1, 19))
-    draw_word(canvas, bottom, ((W - bottom.width) // 2 - 1, H - bottom.height - 22))
-
-    # "or" on the scroll banner in the middle.
+    # "or" on the scroll banner, centred; FOSSIL just above it and PHONEY just
+    # below, close enough that the banner overlaps both words by a few pixels.
     word = text_mask("or", small_font)
     ribbon = banner(word.width + 18)
-    rx, ry = (W - ribbon.width) // 2, (H - ribbon.height) // 2 - 1
-    canvas.alpha_composite(ribbon, (rx, ry))
+    rx, ry = (W - ribbon.width) // 2, (H - ribbon.height) // 2
+    top, bottom = text_mask("FOSSIL", big_font), text_mask("PHONEY", big_font)
+    draw_word(canvas, top, ((W - top.width) // 2 - 1, ry - top.height + OVERLAP))
+    draw_word(canvas, bottom, ((W - bottom.width) // 2 - 1, ry + ribbon.height - OVERLAP))
+    canvas.alpha_composite(ribbon, (rx, ry))  # drawn last, so it sits on top of both words
     stamp(canvas, word, BANNER_TEXT, (rx + (ribbon.width - word.width) // 2, ry + (ribbon.height - word.height) // 2))
 
     canvas = canvas.crop(canvas.getbbox())
