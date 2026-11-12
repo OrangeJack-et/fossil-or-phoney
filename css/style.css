@@ -104,6 +104,16 @@ h2 {
   line-height: 1;
 }
 
+/* The FOSSIL / or / PHONEY logo (tools/make-logo.py). Shown at 1.5x of its
+   2x pixel-art file on wide screens; pixelated scaling keeps the edges crisp. */
+.logo {
+  display: block;
+  width: min(321px, 80vw);
+  height: auto;
+  margin: 4px auto 0;
+  image-rendering: pixelated;
+}
+
 .puzzle-number { margin: 8px 0 0; }
 
 /* ---------- Panels ---------- */

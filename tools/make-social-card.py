@@ -33,16 +33,20 @@ photo = photo.crop(((photo.width - side) // 2, (photo.height - side) // 2,
                     (photo.width + side) // 2, (photo.height + side) // 2)).resize((100, 100), Image.LANCZOS)
 card.paste(photo, (13, 25))
 
-# Title and tagline on the right.
-x = 130
-card.paste(big_text("INTERDIMENSIONAL GAMES CAFE", TEAL, 1), (x, 24), big_text("INTERDIMENSIONAL GAMES CAFE", TEAL, 1))
-for i, (word, colour) in enumerate([("FOSSIL", LIGHT), ("OR", LIGHT), ("PHONEY?", ACCENT)]):
-    layer = big_text(word, colour, 3)
-    card.paste(layer, (x, 38 + i * 26), layer)
-tagline = big_text("A daily guessing game", PANEL, 1)
-card.paste(tagline, (x, 120), tagline)
-url = big_text("fossil.jackmarsters.com", EDGE, 1)
-card.paste(url, (x, 134), url)
+# The logo (from tools/make-logo.py) and text, centred in the right-hand column.
+column_left, column_width = 126, W - 126
+
+
+def centred(layer, y):
+    card.paste(layer, (column_left + (column_width - layer.width) // 2, y), layer)
+
+
+centred(big_text("INTERDIMENSIONAL GAMES CAFE", TEAL, 1), 9)
+logo = Image.open(GAME_DIR / "assets" / "ui" / "logo.png").convert("RGBA")
+logo = logo.resize((logo.width // 2, logo.height // 2), Image.NEAREST)  # back to its 1x pixel size
+centred(logo, 21)
+centred(big_text("A daily guessing game", PANEL, 1), 124)
+centred(big_text("fossil.jackmarsters.com", EDGE, 1), 138)
 
 card = card.resize((W * SCALE, H * SCALE), Image.NEAREST)
 out = GAME_DIR / "assets" / "social-card.png"

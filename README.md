@@ -192,7 +192,7 @@ fossil-or-phoney/
 ├── js/testmode.js       hidden test mode password check
 ├── data/specimens.json  the specimen pool
 ├── assets/              photos (with credits) and the link-preview card
-└── tools/               photo tool, preview card maker, test password setter
+└── tools/               photo tool, logo and preview card makers, test password setter
 ```
 
 ## Hosting
@@ -216,6 +216,11 @@ The link-preview image (`assets/social-card.png`) is made by
 
 - Font: [Jersey 10](https://fonts.google.com/specimen/Jersey+10) (SIL Open Font
   License), as on [fiddle.jackmarsters.com](https://fiddle.jackmarsters.com).
+- Logo (`assets/ui/logo.png`, made by `python tools/make-logo.py`): letters in
+  [Pixelify Sans](https://fonts.google.com/specimen/Pixelify+Sans) Bold (SIL
+  Open Font License), in the style of the Riddle-da-Fiddle logo, with a
+  pixelated [trilobite icon from SVG Repo](https://www.svgrepo.com/svg/321624/trilobite)
+  (CC0, saved as `tools/trilobite.svg`) behind them.
 - Frames, buttons, banner and mouse pointers: the
   [Pixel Art Fantasy UI Pack by Quintino Pixels](https://quintino-pixels.itch.io/pixel-art-ui-elements)
   (CC0), cut into `assets/ui/` (the same pieces as Riddle-da-Fiddle; the pointers
