@@ -1,22 +1,46 @@
 /* Fossil or Phoney: styles.
-   All colours live here as variables, so the theme can be changed in one place. */
+   All colours live here as variables, so the theme can be changed in one place.
+   Frames and buttons come from the Pixel Art Fantasy UI Pack by Quintino Pixels
+   (CC0), the same pack as fiddle.jackmarsters.com. Each piece is a stretchable
+   9-slice frame (border-image), so it fits any size with crisp pixels. */
 
 :root {
-  --bg: #2b2118;           /* dark earth */
-  --panel: #f1e3c6;        /* sandstone */
-  --panel-edge: #c9a46b;   /* darker sandstone */
-  --panel-deep: #e2cda3;   /* shaded sandstone */
-  --ink: #2b2118;
-  --ink-soft: #6b5640;
-  --accent: #e07a2e;       /* amber orange */
-  --accent-dark: #a9541a;
-  --alt: #5d7a4a;          /* moss green */
-  --alt-dark: #3e5531;
-  --light: #f1e3c6;
+  --bg: #2e222f;           /* the pack's dark outline colour */
+  --panel: #ffce9b;        /* parchment */
+  --panel-edge: #b57952;   /* parchment edge */
+  --panel-deep: #f2b880;   /* shaded parchment */
+  --ink: #3b2410;          /* dark brown text */
+  --ink-soft: #7a5536;
+  --accent: #b8430a;       /* burnt orange, readable on parchment */
+  --accent-dark: #8a2f05;
+  --alt: #125458;          /* deep teal from the table frame */
+  --alt-dark: #0b3638;
+  --teal: #30e1b9;
+  --light: #fff4e2;
   --pixel: 4px;            /* thickness of pixel-style borders */
 
-  --font-display: "Jersey 10", system-ui, sans-serif;
-  --font-body: "Pixelify Sans", system-ui, sans-serif;
+  --font-display: "FOP Jersey", "Jersey 10", system-ui, sans-serif;
+  --font-body: "FOP Jersey", "Jersey 10", system-ui, sans-serif;
+}
+
+/* Font: Jersey 10 (Google Fonts, Open Font License) for everything, as on
+   fiddle.jackmarsters.com. It's drawn smaller than most fonts, so "FOP Jersey"
+   scales it 115%. If these files ever move, the plain "Jersey 10" from the
+   Google Fonts link takes over (just a little smaller). It has only one
+   weight, so fake bold is switched off and bold text uses colour instead. */
+@font-face {
+  font-family: "FOP Jersey";
+  src: url("https://fonts.gstatic.com/s/jersey10/v4/GftH7vZKsggXMf9n_J5n_5jh.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 115%;
+  font-display: swap;
+}
+@font-face {
+  font-family: "FOP Jersey";
+  src: url("https://fonts.gstatic.com/s/jersey10/v4/GftH7vZKsggXMf9n_J5n8Zjh-1w.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  size-adjust: 115%;
+  font-display: swap;
 }
 
 * { box-sizing: border-box; }
@@ -31,9 +55,17 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body);
-  font-size: 1.05rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  font-synthesis: none;
+  font-variant-ligatures: none;
 }
+b, strong { font-weight: normal; color: var(--accent-dark); }
+
+/* Pixel mouse pointers, as on fiddle.jackmarsters.com. */
+html, body { cursor: url("../assets/ui/cursor-arrow.png") 6 2, auto; }
+button, a, select, summary, input[type="range"] { cursor: url("../assets/ui/cursor-hand.png") 12 1, pointer; }
 
 .card {
   width: 100%;
@@ -50,7 +82,7 @@ footer {
 
 .eyebrow {
   margin: 0;
-  color: var(--accent);
+  color: var(--teal);
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -76,12 +108,16 @@ h2 {
 
 /* ---------- Panels ---------- */
 
+/* Parchment frame from the UI pack. */
 .panel {
-  background: var(--panel);
-  border: var(--pixel) solid var(--panel-edge);
-  /* A hard drop shadow with no blur keeps the pixel-art look. */
-  box-shadow: var(--pixel) var(--pixel) 0 #000;
-  padding: 16px 20px;
+  border-style: solid;
+  border-width: 16px;
+  border-image: url("../assets/ui/panel_parchment.png") 8 fill / 16px stretch;
+  image-rendering: pixelated;
+  padding: 6px 10px 8px;
+}
+@media (max-width: 480px) {
+  .panel { border-width: 12px; border-image-width: 12px; padding: 4px 6px 6px; }
 }
 
 .panel p { margin: 0 0 8px; }
@@ -112,13 +148,16 @@ h2 {
 
 /* ---------- Photos ---------- */
 
+/* Photos sit in the pack's dark teal "display case" frame. */
 .photo {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
   margin: 8px 0 12px;
-  border: var(--pixel) solid var(--ink);
-  background: var(--ink);
+  border-style: solid;
+  border-width: 18px;
+  border-image: url("../assets/ui/panel_table.png") 12 fill / 18px stretch;
+  background: var(--alt);
   /* Shows the whole photo, letterboxed on the dark background, whatever its shape. */
   object-fit: contain;
   image-rendering: pixelated;
@@ -138,36 +177,36 @@ h2 {
   border: 2px solid var(--panel-edge);
 }
 
-.clue { font-weight: 600; }
+.clue { font-size: 1.2rem; }
 .found span { color: var(--ink-soft); }
 
-/* ---------- Buttons ---------- */
+/* ---------- Buttons (UI pack: teal by default, gold, red, wood) ---------- */
 
 .btn {
   font: inherit;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 10px 18px;
-  color: var(--light);
-  background: var(--accent);
-  border: var(--pixel) solid var(--accent-dark);
-  box-shadow: 0 var(--pixel) 0 var(--accent-dark);
+  font-size: 1.25rem;
+  line-height: 1.2;
+  padding: 4px 12px;
+  color: #0f302a;
+  background: none;
+  border-style: solid;
+  border-width: 8px;
+  border-image: url("../assets/ui/button_teal.png") 4 fill / 8px stretch;
+  image-rendering: pixelated;
   transition: transform 60ms;
 }
-.btn:hover { filter: brightness(1.08); }
-.btn:active { transform: translateY(var(--pixel)); box-shadow: none; }
+.btn:hover { filter: brightness(1.1); }
+.btn:active { transform: translateY(2px); }
 .btn:focus-visible { outline: 3px dashed var(--ink); outline-offset: 3px; }
 
-.btn-alt {
-  background: var(--alt);
-  border-color: var(--alt-dark);
-  box-shadow: 0 var(--pixel) 0 var(--alt-dark);
-}
+.btn-gold { border-image-source: url("../assets/ui/button_gold.png"); color: var(--ink); }
+.btn-red { border-image-source: url("../assets/ui/button_red.png"); color: var(--light); }
+.btn-wood { border-image-source: url("../assets/ui/button_wood.png"); color: var(--light); }
 
 .btn[aria-pressed="true"] {
-  transform: translateY(var(--pixel));
-  box-shadow: none;
+  transform: translateY(2px);
   outline: 3px solid var(--ink);
+  outline-offset: 2px;
 }
 
 .choice {
@@ -246,10 +285,7 @@ input[type="range"] {
   border-top: 2px dashed var(--panel-edge);
 }
 
-.read-more a {
-  color: var(--accent-dark);
-  font-weight: 600;
-}
+.read-more a { color: var(--accent-dark); }
 
 .credit {
   font-size: 0.75rem;
@@ -400,6 +436,7 @@ footer p {
   gap: 16px;
 }
 
+/* The test mode bar uses the pack's scroll banner. */
 .test-banner {
   position: sticky;
   top: 0;
@@ -409,15 +446,18 @@ footer p {
   margin: 0 auto 12px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 16px;
+  gap: 4px 16px;
   align-items: center;
   justify-content: center;
-  padding: 6px 12px;
-  background: var(--accent);
-  color: var(--light);
-  border: var(--pixel) solid var(--accent-dark);
+  padding: 0 8px;
+  color: var(--ink);
+  border-style: solid;
+  border-width: 8px 12px;
+  border-image: url("../assets/ui/banner.png") 4 6 fill / 8px 12px stretch;
+  image-rendering: pixelated;
 }
-.test-banner .link-btn { color: var(--light); }
+.test-banner strong { color: var(--accent-dark); }
+.test-banner .link-btn { color: var(--ink); }
 
 .link-btn {
   font: inherit;
@@ -429,7 +469,7 @@ footer p {
   cursor: pointer;
 }
 
-.btn-small { padding: 4px 12px; }
+.btn-small { padding: 0 8px; border-width: 6px; border-image-width: 6px; }
 
 .test-answer {
   background: var(--panel-deep);

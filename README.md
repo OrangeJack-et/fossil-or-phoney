@@ -182,7 +182,7 @@ security, and anyone technical could bypass it.
 ```
 fossil-or-phoney/
 ├── index.html           the page
-├── css/style.css        pixel-art styling (Jersey 10 + Pixelify Sans)
+├── css/style.css        pixel-art styling (Jersey 10, UI pack frames and buttons)
 ├── js/main.js           the screens: specimen, guess, reveal, results
 ├── js/daily.js          day number, seeded randomness, today's 3 specimens
 ├── js/timeline.js       slider scale, geological periods, age wording
@@ -214,8 +214,12 @@ The link-preview image (`assets/social-card.png`) is made by
 
 ## Credits
 
-- Fonts: [Jersey 10](https://fonts.google.com/specimen/Jersey+10) and
-  [Pixelify Sans](https://fonts.google.com/specimen/Pixelify+Sans) (SIL Open Font License).
+- Font: [Jersey 10](https://fonts.google.com/specimen/Jersey+10) (SIL Open Font
+  License), as on [fiddle.jackmarsters.com](https://fiddle.jackmarsters.com).
+- Frames, buttons, banner and mouse pointers: the
+  [Pixel Art Fantasy UI Pack by Quintino Pixels](https://quintino-pixels.itch.io/pixel-art-ui-elements)
+  (CC0), cut into `assets/ui/` (the same pieces as Riddle-da-Fiddle; the pointers
+  are from [1-bit Pixel Icons by Nikoichu](https://nikoichu.itch.io/pixel-icons), CC0).
 - Specimen photos are from [Wikimedia Commons](https://commons.wikimedia.org/).
   They have been resized and pixelated, and some have been cropped to remove
   labels. Each photo is credited on its reveal screen, with a link to its page.

@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 GAME_DIR = Path(__file__).resolve().parent.parent
 SCALE = 4
 W, H = 300, 157  # x4 = 1200 x 628
-BG, PANEL, EDGE, INK, LIGHT, ACCENT = "#2b2118", "#f1e3c6", "#c9a46b", "#2b2118", "#f1e3c6", "#e07a2e"
+BG, PANEL, EDGE, INK, LIGHT, ACCENT, TEAL = "#2e222f", "#ffce9b", "#b57952", "#3b2410", "#fff4e2", "#ce3535", "#30e1b9"
 
 font = ImageFont.load_default_imagefont()  # a tiny bitmap font: perfect for pixel art
 
@@ -26,7 +26,7 @@ card = Image.new("RGB", (W, H), BG)
 draw = ImageDraw.Draw(card)
 
 # Photo panel on the left: a pixelated ammonite.
-draw.rectangle([10, 22, 116, 128], fill=EDGE)
+draw.rectangle([10, 22, 116, 128], fill="#125458")
 photo = Image.open(GAME_DIR / "assets" / "ammonite-dactylioceras.jpg").convert("RGB")
 side = min(photo.size)
 photo = photo.crop(((photo.width - side) // 2, (photo.height - side) // 2,
@@ -35,7 +35,7 @@ card.paste(photo, (13, 25))
 
 # Title and tagline on the right.
 x = 130
-card.paste(big_text("INTERDIMENSIONAL GAMES CAFE", ACCENT, 1), (x, 24), big_text("INTERDIMENSIONAL GAMES CAFE", ACCENT, 1))
+card.paste(big_text("INTERDIMENSIONAL GAMES CAFE", TEAL, 1), (x, 24), big_text("INTERDIMENSIONAL GAMES CAFE", TEAL, 1))
 for i, (word, colour) in enumerate([("FOSSIL", LIGHT), ("OR", LIGHT), ("PHONEY?", ACCENT)]):
     layer = big_text(word, colour, 3)
     card.paste(layer, (x, 38 + i * 26), layer)

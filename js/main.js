@@ -149,8 +149,8 @@ function showSpecimen(index) {
 
       <p class="question">Real fossil, or phoney?</p>
       <div class="choice">
-        <button class="btn" type="button" data-call="fossil" aria-pressed="false">🦴 Fossil</button>
-        <button class="btn btn-alt" type="button" data-call="phoney">🎭 Phoney</button>
+        <button class="btn btn-gold" type="button" data-call="fossil" aria-pressed="false">🦴 Fossil</button>
+        <button class="btn btn-red" type="button" data-call="phoney">🎭 Phoney</button>
       </div>
 
       <div class="guess" hidden>
@@ -386,9 +386,9 @@ function showTestMenu() {
     <section class="panel test-panel">
       <h2>Play any day</h2>
       <div class="test-day">
-        <button class="btn btn-small" type="button" id="day-prev" aria-label="Previous day">◀</button>
+        <button class="btn btn-small btn-wood" type="button" id="day-prev" aria-label="Previous day">◀</button>
         <label>Day <input type="number" id="test-day" min="1" value="${today}"></label>
-        <button class="btn btn-small" type="button" id="day-next" aria-label="Next day">▶</button>
+        <button class="btn btn-small btn-wood" type="button" id="day-next" aria-label="Next day">▶</button>
       </div>
       <p class="test-day-info" id="test-day-info"></p>
       <button class="btn" type="button" id="play-day">Play this day</button>
