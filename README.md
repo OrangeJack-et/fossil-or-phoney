@@ -1,5 +1,7 @@
 # Fossil or Phoney
 
+**Play it: <https://fossil.jackmarsters.com>**
+
 A daily guessing game about deep time. Each day everyone gets the same three
 specimens. For each one, decide whether it's a **real fossil** or a **phoney**.
 If you think it's real, guess how long ago it lived. You finish with a
@@ -9,23 +11,45 @@ Fossil or Phoney is the first game of **Interdimensional Games Cafe**, a planned
 hub of daily mini-games where each door leads to a different game. For now it
 is a standalone website.
 
-> Status: playable with 182 specimens (132 fossils, 50 phoneys), each with a real
-> photo and a source link. Not deployed yet.
+> Status: 182 specimens (132 fossils, 50 phoneys), each with a real photo and a
+> source link. Hosted on GitHub Pages. Day 1 was 11 November 2026 (pre-launch).
 
 ## How it plays
 
 For each of the 3 specimens:
 
-1. **Look**: a photo (pixelated to match the site), a short clue and where it was found.
+1. **Look**: a photo (pixelated to match the site, and to make reverse image
+   searches harder), a short clue and where it was found.
 2. **Fossil or phoney?**
 3. **If fossil, guess the age** on a timeline slider that runs from now to 600
    million years ago. The slider uses a cube-root scale so every era gets
    room: on a straight scale, the last 100 million years would be a sliver.
    While you drag, it tells you which geological period you're in.
-4. **Reveal**: the real answer, a timeline showing your guess against the real
-   age, and a fun fact.
+4. **Reveal**: the sharp photo comes into focus, with the real answer, your
+   points, a timeline showing your guess against the real age, and a fun fact.
 
-Scoring, one emoji per specimen:
+### Points
+
+Each specimen is worth up to **100 points**, so a day is out of 300
+(`js/scoring.js`).
+
+| Result | Points |
+|---|---|
+| Phoney, and you said phoney | 100 |
+| Fooled either way | 0 |
+| Fossil, guess inside the real age range | 100 |
+| Fossil, guess 1.25× too big or small | about 86 |
+| Fossil, guess 2× off | about 57 |
+| Fossil, guess 3× off | about 32 |
+| Fossil, guess 5× off or more | 0 |
+
+Outside the range, points = 100 × (1 − log(ratio) ÷ log(5)), where *ratio* is
+how many times too big or too small the guess is compared with the nearest
+edge of the range.
+
+### Emoji
+
+One emoji per specimen, for the spoiler-free share text:
 
 | Emoji | Meaning |
 |---|---|
@@ -42,8 +66,9 @@ a big miss for a 20-million-year-old fossil and a tiny one for a 500-million-yea
 Example share text:
 
 ```
-Fossil or Phoney #12
+Fossil or Phoney #12  245/300
 🟩 🎭 🟧
+https://fossil.jackmarsters.com
 ```
 
 Answers are saved in the browser, so reloading carries on where you left off
@@ -132,8 +157,25 @@ straight from a file. So start a tiny local web server from this folder:
 python -m http.server 8000
 ```
 
-Then open <http://localhost:8000>. To replay today while testing, open the
-browser's developer tools console and run `localStorage.clear()`, then reload.
+Then open <http://localhost:8000>.
+
+## Test mode
+
+Open the game with `?test` on the end of the address (for example
+<http://localhost:8000/?test>) and enter the test password. Then you can:
+
+- **Play any day** to see exactly what players get on a given date.
+- **Play any single specimen** from a searchable list, filtered by fossil or
+  phoney and by period, to check its photo, clue and facts.
+- **Show the answer** on any specimen without playing it.
+
+Test answers are never saved, so they don't affect the real game. The browser
+remembers the password until you press **Exit test mode**.
+
+Only a SHA-256 hash of the password is stored (in `js/testmode.js`). To change
+it, run `python tools/set-test-password.py`, then commit and push. The site has
+no server, so this only hides answers from casual players: it isn't real
+security, and anyone technical could bypass it.
 
 ## Project layout
 
@@ -144,24 +186,30 @@ fossil-or-phoney/
 ├── js/main.js           the screens: specimen, guess, reveal, results
 ├── js/daily.js          day number, seeded randomness, today's 3 specimens
 ├── js/timeline.js       slider scale, geological periods, age wording
-├── js/scoring.js        turns an answer into an emoji
+├── js/scoring.js        turns an answer into points and an emoji
 ├── js/storage.js        remembers today's answers in the browser
 ├── js/share.js          share text and copy-to-clipboard
+├── js/testmode.js       hidden test mode password check
 ├── data/specimens.json  the specimen pool
-└── assets/              photos (with credits)
+├── assets/              photos (with credits) and the link-preview card
+└── tools/               photo tool, preview card maker, test password setter
 ```
 
-## Hosting (planned)
+## Hosting
 
-This is plain HTML, CSS and JavaScript with no build step, so it can be hosted
-free on GitHub Pages or Cloudflare Pages, for example at
-`fossil.jackmarsters.com`. Before launch, set `LAUNCH_DATE` in `js/daily.js` and
-`SITE_URL` in `js/share.js`.
+Plain HTML, CSS and JavaScript with no build step, hosted free on **GitHub
+Pages** from the `main` branch, at `fossil.jackmarsters.com` (a CNAME record at
+the domain registrar points `fossil` to `orangejack-et.github.io`). Every push
+to `main` updates the live site. The empty `.nojekyll` file tells GitHub Pages
+to serve the files as they are.
+
+The link-preview image (`assets/social-card.png`) is made by
+`python tools/make-social-card.py`.
 
 ## Ideas for later
 
 - Streaks and stats (games played, average score).
-- A "hint" that un-pixelates the photo, at the cost of a point.
+- A "hint" that un-pixelates the photo, at the cost of some points.
 - An archive to play past days.
 
 ## Credits

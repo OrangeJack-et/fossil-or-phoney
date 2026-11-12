@@ -24,6 +24,11 @@ export function dayNumberOfDate(isoDate) {
   return Math.floor((Date.parse(isoDate + "T00:00:00Z") - LAUNCH_MS) / MS_PER_DAY) + 1;
 }
 
+// The calendar date (UTC) of a game day, e.g. day 1 -> the launch date.
+export function dateForDay(day) {
+  return new Date(LAUNCH_MS + (day - 1) * MS_PER_DAY);
+}
+
 // Milliseconds until the next day starts (midnight UTC).
 export function msUntilNextDay(now = new Date()) {
   const tomorrow = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);

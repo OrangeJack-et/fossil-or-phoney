@@ -1,12 +1,9 @@
 // share.js: builds the spoiler-free result text and copies it to the clipboard.
 
-// Add the live web address here once the game is deployed.
-const SITE_URL = "";
+export const SITE_URL = "https://fossil.jackmarsters.com";
 
-export function buildShareText(day, emojis) {
-  const lines = [`Fossil or Phoney #${day}`, emojis.join(" ")];
-  if (SITE_URL) lines.push(SITE_URL);
-  return lines.join("\n");
+export function buildShareText(day, emojis, points, maxPoints) {
+  return [`Fossil or Phoney #${day}  ${points}/${maxPoints}`, emojis.join(" "), SITE_URL].join("\n");
 }
 
 // Copies text to the clipboard. Returns true if it worked.
