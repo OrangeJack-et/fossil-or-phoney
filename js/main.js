@@ -9,6 +9,7 @@ import { scoreAnswer, PHONEY_TYPES, MAX_POINTS } from "./scoring.js";
 import { loadDay, saveDay } from "./storage.js";
 import { buildShareText, copyToClipboard } from "./share.js";
 import { testRequested, isUnlocked, unlock, lock } from "./testmode.js";
+import { submitScore, submission, savedNickname, loadBoards } from "./leaderboard.js";
 
 const game = document.getElementById("game");
 const puzzleLabel = document.getElementById("puzzle-number");
@@ -300,7 +301,8 @@ function showResults() {
       <p class="emoji-row">${emojis.join(" ")}</p>
       <ol class="summary">${summary}</ol>
       ${footer}
-    </section>`;
+    </section>
+    ${testing ? "" : `<section class="panel leaderboard" id="leaderboard"></section>`}`;
 
   if (testing) {
     game.querySelector("#back-to-tests").addEventListener("click", showTestMenu);
@@ -317,8 +319,100 @@ function showResults() {
       }
     });
     startCountdown();
+    showLeaderboard();
   }
   scrollToGame();
+}
+
+// ---------- Leaderboard ----------
+
+const BOARD_SIZE = 20;
+let boards = null;          // the last boards loaded
+let boardShown = "today";   // which tab is open
+
+function showLeaderboard() {
+  const box = game.querySelector("#leaderboard");
+  const sent = submission(day);
+  const form = sent ? "" : `
+    <form class="lb-form" id="lb-form">
+      <label for="lb-name">Add your score to the leaderboard</label>
+      <div class="lb-row">
+        <input id="lb-name" maxlength="16" autocomplete="nickname" placeholder="Nickname" value="${esc(savedNickname())}" required>
+        <button class="btn btn-small" type="submit">Submit</button>
+      </div>
+      <p class="lb-error" id="lb-error" aria-live="polite"></p>
+    </form>`;
+  box.innerHTML = `
+    <h2>Leaderboard</h2>
+    ${form}
+    <div class="lb-tabs" role="tablist">
+      <button type="button" role="tab" class="lb-tab" data-board="today">Today</button>
+      <button type="button" role="tab" class="lb-tab" data-board="allTime">All-time</button>
+    </div>
+    <div id="lb-board" aria-live="polite"><p class="lb-note">Loading the leaderboard…</p></div>
+    <p class="lb-note">New scores can take a few minutes to show up for everyone.</p>`;
+
+  for (const tab of box.querySelectorAll(".lb-tab")) {
+    tab.addEventListener("click", () => { boardShown = tab.dataset.board; drawBoard(); });
+  }
+  const formEl = box.querySelector("#lb-form");
+  formEl?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const button = formEl.querySelector("button");
+    const error = formEl.querySelector("#lb-error");
+    button.disabled = true;
+    error.textContent = "";
+    try {
+      await submitScore(day, formEl.querySelector("#lb-name").value, totalPoints(), answers.map((a) => a.emoji));
+      showLeaderboard();
+    } catch (problem) {
+      error.textContent = problem instanceof TypeError ? "Couldn't send your score. Check your connection and try again." : problem.message;
+      button.disabled = false;
+    }
+  });
+  refreshBoards();
+}
+
+async function refreshBoards() {
+  try {
+    boards = await loadBoards(day);
+  } catch (error) {
+    console.error("Could not load the leaderboard:", error);
+    boards = null;
+  }
+  drawBoard();
+}
+
+function drawBoard() {
+  const box = game.querySelector("#leaderboard");
+  const out = box?.querySelector("#lb-board");
+  if (!out) return;
+  for (const tab of box.querySelectorAll(".lb-tab")) {
+    tab.setAttribute("aria-selected", String(tab.dataset.board === boardShown));
+  }
+  if (!boards) {
+    out.innerHTML = `<p class="lb-note">The leaderboard couldn't be loaded right now.</p>`;
+    return;
+  }
+  const list = boards[boardShown];
+  if (!list.length) {
+    out.innerHTML = `<p class="lb-note">${boardShown === "today" ? "No scores yet today. Be the first!" : "No scores yet."}</p>`;
+    return;
+  }
+  const row = (entry, rank) => {
+    const detail = boardShown === "today"
+      ? esc(entry.emojis)
+      : `${entry.days} day${entry.days === 1 ? "" : "s"}`;
+    return `<li class="${entry.player === boards.me ? "me" : ""}">
+      <span class="lb-rank">${rank}</span>
+      <span class="lb-name">${esc(entry.name)}${entry.pending ? " <small>(sending…)</small>" : ""}</span>
+      <span class="lb-detail">${detail}</span>
+      <span class="lb-points">${entry.points}</span></li>`;
+  };
+  let rows = list.slice(0, BOARD_SIZE).map((e, i) => row(e, i + 1)).join("");
+  const myIndex = list.findIndex((e) => e.player === boards.me);
+  if (myIndex >= BOARD_SIZE) rows += `<li class="lb-gap">…</li>${row(list[myIndex], myIndex + 1)}`;
+  out.innerHTML = `<ol class="lb-list">${rows}</ol>`;
 }
 
 function startCountdown() {

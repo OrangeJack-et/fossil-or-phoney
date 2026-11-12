@@ -153,6 +153,23 @@ domain, CC BY or CC BY-SA.
 The 11 entries marked `"example": true` are starter content. Check each fact
 against a source before launch.
 
+## Leaderboard
+
+There's no server: `js/leaderboard.js` uses Google's free tools instead.
+
+- When you finish, you can add your score with a nickname. The game sends it to
+  a Google Form ("Fossil or Phoney scores" in Jack's Google Drive), whose
+  responses fill the Sheet "Fossil or Phoney scores (Responses)".
+- That Sheet's responses tab is published to the web as a CSV, which the game
+  reads to draw the **Today** and **All-time** boards.
+- Google refreshes the CSV every few minutes, so other people's scores can take
+  a little while to appear. Your own shows straight away.
+- Nothing stops someone sending a fake score. The boards skip anything that
+  doesn't look right (points outside 0-300, a future day, rude or odd
+  nicknames) and only count each device's first score of each day. To remove
+  junk, delete its row from the Sheet.
+- Test mode never sends scores.
+
 ## Run it locally
 
 The page loads its data with `fetch`, and browsers block that for pages opened
