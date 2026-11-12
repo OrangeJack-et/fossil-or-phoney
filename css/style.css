@@ -541,3 +541,61 @@ footer p {
 .test-item:hover,
 .test-item:focus-visible { background: var(--panel-deep); }
 .test-item small { display: block; color: var(--ink-soft); }
+
+/* ---------- Desert background ----------
+   Rocky desert landscape (layered, looping) by Emcee Flesher, after
+   Quantiset's Mars background (both CC0), set up like the forest on
+   fiddle.jackmarsters.com. Four square 1280x1280 layers sit on a dusk sky;
+   each loops sideways (drift) at its own speed and shifts up a little as you
+   scroll (parallax). Layers are 106vh tall, so one square tile is 106vh wide. */
+
+html { background: var(--bg); }
+body { background: transparent; }  /* let the desert (behind the body) show through */
+
+#desert {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  /* Dusk: deep purple overhead, warming to orange at the horizon. */
+  background: linear-gradient(to bottom, #2e222f 0%, #3e2a4a 14%, #6b3450 26%, #b5543f 36%, #e08a4f 44%);
+}
+#desert .layer {
+  position: absolute;
+  left: 0;
+  top: 12vh;  /* puts the horizon about a third of the way down */
+  height: 106vh;
+  width: 100%;
+  transform: translateY(max(-3vh, calc(var(--scroll, 0) * var(--depth) * -1px)));
+  will-change: transform;
+}
+#desert .strip {
+  height: 100%;
+  width: calc(100vw + 106vh);
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: 0 0;
+  image-rendering: pixelated;
+  animation: desert-drift var(--speed) linear infinite;
+  will-change: transform;
+}
+@keyframes desert-drift { to { transform: translateX(-106vh); } }
+#desert .vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(20, 8, 12, 0.05) 40%, rgba(20, 8, 12, 0.55) 100%);
+}
+@media (prefers-reduced-motion: reduce) {
+  #desert .strip { animation: none; }
+  #desert .layer { transform: none; }
+}
+
+/* Text sitting straight on the desert gets a dark pixel shadow, like the
+   top bar on fiddle.jackmarsters.com, so it stays readable over the rocks. */
+.eyebrow,
+.puzzle-number,
+footer p {
+  text-shadow: 2px 2px 0 #2b1608;
+}
+footer p { opacity: 1; }

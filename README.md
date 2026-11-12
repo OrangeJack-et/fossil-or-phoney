@@ -191,7 +191,7 @@ fossil-or-phoney/
 ├── js/share.js          share text and copy-to-clipboard
 ├── js/testmode.js       hidden test mode password check
 ├── data/specimens.json  the specimen pool
-├── assets/              photos (with credits) and the link-preview card
+├── assets/              photos (with credits), UI pieces, desert background, preview card
 └── tools/               photo tool, logo and preview card makers, test password setter
 ```
 
@@ -221,6 +221,10 @@ The link-preview image (`assets/social-card.png`) is made by
   Open Font License), in the style of the Riddle-da-Fiddle logo, with a
   pixelated [trilobite icon from SVG Repo](https://www.svgrepo.com/svg/321624/trilobite)
   (CC0, saved as `tools/trilobite.svg`) behind them.
+- Background: [Rocky desert landscape (layered, looping)](https://opengameart.org/content/rocky-desert-landscape-layered-looping)
+  by Emcee Flesher, after [Mars background](https://opengameart.org/content/mars-background-pixel-art)
+  by Quantiset (both CC0). The four layers in `assets/bg/` drift sideways at
+  different speeds over a dusk sky, set up like the forest on Riddle-da-Fiddle.
 - Frames, buttons, banner and mouse pointers: the
   [Pixel Art Fantasy UI Pack by Quintino Pixels](https://quintino-pixels.itch.io/pixel-art-ui-elements)
   (CC0), cut into `assets/ui/` (the same pieces as Riddle-da-Fiddle; the pointers

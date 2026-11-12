@@ -13,6 +13,12 @@ import { testRequested, isUnlocked, unlock, lock } from "./testmode.js";
 const game = document.getElementById("game");
 const puzzleLabel = document.getElementById("puzzle-number");
 
+// The desert background layers shift up a little as you scroll (parallax).
+// CSS reads the scroll distance from this variable.
+const setScroll = () => document.documentElement.style.setProperty("--scroll", String(Math.round(window.scrollY)));
+window.addEventListener("scroll", setScroll, { passive: true });
+setScroll();
+
 let allSpecimens = [];  // the whole pool
 let specimens = [];     // the specimens being played right now
 let answers = [];       // answers so far: { id, call, guessMya, emoji, points }
